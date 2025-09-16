@@ -8,7 +8,7 @@ Embark on my Software Engineering journey! 🚀 Explore diverse projects from my
 
 ### [Advanced Concurrency Module](/2.Advanced-Concurrency-Module)
 
-### [Cloud Computing Module](/3.Cloud-Computing-Module)
+### [Cloud Computing Module](/3.Cloud-Computing-Module/CoStudyCloud)
 
 ### [Advanced Databases Module](/4.Advanced-Databases-Module)
 
