@@ -118,6 +118,24 @@ The following diagrams and screenshots illustrate the platform's design and func
 #### [Wireframes](screenshots/Wireframes)
 #### [Screenshots](screenshots/Platform)
 
+Here are some screenshots of the platform:
+1. **Founder - Dashboard**<br/>
+  <img src="screenshots/Platform/4.png"/>
+
+2. **Founder - Team Management**<br/>
+  <img src="screenshots/Platform/23.png"/>
+
+3. **Founder - Team Creation**<br/>
+  <img src="screenshots/Platform/21.png"/>
+  
+4. **Individual - Job Listings**<br/>
+  <img src="screenshots/Platform/12.png"/>
+
+5. **Individual - Job Posting**<br/>
+  <img src="screenshots/Platform/13.png"/>
+
+6. **Individual - Job Matches**<br/>
+  <img src="screenshots/Platform/13.png"/>
 
 ## Project Report
 
