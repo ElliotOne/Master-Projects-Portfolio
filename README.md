@@ -26,4 +26,4 @@ Embark on my Software Engineering journey! 🚀 Explore diverse projects from my
 - Each project link will take you to its respective folder with detailed information.
 - Inside each project folder, find the README.md file for specific project details.
 
-Feel free to explore, learn, and enjoy the journey through my bachelor's projects!
+Feel free to explore, learn, and enjoy the journey through my master's projects!
