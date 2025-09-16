@@ -1,0 +1,9 @@
+PREFIX cw: <http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#>
+
+SELECT ?restaurantName ?pizza
+WHERE {
+  ?pizza rdf:type cw:Pizza .
+  ?pizza cw:servedIn ?restaurant .
+  ?restaurant cw:restaurantName ?restaurantName .
+  FILTER regex(?restaurantName, "^the")
+}

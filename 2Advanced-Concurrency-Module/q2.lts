@@ -1,0 +1,17 @@
+/*
+
+Q2. a:
+	This modeling language does not specify the probabilities, only possibilities. However, since the 
+	"coffee" action is associated with the "red" button, therefore, its probability is equivalent to the
+    probability of pressing the red button. The model is deterministic, meaning there is precisely one
+	possible next state for any given state. As explicit probabilities for each transition are not provided,
+	we assume eaqual probability for each. Therefore, the probability of performing the "coffee" action is 1/3
+	or approximately 33.33%, given three equally likely buttons.
+
+Q2. b:
+	Once the green button is pressed in the FSP model, the process to produce tea begins. This includes the time
+	required for the "intern1" and "tea" actions to complete, as per the sequence defined in the model. However, the model does not
+	specify the exact duration for "intern1" and "tea" or the overall time to produce tea, so any precise time estimation remains
+	speculative. The duration can only be inferred to be at least as long as the "intern1" action.
+
+*/

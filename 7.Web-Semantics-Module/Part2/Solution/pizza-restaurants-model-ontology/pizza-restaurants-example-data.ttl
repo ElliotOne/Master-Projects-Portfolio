@@ -1,0 +1,166 @@
+@prefix : <http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#> .
+@prefix cw: <http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@base <http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#> .
+
+
+#################################################################
+#    Declarations
+#################################################################
+
+
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#DaiyaCheese
+cw:DaiyaCheese rdf:type owl:NamedIndividual ,
+                        cw:VeganCheese ;
+               rdfs:comment "Daiya is a brand of dairy-free products" ;
+               rdfs:label "Daiya cheese" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#EUR
+cw:EUR rdf:type owl:NamedIndividual ,
+                cw:Currency .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#GBP
+cw:GBP rdf:type owl:NamedIndividual ,
+                cw:Currency .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#US
+cw:US rdf:type owl:NamedIndividual ,
+               cw:Country .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#USD
+cw:USD rdf:type owl:NamedIndividual ,
+                cw:Currency .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#WV
+cw:WV rdf:type owl:NamedIndividual ,
+               cw:State ;
+      cw:locatedInCountry cw:US .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#Weirton
+cw:Weirton rdf:type owl:NamedIndividual ,
+                    cw:City ;
+           cw:locatedInState cw:WV .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#address_3601_Main_St_Weirton
+cw:address_3601_Main_St_Weirton rdf:type owl:NamedIndividual ,
+                                         cw:Address ;
+                                cw:locatedInCity cw:Weirton ;
+                                cw:firstLineAddress "3601 Main St"^^xsd:string ;
+                                cw:postCode "26062"^^xsd:string .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#bacon
+cw:bacon rdf:type owl:NamedIndividual ,
+                  cw:Bacon .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#beef
+cw:beef rdf:type owl:NamedIndividual ,
+                 cw:Beef .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#feta
+cw:feta rdf:type owl:NamedIndividual ,
+                 cw:Feta .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#ham
+cw:ham rdf:type owl:NamedIndividual ,
+                cw:Ham .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#hawaiian_gourmet_stuffed_pizza_at_sicilias_pizzeria_weirton
+cw:hawaiian_gourmet_stuffed_pizza_at_sicilias_pizzeria_weirton rdf:type owl:NamedIndividual ,
+                                                                        cw:HawaiianPizza ;
+                                                               cw:hasIngredient cw:ham ,
+                                                                                cw:pineapple ;
+                                                               cw:hasValue <http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#7.99USD> ;
+                                                               cw:itemName "Hawaiian Gourmet Stuffed Pizza"^^xsd:string .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#meat_lover_gourmet_stuffed_pizza_at_sicilias_pizzeria_weirton
+cw:meat_lover_gourmet_stuffed_pizza_at_sicilias_pizzeria_weirton rdf:type owl:NamedIndividual ,
+                                                                          cw:Pizza ;
+                                                                 cw:hasIngredient cw:bacon ,
+                                                                                  cw:beef ,
+                                                                                  cw:pepperoni ,
+                                                                                  cw:sausage ;
+                                                                 cw:hasValue <http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#7.99USD> ;
+                                                                 cw:itemName "Meat Lover Gourmet Stuffed Pizza"^^xsd:string .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#mediterranean_gourmet_suffed_pizza_at_sicilias_pizzeria_weirton
+cw:mediterranean_gourmet_suffed_pizza_at_sicilias_pizzeria_weirton rdf:type owl:NamedIndividual ,
+                                                                            cw:Pizza ;
+                                                                   cw:hasIngredient cw:feta ,
+                                                                                    cw:mozzarella ,
+                                                                                    cw:spinach ,
+                                                                                    cw:tomato ;
+                                                                   cw:itemName "Mediterranean Gourmet Suffed Pizza"^^xsd:string .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#mozzarella
+cw:mozzarella rdf:type owl:NamedIndividual ,
+                       cw:Mozzarella .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#pepperoni
+cw:pepperoni rdf:type owl:NamedIndividual ,
+                      cw:Pepperoni .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#pineapple
+cw:pineapple rdf:type owl:NamedIndividual ,
+                      cw:Pineapple .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#sausage
+cw:sausage rdf:type owl:NamedIndividual ,
+                    cw:Sausage .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#sicilias_pizzeria_weirton
+cw:sicilias_pizzeria_weirton rdf:type owl:NamedIndividual ,
+                                      cw:PizzaPlace ;
+                             cw:locatedInAddress cw:address_3601_Main_St_Weirton ;
+                             cw:locatedInCity cw:Weirton ;
+                             cw:serves cw:hawaiian_gourmet_stuffed_pizza_at_sicilias_pizzeria_weirton ,
+                                       cw:meat_lover_gourmet_stuffed_pizza_at_sicilias_pizzeria_weirton ,
+                                       cw:mediterranean_gourmet_suffed_pizza_at_sicilias_pizzeria_weirton ;
+                             cw:restaurantName "Sicilia's Pizzeria"^^xsd:string .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#spinach
+cw:spinach rdf:type owl:NamedIndividual ,
+                    cw:Spinach .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#tomato
+cw:tomato rdf:type owl:NamedIndividual ,
+                   cw:Tomato .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#7.99USD
+<http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#7.99USD> rdf:type owl:NamedIndividual ,
+                                                                                  cw:ItemValue ;
+                                                                         cw:amountCurrency cw:USD ;
+                                                                         cw:amount "7.99"^^xsd:double .

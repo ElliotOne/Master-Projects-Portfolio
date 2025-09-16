@@ -1,0 +1,39 @@
+const True = 1
+const False = 0
+range B = False..True
+
+CLAN = (raiseFlag -> checkFlag -> (lowerFlag -> CLAN | visit -> water -> leave -> lowerFlag -> CLAN)).
+
+RIVER = RIVER[False][False], // initially no flag is raised
+
+RIVER[hatFlag:B][mcFlag:B] =
+	(
+		hatfields.raiseFlag -> RIVER[True][mcFlag]
+		|hatfields.checkFlag ->
+			(
+				when(!mcFlag)
+        			hatfields.visit -> hatfields.leave -> hatfields.lowerFlag -> RIVER[False][mcFlag]
+				|when(mcFlag)
+					hatfields.lowerFlag -> RIVER[False][mcFlag]
+			)
+		|mcCoys.raiseFlag -> RIVER[hatFlag][True]
+		|mcCoys.checkFlag ->
+			(
+				when(!hatFlag)
+        			mcCoys.visit -> mcCoys.leave -> mcCoys.lowerFlag -> RIVER[hatFlag][False]
+				|when(hatFlag)
+					mcCoys.lowerFlag -> RIVER[hatFlag][False]
+			)
+    ).
+
+property NOCARNAGE =
+    (
+	hatfields.visit -> hatfields.leave -> NOCARNAGE
+    |mcCoys.visit -> mcCoys.leave -> NOCARNAGE
+    ).
+
+||SafeRiver = (hatfields:CLAN || mcCoys:CLAN || RIVER || NOCARNAGE).
+
+/*
+	Q4.d: The "NOCARNAGE" safety property from Question 3 is fully met in this updated model.
+*/

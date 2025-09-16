@@ -1,0 +1,14 @@
+PREFIX cw: <http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#>
+
+SELECT ?restaurantName
+       (COUNT(DISTINCT ?pizza) AS ?numPizzas)
+       (COUNT(DISTINCT ?ingredient) AS ?numIngredients)
+WHERE {
+  ?pizza rdf:type cw:Pizza .
+  ?pizza cw:servedIn ?restaurant .
+  ?restaurant cw:restaurantName ?restaurantName .
+  ?pizza cw:hasIngredient ?ingredient .
+}
+GROUP BY ?restaurantName
+HAVING (COUNT(DISTINCT ?pizza) > 5)
+ORDER BY DESC(?numPizzas) ASC(?numIngredients)

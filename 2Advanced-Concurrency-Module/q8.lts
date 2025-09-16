@@ -1,0 +1,9 @@
+/*
+	In concurrent systems, composing different processes and checking the behavior of the combined system is a 
+	standard method to ensure that each individual process aligns with the expected overall behavior.
+	Assuming that Sbehaviour contains only determistic choices, to check the Sbehaviour with the solution for Q1,
+	one can simply compose the Sbehaviour with S (the composition of NS and WE). If the composition 
+	"Sbehaviour || S" functions as expected without any issues such as deadlocks or unxpected behaviors, then
+	it shows that the provided solution is correct. In contrast, if there are issues in the composed system,
+	it indicates discrepancies between Sbehaviour and the provided solution.
+*/

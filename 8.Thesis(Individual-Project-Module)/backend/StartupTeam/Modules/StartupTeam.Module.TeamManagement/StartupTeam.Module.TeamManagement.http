@@ -1,0 +1,6 @@
+@StartupTeam.Module.TeamManagement_HostAddress = http://localhost:5019
+
+GET {{StartupTeam.Module.TeamManagement_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

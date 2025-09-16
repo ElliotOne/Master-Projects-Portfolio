@@ -1,0 +1,9 @@
+﻿namespace StartupTeam.Module.PortfolioManagement.Dtos
+{
+    public class PortfolioItemDto
+    {
+        public Guid Id { get; set; }
+        public string Title { get; set; } = string.Empty;
+        public string Description { get; set; } = string.Empty;
+    }
+}

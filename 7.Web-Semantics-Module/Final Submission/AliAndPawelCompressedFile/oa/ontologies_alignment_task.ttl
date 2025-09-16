@@ -1,0 +1,95 @@
+@prefix csw_ns: <http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pizza_ns: <http://www.co-ode.org/ontologies/pizza/pizza.owl#> .
+
+pizza_ns:American owl:equivalentClass csw_ns:AmericanPizza,
+        csw_ns:AmericanRestaurant .
+
+pizza_ns:AmericanHot owl:equivalentClass csw_ns:AmericanPizza,
+        csw_ns:AmericanRestaurant .
+
+pizza_ns:AnchoviesTopping owl:equivalentClass csw_ns:Anchovies .
+
+pizza_ns:CheeseTopping owl:equivalentClass csw_ns:Cheese .
+
+pizza_ns:CheeseyPizza owl:equivalentClass csw_ns:Cheese .
+
+pizza_ns:ChickenTopping owl:equivalentClass csw_ns:Chicken .
+
+pizza_ns:Country owl:equivalentClass csw_ns:Country .
+
+pizza_ns:Food owl:equivalentClass csw_ns:Food .
+
+pizza_ns:FoodTopping owl:equivalentClass csw_ns:Food .
+
+pizza_ns:FruitTopping owl:equivalentClass csw_ns:Fruit .
+
+pizza_ns:GarlicTopping owl:equivalentClass csw_ns:Garlic .
+
+pizza_ns:GorgonzolaTopping owl:equivalentClass csw_ns:Gorgonzola .
+
+pizza_ns:GreenPepperTopping owl:equivalentClass csw_ns:GreenPepper .
+
+pizza_ns:HamTopping owl:equivalentClass csw_ns:Ham .
+
+pizza_ns:Hot owl:equivalentClass csw_ns:HotSauce .
+
+pizza_ns:JalapenoPepperTopping owl:equivalentClass csw_ns:JalapenoPepper .
+
+pizza_ns:Margherita owl:equivalentClass csw_ns:MargheritaPizza .
+
+pizza_ns:MeatTopping owl:equivalentClass csw_ns:Meat .
+
+pizza_ns:MeatyPizza owl:equivalentClass csw_ns:FetaPizza,
+        csw_ns:Meat,
+        csw_ns:MeatPizza .
+
+pizza_ns:MozzarellaTopping owl:equivalentClass csw_ns:Mozzarella .
+
+pizza_ns:Mushroom owl:equivalentClass csw_ns:Mushroom .
+
+pizza_ns:MushroomTopping owl:equivalentClass csw_ns:Mushroom .
+
+pizza_ns:NamedPizza owl:equivalentClass csw_ns:NamedPizza .
+
+pizza_ns:OnionTopping owl:equivalentClass csw_ns:Onion .
+
+pizza_ns:Parmense owl:equivalentClass csw_ns:Parmesan .
+
+pizza_ns:ParmesanTopping owl:equivalentClass csw_ns:Parmesan .
+
+pizza_ns:PepperTopping owl:equivalentClass csw_ns:Pepper .
+
+pizza_ns:Pizza owl:equivalentClass csw_ns:Pizza .
+
+pizza_ns:PizzaBase owl:equivalentClass csw_ns:Pizza,
+        csw_ns:PizzaBianca,
+        csw_ns:PizzaByStyle,
+        csw_ns:PizzaPlace .
+
+pizza_ns:PizzaTopping owl:equivalentClass csw_ns:PizzaTopping .
+
+pizza_ns:Rosa owl:equivalentClass csw_ns:Rosemary .
+
+pizza_ns:RosemaryTopping owl:equivalentClass csw_ns:Rosemary .
+
+pizza_ns:SauceTopping owl:equivalentClass csw_ns:Sauce .
+
+pizza_ns:SpinachTopping owl:equivalentClass csw_ns:Spinach .
+
+pizza_ns:TomatoTopping owl:equivalentClass csw_ns:Tomato .
+
+pizza_ns:VegetableTopping owl:equivalentClass csw_ns:Vegetable .
+
+pizza_ns:VegetarianPizza owl:equivalentClass csw_ns:VegetarianPizza .
+
+pizza_ns:VegetarianPizzaEquivalent1 owl:equivalentClass csw_ns:VegetarianPizza,
+        csw_ns:VegetarianRestaurant .
+
+pizza_ns:VegetarianPizzaEquivalent2 owl:equivalentClass csw_ns:VegetarianPizza,
+        csw_ns:VegetarianRestaurant .
+
+pizza_ns:Veneziana owl:equivalentProperty csw_ns:Veneziana .
+
+pizza_ns:hasBase owl:equivalentProperty csw_ns:hasValue .
+

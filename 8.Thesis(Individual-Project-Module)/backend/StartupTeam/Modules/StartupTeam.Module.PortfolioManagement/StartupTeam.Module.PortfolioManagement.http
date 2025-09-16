@@ -1,0 +1,6 @@
+@StartupTeam.Module.PortfolioManagement_HostAddress = http://localhost:5056
+
+GET {{StartupTeam.Module.PortfolioManagement_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

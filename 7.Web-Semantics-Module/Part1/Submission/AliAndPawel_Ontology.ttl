@@ -1,0 +1,310 @@
+@prefix : <https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#> .
+@prefix ps: <https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski> .
+
+<https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski> rdf:type owl:Ontology ;
+                                                              <http://purl.org/dc/elements/1.1/creator> "Pawel Staszynski, Ali Momenzadeh Kholenjani" .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.org/dc/elements/1.1/creator
+<http://purl.org/dc/elements/1.1/creator> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#hasPizza
+:hasPizza rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#hasTopping
+:hasTopping rdf:type owl:ObjectProperty ;
+            owl:inverseOf :isToppingOf ;
+            rdfs:domain :Pizza ;
+            rdfs:range :PizzaTopping .
+
+
+###  https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#isToppingOf
+:isToppingOf rdf:type owl:ObjectProperty ;
+             rdfs:domain :Pizza ;
+             rdfs:range :PizzaTopping .
+
+
+###  https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#sellsAlcohol
+:sellsAlcohol rdf:type owl:ObjectProperty ;
+              rdfs:domain :Venue ;
+              owl:propertyDisjointWith <https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#doesn'tsellAlcohol> .
+
+
+###  https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#doesn'tsellAlcohol
+<https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#doesn'tsellAlcohol> rdf:type owl:ObjectProperty ;
+                                                                                rdfs:domain :Venue .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#hasPostcode
+:hasPostcode rdf:type owl:DatatypeProperty ;
+             rdfs:subPropertyOf owl:topDataProperty ;
+             rdfs:domain :Location ;
+             rdfs:range xsd:string .
+
+
+###  https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#hasValue
+:hasValue rdf:type owl:DatatypeProperty ;
+          rdfs:domain :Price ;
+          rdfs:range xsd:decimal .
+
+
+###  https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#isCurrency
+:isCurrency rdf:type owl:DatatypeProperty ;
+            rdfs:subPropertyOf owl:topDataProperty ;
+            rdfs:domain :Price ;
+            rdfs:range xsd:string .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#AmericanRestaurant
+:AmericanRestaurant rdf:type owl:Class ;
+                    rdfs:subClassOf :Venue ,
+                                    [ rdf:type owl:Restriction ;
+                                      owl:onProperty :sellsAlcohol ;
+                                      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
+                                      owl:onClass :AmericanRestaurant
+                                    ] .
+
+
+###  https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#Bacon
+:Bacon rdf:type owl:Class ;
+       rdfs:subClassOf :PizzaTopping ;
+       rdfs:comment "Boczek"@pl .
+
+
+###  https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#Bar
+:Bar rdf:type owl:Class ;
+     rdfs:subClassOf :Venue ,
+                     [ rdf:type owl:Restriction ;
+                       owl:onProperty :sellsAlcohol ;
+                       owl:someValuesFrom :Bar
+                     ] ;
+     rdfs:comment "Bar has to sell some alcohol. Kids are not allowed." .
+
+
+###  https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#CaliforniaPizza
+:CaliforniaPizza rdf:type owl:Class ;
+                 rdfs:subClassOf :NamedPizza ,
+                                 [ rdf:type owl:Restriction ;
+                                   owl:onProperty :hasTopping ;
+                                   owl:someValuesFrom :CheddarCheese
+                                 ] ,
+                                 [ rdf:type owl:Restriction ;
+                                   owl:onProperty :hasTopping ;
+                                   owl:someValuesFrom :Cheese
+                                 ] ,
+                                 [ rdf:type owl:Restriction ;
+                                   owl:onProperty :hasTopping ;
+                                   owl:someValuesFrom :Mushroom
+                                 ] ,
+                                 [ rdf:type owl:Restriction ;
+                                   owl:onProperty :hasTopping ;
+                                   owl:someValuesFrom :RomaTomatoes
+                                 ] ,
+                                 [ rdf:type owl:Restriction ;
+                                   owl:onProperty :hasTopping ;
+                                   owl:someValuesFrom :Spinach
+                                 ] ,
+                                 [ rdf:type owl:Restriction ;
+                                   owl:onProperty :hasTopping ;
+                                   owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
+                                   owl:onClass :ChickenBreast
+                                 ] ;
+                 owl:disjointWith :HawaiianPizza ,
+                                  :PizzaDaAli ;
+                 rdfs:comment "This is expensive pizza to make" .
+
+
+###  https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#CheddarCheese
+:CheddarCheese rdf:type owl:Class ;
+               rdfs:subClassOf :PizzaTopping ;
+               owl:disjointWith :Mozzarella .
+
+
+###  https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#Cheese
+:Cheese rdf:type owl:Class ;
+        rdfs:subClassOf :PizzaTopping .
+
+
+###  https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#ChickenBreast
+:ChickenBreast rdf:type owl:Class ;
+               rdfs:subClassOf :PizzaTopping .
+
+
+###  https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#Food
+:Food rdf:type owl:Class .
+
+
+###  https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#FrenchRestaurant
+:FrenchRestaurant rdf:type owl:Class ;
+                  rdfs:subClassOf :Venue ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty :sellsAlcohol ;
+                                    owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
+                                    owl:onClass :FrenchRestaurant
+                                  ] .
+
+
+###  https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#Ham
+:Ham rdf:type owl:Class ;
+     rdfs:subClassOf :PizzaTopping ;
+     rdfs:comment "Szynka"@pl .
+
+
+###  https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#HawaiianPizza
+:HawaiianPizza rdf:type owl:Class ;
+               rdfs:subClassOf :NamedPizza ,
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty :hasTopping ;
+                                 owl:someValuesFrom :Ham
+                               ] ,
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty :hasTopping ;
+                                 owl:someValuesFrom :Pineapple
+                               ] ,
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty :hasTopping ;
+                                 owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
+                                 owl:onClass :Bacon
+                               ] ;
+               owl:disjointWith :PizzaDaAli .
+
+
+###  https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#ItalianRestaurant
+:ItalianRestaurant rdf:type owl:Class ;
+                   rdfs:subClassOf :Venue ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty :sellsAlcohol ;
+                                     owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
+                                     owl:onClass :ItalianRestaurant
+                                   ] .
+
+
+###  https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#Location
+:Location rdf:type owl:Class .
+
+
+###  https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#Mozzarella
+:Mozzarella rdf:type owl:Class ;
+            rdfs:subClassOf :PizzaTopping .
+
+
+###  https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#Mushroom
+:Mushroom rdf:type owl:Class ;
+          rdfs:subClassOf :PizzaTopping .
+
+
+###  https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#NamedPizza
+:NamedPizza rdf:type owl:Class ;
+            rdfs:subClassOf :Pizza .
+
+
+###  https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#Pineapple
+:Pineapple rdf:type owl:Class ;
+           rdfs:subClassOf :PizzaTopping ;
+           owl:disjointWith :Spinach ;
+           rdfs:comment "Canned or fresh." .
+
+
+###  https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#Pizza
+:Pizza rdf:type owl:Class ;
+       rdfs:subClassOf :Food ;
+       owl:disjointWith :PizzaTopping .
+
+
+###  https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#PizzaDaAli
+:PizzaDaAli rdf:type owl:Class ;
+            rdfs:subClassOf :NamedPizza ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty :hasTopping ;
+                              owl:someValuesFrom :Bacon
+                            ] ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty :hasTopping ;
+                              owl:someValuesFrom :Cheese
+                            ] ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty :hasTopping ;
+                              owl:someValuesFrom :Mushroom
+                            ] .
+
+
+###  https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#PizzaPlace
+:PizzaPlace rdf:type owl:Class ;
+            rdfs:subClassOf :Venue ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty <https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#doesn'tsellAlcohol> ;
+                              owl:allValuesFrom :PizzaPlace
+                            ] .
+
+
+###  https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#PizzaTopping
+:PizzaTopping rdf:type owl:Class ;
+              rdfs:subClassOf :Food .
+
+
+###  https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#PizzeriaDaAli
+:PizzeriaDaAli rdf:type owl:Class ;
+               rdfs:subClassOf :Venue ,
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty :hasPizza ;
+                                 owl:someValuesFrom :PizzaDaAli
+                               ] ,
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty :sellsAlcohol ;
+                                 owl:someValuesFrom :PizzeriaDaAli
+                               ] .
+
+
+###  https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#Price
+:Price rdf:type owl:Class .
+
+
+###  https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#Restaurant
+:Restaurant rdf:type owl:Class ;
+            rdfs:subClassOf :Venue ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty :sellsAlcohol ;
+                              owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
+                              owl:onClass :Restaurant
+                            ] .
+
+
+###  https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#RomaTomatoes
+:RomaTomatoes rdf:type owl:Class ;
+              rdfs:subClassOf :PizzaTopping .
+
+
+###  https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#Spinach
+:Spinach rdf:type owl:Class ;
+         rdfs:subClassOf :PizzaTopping .
+
+
+###  https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#Venue
+:Venue rdf:type owl:Class .
+
+
+###  Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi

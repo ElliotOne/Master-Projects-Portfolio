@@ -1,0 +1,33 @@
+range N = 0..1
+
+CLAN = (visit -> water -> leave -> CLAN).
+
+RIVER = RIVER[0][0], // initially no calns are at the river
+RIVER[hatAtRiver:N][mcAtRiver:N] =
+	(
+		//when(mcAtRiver==0)
+			hatfields.visit -> RIVER[hatAtRiver+1][mcAtRiver]
+		|hatfields.leave -> RIVER[hatAtRiver-1][mcAtRiver]
+        //|when(hatAtRiver==0)
+			|mcCoys.visit -> RIVER[hatAtRiver][mcAtRiver+1]
+        |mcCoys.leave -> RIVER[hatAtRiver][mcAtRiver-1]
+    ).
+
+property NOCARNAGE =
+    (
+	hatfields.visit -> hatfields.leave -> NOCARNAGE
+    |mcCoys.visit -> mcCoys.leave -> NOCARNAGE
+    ).
+
+||SafeRiver = (hatfields:CLAN || mcCoys:CLAN || RIVER || NOCARNAGE).
+
+/*
+	In the model, to simulate both clans at the river leading to conflict, conditional entries are commented out,
+	enabling the 'Error' state. To prevent conflict, these sections should be reinstated. Currently, a clash happens
+	if a clan visits while another is present, including during the "water" action, a deliberate design choice. 
+	The "water" action in the "CLAN" process could be omitted for simplicity.
+	
+	Trace to property violation in NOCARNAGE:
+		hatfields.visit
+		mcCoys.visit
+*/

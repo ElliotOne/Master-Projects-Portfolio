@@ -1,0 +1,1610 @@
+@prefix : <http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#> .
+@prefix cw: <http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@base <http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#> .
+
+<http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#> rdf:type owl:Ontology ;
+                                                                   dc:creator "Ernesto Jimenez Ruiz"^^xsd:string ;
+                                                                   owl:versionInfo "Version 02/03/2024"^^xsd:string .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.org/dc/elements/1.1/creator
+dc:creator rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#altLabel
+skos:altLabel rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#amountCurrency
+cw:amountCurrency rdf:type owl:ObjectProperty ;
+                  rdfs:domain cw:ItemValue ;
+                  rdfs:range cw:Currency .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#containsAdress
+cw:containsAdress rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf cw:containsLocation ;
+                  rdfs:range cw:Address .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#containsCity
+cw:containsCity rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf cw:containsLocation ;
+                rdfs:range cw:City .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#containsLocation
+cw:containsLocation rdf:type owl:ObjectProperty ;
+                    rdfs:subPropertyOf owl:topObjectProperty ;
+                    owl:inverseOf cw:locatedIn ;
+                    rdf:type owl:TransitiveProperty ;
+                    rdfs:domain cw:Location ;
+                    rdfs:range cw:Location .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#containsState
+cw:containsState rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf cw:containsLocation ;
+                 rdfs:range cw:State .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#hasIngredient
+cw:hasIngredient rdf:type owl:ObjectProperty ;
+                 owl:inverseOf cw:isIngredientOf ;
+                 rdfs:domain cw:Food ;
+                 rdfs:range cw:Ingredient .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#hasValue
+cw:hasValue rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#isIngredientOf
+cw:isIngredientOf rdf:type owl:ObjectProperty ;
+                  rdfs:domain cw:Ingredient ;
+                  rdfs:range cw:Food .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#locatedIn
+cw:locatedIn rdf:type owl:ObjectProperty ,
+                      owl:TransitiveProperty ;
+             rdfs:domain cw:Location ;
+             rdfs:range cw:Location .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#locatedInAddress
+cw:locatedInAddress rdf:type owl:ObjectProperty ;
+                    rdfs:subPropertyOf cw:locatedIn ;
+                    rdf:type owl:FunctionalProperty ;
+                    rdfs:range cw:Address .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#locatedInCity
+cw:locatedInCity rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf cw:locatedIn ;
+                 rdf:type owl:FunctionalProperty ;
+                 rdfs:range cw:City .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#locatedInCountry
+cw:locatedInCountry rdf:type owl:ObjectProperty ;
+                    rdfs:subPropertyOf cw:locatedIn ;
+                    rdf:type owl:FunctionalProperty ;
+                    rdfs:range cw:Country .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#locatedInState
+cw:locatedInState rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf cw:locatedIn ;
+                  rdf:type owl:FunctionalProperty ;
+                  rdfs:range cw:State .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#servedIn
+cw:servedIn rdf:type owl:ObjectProperty ;
+            owl:inverseOf cw:serves .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#servedInRestaurant
+cw:servedInRestaurant rdf:type owl:ObjectProperty ;
+                      rdfs:subPropertyOf cw:servedIn ;
+                      owl:inverseOf cw:servesMenuItem .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#serves
+cw:serves rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#servesMenuItem
+cw:servesMenuItem rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf cw:serves .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#amount
+cw:amount rdf:type owl:DatatypeProperty ;
+          rdfs:domain cw:ItemValue ;
+          rdfs:range xsd:double .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#firstLineAddress
+cw:firstLineAddress rdf:type owl:DatatypeProperty ;
+                    rdfs:domain cw:Address ;
+                    rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#itemName
+cw:itemName rdf:type owl:DatatypeProperty ;
+            rdfs:subPropertyOf cw:name ;
+            rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#name
+cw:name rdf:type owl:DatatypeProperty ;
+        rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#postCode
+cw:postCode rdf:type owl:DatatypeProperty ;
+            rdfs:domain cw:Address ;
+            rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#restaurantName
+cw:restaurantName rdf:type owl:DatatypeProperty ;
+                  rdfs:subPropertyOf cw:name .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#Address
+cw:Address rdf:type owl:Class ;
+           rdfs:subClassOf cw:Location ,
+                           [ rdf:type owl:Restriction ;
+                             owl:onProperty cw:locatedInCity ;
+                             owl:someValuesFrom cw:City
+                           ] ,
+                           [ rdf:type owl:Restriction ;
+                             owl:onProperty cw:firstLineAddress ;
+                             owl:someValuesFrom xsd:string
+                           ] ,
+                           [ rdf:type owl:Restriction ;
+                             owl:onProperty cw:postCode ;
+                             owl:someValuesFrom xsd:string
+                           ] ;
+           rdfs:label "Address" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#AmericanPizza
+cw:AmericanPizza rdf:type owl:Class ;
+                 rdfs:subClassOf cw:PizzaByStyle ;
+                 rdfs:label "American pizza" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#AmericanRestaurant
+cw:AmericanRestaurant rdf:type owl:Class ;
+                      rdfs:subClassOf cw:Restaurant ;
+                      rdfs:label "American restaurant" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#Anchovies
+cw:Anchovies rdf:type owl:Class ;
+             rdfs:subClassOf cw:SeaFood .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#Artichokes
+cw:Artichokes rdf:type owl:Class ;
+              rdfs:subClassOf cw:Vegetable ;
+              rdfs:label "Artichoke" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#AsianRestaurant
+cw:AsianRestaurant rdf:type owl:Class ;
+                   rdfs:subClassOf cw:Restaurant ;
+                   rdfs:label "Asian restaurant" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#Bacon
+cw:Bacon rdf:type owl:Class ;
+         rdfs:subClassOf cw:Meat ;
+         rdfs:label "Bacon" ;
+         skos:altLabel "Pancetta" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#Bakery
+cw:Bakery rdf:type owl:Class ;
+          rdfs:subClassOf cw:Restaurant ;
+          rdfs:label "Bakery" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#Bar
+cw:Bar rdf:type owl:Class ;
+       rdfs:subClassOf cw:BarsPubsClubs ;
+       rdfs:label "Bar" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#BarAndGrill
+cw:BarAndGrill rdf:type owl:Class ;
+               rdfs:subClassOf cw:Restaurant ;
+               rdfs:label "Bar and Grill" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#BarbecuePizza
+cw:BarbecuePizza rdf:type owl:Class ;
+                 owl:equivalentClass [ owl:intersectionOf ( cw:Pizza
+                                                            [ rdf:type owl:Restriction ;
+                                                              owl:onProperty cw:hasIngredient ;
+                                                              owl:someValuesFrom cw:BarbecueSauce
+                                                            ]
+                                                          ) ;
+                                       rdf:type owl:Class
+                                     ] ;
+                 rdfs:subClassOf cw:PizzaByIngredient ;
+                 rdfs:label "Barbecue pizza" ;
+                 skos:altLabel "BBQ pizza" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#BarbecueSauce
+cw:BarbecueSauce rdf:type owl:Class ;
+                 rdfs:subClassOf cw:Sauce ,
+                                 cw:VeganIngredient ;
+                 rdfs:label "Barbecue sause" ;
+                 skos:altLabel "BBQ sauce" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#BarsPubsClubs
+cw:BarsPubsClubs rdf:type owl:Class ;
+                 rdfs:subClassOf cw:Restaurant ;
+                 rdfs:label "Bars, pubs and clubs" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#Basil
+cw:Basil rdf:type owl:Class ;
+         rdfs:subClassOf cw:Herbs ;
+         rdfs:label "Basil" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#Beans
+cw:Beans rdf:type owl:Class ;
+         rdfs:subClassOf cw:Seeds ;
+         rdfs:label "Beans" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#BeansPizza
+cw:BeansPizza rdf:type owl:Class ;
+              owl:equivalentClass [ owl:intersectionOf ( cw:Pizza
+                                                         [ rdf:type owl:Restriction ;
+                                                           owl:onProperty cw:hasIngredient ;
+                                                           owl:someValuesFrom cw:Beans
+                                                         ]
+                                                       ) ;
+                                    rdf:type owl:Class
+                                  ] ;
+              rdfs:subClassOf cw:PizzaByIngredient ;
+              rdfs:label "Beans pizza" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#Beef
+cw:Beef rdf:type owl:Class ;
+        rdfs:subClassOf cw:Meat ;
+        rdfs:label "Beef" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#BeerPlace
+cw:BeerPlace rdf:type owl:Class ;
+             rdfs:subClassOf cw:BarsPubsClubs ;
+             rdfs:label "Beer place" ;
+             skos:altLabel "Beer tavern" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#BlackOlives
+cw:BlackOlives rdf:type owl:Class ;
+               rdfs:subClassOf cw:Olives ;
+               rdfs:label "Black olives" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#BlueCheese
+cw:BlueCheese rdf:type owl:Class ;
+              rdfs:subClassOf cw:Cheese ;
+              rdfs:label "Blue cheese" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#Broccoli
+cw:Broccoli rdf:type owl:Class ;
+            rdfs:subClassOf cw:Vegetable ;
+            rdfs:label "Broccoli" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#BurgerPlace
+cw:BurgerPlace rdf:type owl:Class ;
+               rdfs:subClassOf cw:Restaurant ;
+               rdfs:label "Burger place" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#ButternutSquash
+cw:ButternutSquash rdf:type owl:Class ;
+                   rdfs:subClassOf cw:WinterSquash ;
+                   rdfs:label "ButternutSquash" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#CalifornianPizza
+cw:CalifornianPizza rdf:type owl:Class ;
+                    rdfs:subClassOf cw:AmericanPizza ;
+                    rdfs:label "Californian pizza" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#Capers
+cw:Capers rdf:type owl:Class ;
+          rdfs:subClassOf cw:Vegetable ;
+          rdfs:label "Capers" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#Carrot
+cw:Carrot rdf:type owl:Class ;
+          rdfs:subClassOf cw:RootVegetable ;
+          rdfs:label "Carrot" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#Cheddar
+cw:Cheddar rdf:type owl:Class ;
+           rdfs:subClassOf cw:Cheese ;
+           rdfs:label "Cheddar" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#Cheese
+cw:Cheese rdf:type owl:Class ;
+          rdfs:subClassOf cw:VegetarianIngredient .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#CherryTomato
+cw:CherryTomato rdf:type owl:Class ;
+                rdfs:subClassOf cw:Tomato ;
+                rdfs:label "Cherry tomato" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#Chicken
+cw:Chicken rdf:type owl:Class ;
+           rdfs:subClassOf cw:Meat ;
+           rdfs:label "Chicken" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#ChickenPizza
+cw:ChickenPizza rdf:type owl:Class ;
+                owl:equivalentClass [ owl:intersectionOf ( cw:Pizza
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty cw:hasIngredient ;
+                                                             owl:someValuesFrom cw:Chicken
+                                                           ]
+                                                         ) ;
+                                      rdf:type owl:Class
+                                    ] ;
+                rdfs:subClassOf cw:PizzaByIngredient ;
+                rdfs:label "Chicken pizza" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#ChineseRestaurant
+cw:ChineseRestaurant rdf:type owl:Class ;
+                     rdfs:subClassOf cw:AsianRestaurant ;
+                     rdfs:label "Chinese restaurant" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#Chorizo
+cw:Chorizo rdf:type owl:Class ;
+           rdfs:subClassOf cw:Meat ;
+           rdfs:label "Chorizo" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#City
+cw:City rdf:type owl:Class ;
+        rdfs:subClassOf cw:Location ,
+                        [ rdf:type owl:Restriction ;
+                          owl:onProperty cw:locatedInCountry ;
+                          owl:someValuesFrom cw:Country
+                        ] ,
+                        [ rdf:type owl:Restriction ;
+                          owl:onProperty cw:locatedInState ;
+                          owl:allValuesFrom cw:State
+                        ] ;
+        rdfs:label "City" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#Club
+cw:Club rdf:type owl:Class ;
+        rdfs:subClassOf cw:BarsPubsClubs ;
+        rdfs:label "Club" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#CocktailBars
+cw:CocktailBars rdf:type owl:Class ;
+                rdfs:subClassOf cw:Bar ;
+                rdfs:label "Cocktail bars" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#CoffeeShop
+cw:CoffeeShop rdf:type owl:Class ;
+              rdfs:subClassOf cw:Restaurant ;
+              rdfs:label "Coffee shop" ;
+              skos:altLabel "Cafeteria" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#Country
+cw:Country rdf:type owl:Class ;
+           rdfs:subClassOf cw:Location ;
+           rdfs:label "Country" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#CrabMeat
+cw:CrabMeat rdf:type owl:Class ;
+            rdfs:subClassOf cw:SeaFood ;
+            rdfs:label "Crab meat" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#Currency
+cw:Currency rdf:type owl:Class ;
+            rdfs:label "Currency" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#DietaryRestaurant
+cw:DietaryRestaurant rdf:type owl:Class ;
+                     rdfs:subClassOf cw:Restaurant ;
+                     rdfs:label "Dietary restaurant" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#Eggplant
+cw:Eggplant rdf:type owl:Class ;
+            rdfs:subClassOf cw:Vegetable ;
+            rdfs:label "Eggplant" ;
+            skos:altLabel "Aubergine" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#Feta
+cw:Feta rdf:type owl:Class ;
+        rdfs:subClassOf cw:Cheese ;
+        rdfs:label "Feta" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#FetaPizza
+cw:FetaPizza rdf:type owl:Class ;
+             owl:equivalentClass [ owl:intersectionOf ( cw:Pizza
+                                                        [ rdf:type owl:Restriction ;
+                                                          owl:onProperty cw:hasIngredient ;
+                                                          owl:someValuesFrom cw:Feta
+                                                        ]
+                                                      ) ;
+                                   rdf:type owl:Class
+                                 ] ;
+             rdfs:subClassOf cw:PizzaByIngredient ;
+             rdfs:label "Feta pizza" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#Fig
+cw:Fig rdf:type owl:Class ;
+       rdfs:subClassOf cw:Fruit ;
+       rdfs:label "Fig" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#Food
+cw:Food rdf:type owl:Class ;
+        rdfs:subClassOf [ rdf:type owl:Restriction ;
+                          owl:onProperty cw:hasValue ;
+                          owl:someValuesFrom cw:ItemValue
+                        ] ;
+        rdfs:label "Food" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#FrenchRestaurant
+cw:FrenchRestaurant rdf:type owl:Class ;
+                    rdfs:subClassOf cw:MediterraneanRestaurant ;
+                    rdfs:label "French restaurant" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#Fruit
+cw:Fruit rdf:type owl:Class ;
+         rdfs:subClassOf cw:Vegetable ;
+         rdfs:comment "For simplicity, this ontology relies on the common language usage of \"fruit\" (i.e., sweet fruit)." ;
+         rdfs:label "Fruit" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#FruitPizza
+cw:FruitPizza rdf:type owl:Class ;
+              owl:equivalentClass [ owl:intersectionOf ( cw:Pizza
+                                                         [ rdf:type owl:Restriction ;
+                                                           owl:onProperty cw:hasIngredient ;
+                                                           owl:someValuesFrom cw:Fruit
+                                                         ]
+                                                       ) ;
+                                    rdf:type owl:Class
+                                  ] ;
+              rdfs:subClassOf cw:PizzaByStyle ;
+              rdfs:label "Fruit pizza" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#Garlic
+cw:Garlic rdf:type owl:Class ;
+          rdfs:subClassOf cw:Vegetable ;
+          rdfs:label "Garlic" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#Gastropub
+cw:Gastropub rdf:type owl:Class ;
+             rdfs:subClassOf cw:Pub ;
+             rdfs:label "Gastro pub" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#GlutenFreeRestaurant
+cw:GlutenFreeRestaurant rdf:type owl:Class ;
+                        rdfs:subClassOf cw:DietaryRestaurant ;
+                        rdfs:label "Gluten-free restaurant" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#GoatCheese
+cw:GoatCheese rdf:type owl:Class ;
+              rdfs:subClassOf cw:Cheese ;
+              rdfs:label "Goat cheese" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#Gorgonzola
+cw:Gorgonzola rdf:type owl:Class ;
+              rdfs:subClassOf cw:Cheese ;
+              rdfs:label "Gorgonzola" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#GourmetRestaurants
+cw:GourmetRestaurants rdf:type owl:Class ;
+                      rdfs:subClassOf cw:Restaurant ;
+                      rdfs:label "Gourmet restaurants" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#GreekPizza
+cw:GreekPizza rdf:type owl:Class ;
+              owl:equivalentClass [ owl:intersectionOf ( cw:Pizza
+                                                         [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                                                  owl:onProperty cw:hasIngredient ;
+                                                                                  owl:someValuesFrom cw:Feta
+                                                                                ]
+                                                                                [ rdf:type owl:Restriction ;
+                                                                                  owl:onProperty cw:hasIngredient ;
+                                                                                  owl:someValuesFrom cw:Olives
+                                                                                ]
+                                                                                [ rdf:type owl:Restriction ;
+                                                                                  owl:onProperty cw:hasIngredient ;
+                                                                                  owl:someValuesFrom cw:Spinach
+                                                                                ]
+                                                                              ) ;
+                                                           rdf:type owl:Class
+                                                         ]
+                                                       ) ;
+                                    rdf:type owl:Class
+                                  ] ;
+              rdfs:subClassOf cw:PizzaByStyle ;
+              rdfs:label "Greek pizza" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#GreekRestaurant
+cw:GreekRestaurant rdf:type owl:Class ;
+                   rdfs:subClassOf cw:MediterraneanRestaurant ;
+                   rdfs:label "Greek restaurant" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#GreenOlives
+cw:GreenOlives rdf:type owl:Class ;
+               rdfs:subClassOf cw:Olives ;
+               rdfs:label "Green olives" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#GreenPepper
+cw:GreenPepper rdf:type owl:Class ;
+               rdfs:subClassOf cw:Pepper ;
+               rdfs:label "Green pepper" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#Ham
+cw:Ham rdf:type owl:Class ;
+       rdfs:subClassOf cw:Meat ;
+       rdfs:label "Ham" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#HawaiianPizza
+cw:HawaiianPizza rdf:type owl:Class ;
+                 rdfs:subClassOf cw:AmericanPizza ,
+                                 cw:NamedPizza ,
+                                 [ rdf:type owl:Restriction ;
+                                   owl:onProperty cw:hasIngredient ;
+                                   owl:someValuesFrom cw:Cheese
+                                 ] ,
+                                 [ rdf:type owl:Restriction ;
+                                   owl:onProperty cw:hasIngredient ;
+                                   owl:someValuesFrom cw:Ham
+                                 ] ,
+                                 [ rdf:type owl:Restriction ;
+                                   owl:onProperty cw:hasIngredient ;
+                                   owl:someValuesFrom cw:Pineapple
+                                 ] ,
+                                 [ rdf:type owl:Restriction ;
+                                   owl:onProperty cw:hasIngredient ;
+                                   owl:someValuesFrom cw:TomatoSauce
+                                 ] ;
+                 rdfs:label "Hawaiian pizza" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#Herbs
+cw:Herbs rdf:type owl:Class ;
+         rdfs:subClassOf cw:Vegetable ;
+         rdfs:label "Herbs" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#HotSauce
+cw:HotSauce rdf:type owl:Class ;
+            rdfs:subClassOf cw:Sauce ;
+            rdfs:label "Hot sauce" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#IndianRestaurant
+cw:IndianRestaurant rdf:type owl:Class ;
+                    rdfs:subClassOf cw:AsianRestaurant ;
+                    rdfs:label "Indian restaurant" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#Ingredient
+cw:Ingredient rdf:type owl:Class ;
+              rdfs:subClassOf cw:Food ;
+              rdfs:label "Ingredient" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#ItalianRestaurant
+cw:ItalianRestaurant rdf:type owl:Class ;
+                     rdfs:subClassOf cw:MediterraneanRestaurant ;
+                     rdfs:label "Italian restaurant" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#ItemValue
+cw:ItemValue rdf:type owl:Class ;
+             rdfs:subClassOf [ rdf:type owl:Restriction ;
+                               owl:onProperty cw:amountCurrency ;
+                               owl:someValuesFrom cw:Currency
+                             ] ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty cw:amount ;
+                               owl:someValuesFrom xsd:double
+                             ] ;
+             rdfs:label "Item value" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#JalapenoPepper
+cw:JalapenoPepper rdf:type owl:Class ;
+                  rdfs:subClassOf cw:Pepper ;
+                  rdfs:label "Jalapeno pepper" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#JapanesePizza
+cw:JapanesePizza rdf:type owl:Class ;
+                 rdfs:subClassOf cw:PizzaByStyle ,
+                                 [ rdf:type owl:Restriction ;
+                                   owl:onProperty cw:hasIngredient ;
+                                   owl:someValuesFrom [ rdf:type owl:Class ;
+                                                        owl:unionOf ( cw:Salmon
+                                                                      cw:Tuna
+                                                                    )
+                                                      ]
+                                 ] ;
+                 rdfs:label "Japanese pizza" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#JapaneseRestaurant
+cw:JapaneseRestaurant rdf:type owl:Class ;
+                      rdfs:subClassOf cw:AsianRestaurant ;
+                      rdfs:label "Japanese restaurant" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#KaraokeBar
+cw:KaraokeBar rdf:type owl:Class ;
+              rdfs:subClassOf cw:Bar ;
+              rdfs:label "Karaoke bar" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#Location
+cw:Location rdf:type owl:Class ;
+            rdfs:subClassOf [ rdf:type owl:Restriction ;
+                              owl:onProperty cw:containsLocation ;
+                              owl:allValuesFrom cw:Location
+                            ] ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty cw:locatedIn ;
+                              owl:allValuesFrom cw:Location
+                            ] ;
+            rdfs:label "Location" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#MargheritaPizza
+cw:MargheritaPizza rdf:type owl:Class ;
+                   rdfs:subClassOf cw:NamedPizza ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty cw:hasIngredient ;
+                                     owl:someValuesFrom cw:Basil
+                                   ] ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty cw:hasIngredient ;
+                                     owl:someValuesFrom cw:Mozzarella
+                                   ] ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty cw:hasIngredient ;
+                                     owl:someValuesFrom cw:TomatoSauce
+                                   ] ;
+                   rdfs:label "Margherita pizza" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#Marinara
+cw:Marinara rdf:type owl:Class ;
+            rdfs:subClassOf cw:TomatoSauce ;
+            rdfs:label "Marinara" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#Meat
+cw:Meat rdf:type owl:Class ;
+        rdfs:subClassOf cw:Ingredient ;
+        owl:disjointWith cw:SeaFood ,
+                         cw:VegetarianIngredient ;
+        rdfs:label "Meat" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#MeatPizza
+cw:MeatPizza rdf:type owl:Class ;
+             owl:equivalentClass [ owl:intersectionOf ( cw:Pizza
+                                                        [ rdf:type owl:Restriction ;
+                                                          owl:onProperty cw:hasIngredient ;
+                                                          owl:someValuesFrom cw:Meat
+                                                        ]
+                                                      ) ;
+                                   rdf:type owl:Class
+                                 ] ;
+             rdfs:subClassOf cw:PizzaByStyle ;
+             rdfs:label "Meat pizza" ;
+             skos:altLabel "Meaty pizza" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#Meatballs
+cw:Meatballs rdf:type owl:Class ;
+             rdfs:subClassOf cw:Meat ;
+             rdfs:label "Meatballs" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#MediterraneanRestaurant
+cw:MediterraneanRestaurant rdf:type owl:Class ;
+                           rdfs:subClassOf cw:Restaurant ;
+                           rdfs:label "Mediterranean restaurant" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#MenuItem
+cw:MenuItem rdf:type owl:Class ;
+            rdfs:subClassOf cw:Food ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty cw:hasIngredient ;
+                              owl:someValuesFrom cw:Ingredient
+                            ] ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty cw:hasValue ;
+                              owl:someValuesFrom cw:ItemValue
+                            ] ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty cw:servedInRestaurant ;
+                              owl:someValuesFrom cw:Restaurant
+                            ] ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty cw:itemName ;
+                              owl:someValuesFrom xsd:string
+                            ] ;
+            rdfs:label "Menu item" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#MexicanPizza
+cw:MexicanPizza rdf:type owl:Class ;
+                owl:equivalentClass [ owl:intersectionOf ( cw:Pizza
+                                                           [ rdf:type owl:Class ;
+                                                             owl:unionOf ( [ rdf:type owl:Restriction ;
+                                                                             owl:onProperty cw:hasIngredient ;
+                                                                             owl:someValuesFrom cw:Beans
+                                                                           ]
+                                                                           [ rdf:type owl:Restriction ;
+                                                                             owl:onProperty cw:hasIngredient ;
+                                                                             owl:someValuesFrom cw:HotSauce
+                                                                           ]
+                                                                         )
+                                                           ]
+                                                         ) ;
+                                      rdf:type owl:Class
+                                    ] ;
+                rdfs:subClassOf cw:AmericanPizza ;
+                rdfs:label "Mexican pizza" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#MexicanRestaurant
+cw:MexicanRestaurant rdf:type owl:Class ;
+                     rdfs:subClassOf cw:AmericanRestaurant ;
+                     rdfs:label "Mexican restaurant" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#Mortadella
+cw:Mortadella rdf:type owl:Class ;
+              rdfs:subClassOf cw:Meat ;
+              rdfs:label "Mortadella" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#Mozzarella
+cw:Mozzarella rdf:type owl:Class ;
+              rdfs:subClassOf cw:Cheese ;
+              rdfs:label "Mozzarella" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#Mushroom
+cw:Mushroom rdf:type owl:Class ;
+            rdfs:subClassOf cw:Vegetable ;
+            rdfs:label "Mushroom" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#MushroomPizza
+cw:MushroomPizza rdf:type owl:Class ;
+                 owl:equivalentClass [ owl:intersectionOf ( cw:Pizza
+                                                            [ rdf:type owl:Restriction ;
+                                                              owl:onProperty cw:hasIngredient ;
+                                                              owl:someValuesFrom cw:Mushroom
+                                                            ]
+                                                          ) ;
+                                       rdf:type owl:Class
+                                     ] ;
+                 rdfs:subClassOf cw:PizzaByIngredient ;
+                 rdfs:label "Mushroom pizza" ;
+                 skos:altLabel "Funghi pizza" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#NamedPizza
+cw:NamedPizza rdf:type owl:Class ;
+              rdfs:subClassOf cw:Pizza .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#OliveOil
+cw:OliveOil rdf:type owl:Class ;
+            rdfs:subClassOf cw:VeganIngredient ;
+            rdfs:label "Olive oil" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#Olives
+cw:Olives rdf:type owl:Class ;
+          rdfs:subClassOf cw:Vegetable ;
+          rdfs:label "Olives" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#Onion
+cw:Onion rdf:type owl:Class ;
+         rdfs:subClassOf cw:Vegetable ;
+         rdfs:label "Onion" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#Oregano
+cw:Oregano rdf:type owl:Class ;
+           rdfs:subClassOf cw:Herbs ;
+           rdfs:label "Oregano" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#Parmesan
+cw:Parmesan rdf:type owl:Class ;
+            rdfs:subClassOf cw:Cheese ;
+            rdfs:label "Parmesan" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#Pepper
+cw:Pepper rdf:type owl:Class ;
+          rdfs:subClassOf cw:Vegetable ;
+          rdfs:label "Pepper" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#Pepperoni
+cw:Pepperoni rdf:type owl:Class ;
+             rdfs:subClassOf cw:Sausage ;
+             rdfs:label "Pepperoni" ;
+             skos:altLabel "Pepperoni sausage" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#Pesto
+cw:Pesto rdf:type owl:Class ;
+         rdfs:subClassOf cw:Sauce ;
+         rdfs:label "Pesto" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#Pineapple
+cw:Pineapple rdf:type owl:Class ;
+             rdfs:subClassOf cw:Fruit ;
+             rdfs:label "Pineapple" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#PineapplePizza
+cw:PineapplePizza rdf:type owl:Class ;
+                  owl:equivalentClass [ owl:intersectionOf ( cw:Pizza
+                                                             [ rdf:type owl:Restriction ;
+                                                               owl:onProperty cw:hasIngredient ;
+                                                               owl:someValuesFrom cw:Pineapple
+                                                             ]
+                                                           ) ;
+                                        rdf:type owl:Class
+                                      ] ;
+                  rdfs:subClassOf cw:PizzaByIngredient ;
+                  rdfs:label "Pineapple pizza" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#Pizza
+cw:Pizza rdf:type owl:Class ;
+         rdfs:subClassOf cw:MenuItem ;
+         rdfs:label "Pizza" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#PizzaBianca
+cw:PizzaBianca rdf:type owl:Class ;
+               owl:equivalentClass [ owl:intersectionOf ( cw:Pizza
+                                                          [ rdf:type owl:Restriction ;
+                                                            owl:onProperty cw:hasIngredient ;
+                                                            owl:allValuesFrom [ rdf:type owl:Class ;
+                                                                                owl:complementOf cw:TomatoSauce
+                                                                              ]
+                                                          ]
+                                                        ) ;
+                                     rdf:type owl:Class
+                                   ] ;
+               rdfs:subClassOf cw:PizzaByStyle ;
+               rdfs:comment "Pizza without tomato sauce" ;
+               rdfs:label "Pizza bianca" ;
+               skos:altLabel "White pizza" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#PizzaByIngredient
+cw:PizzaByIngredient rdf:type owl:Class ;
+                     rdfs:subClassOf cw:Pizza ;
+                     rdfs:comment "Organized pizzas by ingredient" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#PizzaByStyle
+cw:PizzaByStyle rdf:type owl:Class ;
+                rdfs:subClassOf cw:Pizza ;
+                rdfs:comment "Organizes pizzas by their style" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#PizzaErnesto
+cw:PizzaErnesto rdf:type owl:Class ;
+                owl:equivalentClass [ owl:intersectionOf ( cw:Pizza
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty cw:hasIngredient ;
+                                                             owl:someValuesFrom cw:Anchovies
+                                                           ]
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty cw:hasIngredient ;
+                                                             owl:someValuesFrom cw:Capers
+                                                           ]
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty cw:hasIngredient ;
+                                                             owl:allValuesFrom [ rdf:type owl:Class ;
+                                                                                 owl:unionOf ( cw:Anchovies
+                                                                                               cw:Capers
+                                                                                             )
+                                                                               ]
+                                                           ]
+                                                         ) ;
+                                      rdf:type owl:Class
+                                    ] ;
+                rdfs:subClassOf cw:NamedPizza .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#PizzaMarinara
+cw:PizzaMarinara rdf:type owl:Class ;
+                 owl:equivalentClass [ owl:intersectionOf ( cw:Pizza
+                                                            [ rdf:type owl:Restriction ;
+                                                              owl:onProperty cw:hasIngredient ;
+                                                              owl:someValuesFrom cw:Garlic
+                                                            ]
+                                                            [ rdf:type owl:Restriction ;
+                                                              owl:onProperty cw:hasIngredient ;
+                                                              owl:someValuesFrom cw:Mozzarella
+                                                            ]
+                                                            [ rdf:type owl:Restriction ;
+                                                              owl:onProperty cw:hasIngredient ;
+                                                              owl:someValuesFrom cw:TomatoSauce
+                                                            ]
+                                                            [ rdf:type owl:Restriction ;
+                                                              owl:onProperty cw:hasIngredient ;
+                                                              owl:allValuesFrom [ rdf:type owl:Class ;
+                                                                                  owl:unionOf ( cw:Garlic
+                                                                                                cw:Mozzarella
+                                                                                                cw:TomatoSauce
+                                                                                              )
+                                                                                ]
+                                                            ]
+                                                          ) ;
+                                       rdf:type owl:Class
+                                     ] ;
+                 rdfs:subClassOf cw:NamedPizza ,
+                                 [ rdf:type owl:Restriction ;
+                                   owl:onProperty cw:hasIngredient ;
+                                   owl:someValuesFrom cw:Garlic
+                                 ] ,
+                                 [ rdf:type owl:Restriction ;
+                                   owl:onProperty cw:hasIngredient ;
+                                   owl:someValuesFrom cw:Mozzarella
+                                 ] ,
+                                 [ rdf:type owl:Restriction ;
+                                   owl:onProperty cw:hasIngredient ;
+                                   owl:someValuesFrom cw:TomatoSauce
+                                 ] ;
+                 rdfs:label "Pizza marinara" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#PizzaNapolitana
+cw:PizzaNapolitana rdf:type owl:Class ;
+                   owl:equivalentClass [ owl:intersectionOf ( cw:MargheritaPizza
+                                                              [ rdf:type owl:Restriction ;
+                                                                owl:onProperty cw:hasIngredient ;
+                                                                owl:allValuesFrom [ rdf:type owl:Class ;
+                                                                                    owl:unionOf ( cw:Basil
+                                                                                                  cw:Cheese
+                                                                                                  cw:TomatoSauce
+                                                                                                )
+                                                                                  ]
+                                                              ]
+                                                            ) ;
+                                         rdf:type owl:Class
+                                       ] ;
+                   rdfs:subClassOf cw:MargheritaPizza ;
+                   rdfs:label "Pizza Napolitana" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#PizzaNutella
+cw:PizzaNutella rdf:type owl:Class ;
+                rdfs:subClassOf cw:SweetPizza ;
+                rdfs:label "Pizza Nutella" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#PizzaPlace
+cw:PizzaPlace rdf:type owl:Class ;
+              owl:equivalentClass cw:Pizzeria ;
+              rdfs:subClassOf cw:Restaurant .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#PizzaRomana
+cw:PizzaRomana rdf:type owl:Class ;
+               rdfs:subClassOf cw:PizzaByStyle ;
+               rdfs:label "Pizza Romana" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#PizzaSupreme
+cw:PizzaSupreme rdf:type owl:Class ;
+                rdfs:subClassOf cw:NamedPizza ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty cw:hasIngredient ;
+                                  owl:someValuesFrom cw:Onion
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty cw:hasIngredient ;
+                                  owl:someValuesFrom cw:Pepper
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty cw:hasIngredient ;
+                                  owl:someValuesFrom cw:Pepperoni
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty cw:hasIngredient ;
+                                  owl:someValuesFrom cw:Sausage
+                                ] ;
+                rdfs:label "Pizza supreme" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#Pizzeria
+cw:Pizzeria rdf:type owl:Class ;
+            rdfs:subClassOf cw:Restaurant ;
+            rdfs:label "Pizzeria" ;
+            skos:altLabel "Pizza place" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#PlumTomato
+cw:PlumTomato rdf:type owl:Class ;
+              rdfs:subClassOf cw:Tomato ;
+              rdfs:label "Plum tomato" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#Potato
+cw:Potato rdf:type owl:Class ;
+          rdfs:subClassOf cw:RootVegetable ;
+          rdfs:label "Potato" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#Prosciutto
+cw:Prosciutto rdf:type owl:Class ;
+              rdfs:subClassOf cw:Meat ;
+              rdfs:label "Prosciutto" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#Provolone
+cw:Provolone rdf:type owl:Class ;
+             rdfs:subClassOf cw:Cheese ;
+             rdfs:label "Provolone" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#Pub
+cw:Pub rdf:type owl:Class ;
+       rdfs:subClassOf cw:BarsPubsClubs ;
+       rdfs:label "Pub" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#Pumpkin
+cw:Pumpkin rdf:type owl:Class ;
+           rdfs:subClassOf cw:WinterSquash ;
+           rdfs:label "Pumpkin" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#RedPepper
+cw:RedPepper rdf:type owl:Class ;
+             rdfs:subClassOf cw:Pepper ;
+             rdfs:label "Red pepper" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#Restaurant
+cw:Restaurant rdf:type owl:Class ;
+              rdfs:subClassOf cw:Location ,
+                              [ rdf:type owl:Restriction ;
+                                owl:onProperty cw:locatedInAddress ;
+                                owl:someValuesFrom cw:Address
+                              ] ,
+                              [ rdf:type owl:Restriction ;
+                                owl:onProperty cw:servesMenuItem ;
+                                owl:someValuesFrom cw:MenuItem
+                              ] ,
+                              [ rdf:type owl:Restriction ;
+                                owl:onProperty cw:restaurantName ;
+                                owl:someValuesFrom xsd:string
+                              ] ;
+              rdfs:label "Restaurant" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#Ricotta
+cw:Ricotta rdf:type owl:Class ;
+           rdfs:subClassOf cw:Cheese ;
+           rdfs:label "Ricotta" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#RootVegetable
+cw:RootVegetable rdf:type owl:Class ;
+                 rdfs:subClassOf cw:Vegetable ;
+                 rdfs:label "Root vegetable" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#Rosemary
+cw:Rosemary rdf:type owl:Class ;
+            rdfs:subClassOf cw:Herbs ;
+            rdfs:label "Rosemary" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#Salami
+cw:Salami rdf:type owl:Class ;
+          rdfs:subClassOf cw:Meat ;
+          rdfs:label "Salami" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#Salmon
+cw:Salmon rdf:type owl:Class ;
+          rdfs:subClassOf cw:SeaFood ;
+          rdfs:label "Salmon" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#Sauce
+cw:Sauce rdf:type owl:Class ;
+         rdfs:subClassOf cw:Ingredient ;
+         rdfs:label "Sauce" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#Sausage
+cw:Sausage rdf:type owl:Class ;
+           rdfs:subClassOf cw:Meat ;
+           rdfs:label "Sausage" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#Scallops
+cw:Scallops rdf:type owl:Class ;
+            rdfs:subClassOf cw:SeaFood ;
+            rdfs:label "Scallop" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#SeaFood
+cw:SeaFood rdf:type owl:Class ;
+           rdfs:subClassOf cw:Ingredient ;
+           owl:disjointWith cw:VegetarianIngredient ;
+           rdfs:label "Seafood" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#SeafoodPizza
+cw:SeafoodPizza rdf:type owl:Class ;
+                owl:equivalentClass [ owl:intersectionOf ( cw:Pizza
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty cw:hasIngredient ;
+                                                             owl:someValuesFrom cw:SeaFood
+                                                           ]
+                                                         ) ;
+                                      rdf:type owl:Class
+                                    ] ;
+                rdfs:subClassOf cw:PizzaByStyle ;
+                rdfs:label "Seafood pizza" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#SeafoodRestaurant
+cw:SeafoodRestaurant rdf:type owl:Class ;
+                     rdfs:subClassOf cw:Restaurant ;
+                     rdfs:label "Seafood restaurant" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#Seeds
+cw:Seeds rdf:type owl:Class ;
+         rdfs:subClassOf cw:Vegetable ;
+         rdfs:label "Seeds" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#Shrimp
+cw:Shrimp rdf:type owl:Class ;
+          rdfs:subClassOf cw:SeaFood ;
+          rdfs:label "Shrimp" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#SpanishRestaurant
+cw:SpanishRestaurant rdf:type owl:Class ;
+                     rdfs:subClassOf cw:MediterraneanRestaurant ;
+                     rdfs:label "Spanish restaurant" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#Spinach
+cw:Spinach rdf:type owl:Class ;
+           rdfs:subClassOf cw:Vegetable ;
+           rdfs:label "Spinach" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#SportsBar
+cw:SportsBar rdf:type owl:Class ;
+             rdfs:subClassOf cw:Bar ;
+             rdfs:label "Sports bar" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#State
+cw:State rdf:type owl:Class ;
+         rdfs:subClassOf cw:Location ,
+                         [ rdf:type owl:Restriction ;
+                           owl:onProperty cw:locatedInCountry ;
+                           owl:someValuesFrom cw:Country
+                         ] ;
+         rdfs:label "State" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#SushiRestaurant
+cw:SushiRestaurant rdf:type owl:Class ;
+                   rdfs:subClassOf cw:JapaneseRestaurant ;
+                   rdfs:label "Sushi restaurant" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#SweetPizza
+cw:SweetPizza rdf:type owl:Class ;
+              rdfs:subClassOf cw:PizzaByStyle ;
+              rdfs:label "Sweet pizza" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#SweetPotato
+cw:SweetPotato rdf:type owl:Class ;
+               rdfs:subClassOf cw:RootVegetable ;
+               rdfs:label "Sweet potato" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#Tofu
+cw:Tofu rdf:type owl:Class ;
+        rdfs:subClassOf cw:VeganIngredient ;
+        rdfs:label "Tofu" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#Tomato
+cw:Tomato rdf:type owl:Class ;
+          rdfs:subClassOf cw:Vegetable ;
+          rdfs:label "Tomato" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#TomatoSauce
+cw:TomatoSauce rdf:type owl:Class ;
+               rdfs:subClassOf cw:Sauce ,
+                               cw:VeganIngredient ;
+               rdfs:label "Tomato sauce" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#Tuna
+cw:Tuna rdf:type owl:Class ;
+        rdfs:subClassOf cw:SeaFood ;
+        rdfs:label "Tuna" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#VeganCheese
+cw:VeganCheese rdf:type owl:Class ;
+               rdfs:subClassOf cw:VeganIngredient ;
+               rdfs:label "Vegan cheese" ;
+               skos:altLabel "Dairy-free cheese" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#VeganIngredient
+cw:VeganIngredient rdf:type owl:Class ;
+                   rdfs:subClassOf cw:VegetarianIngredient ;
+                   rdfs:label "Vegan ingredient" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#VeganPizza
+cw:VeganPizza rdf:type owl:Class ;
+              owl:equivalentClass [ owl:intersectionOf ( cw:Pizza
+                                                         [ rdf:type owl:Restriction ;
+                                                           owl:onProperty cw:hasIngredient ;
+                                                           owl:allValuesFrom cw:VeganIngredient
+                                                         ]
+                                                       ) ;
+                                    rdf:type owl:Class
+                                  ] ;
+              rdfs:subClassOf cw:VegetarianPizza ;
+              rdfs:label "Vegan pizza" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#VeganRestaurant
+cw:VeganRestaurant rdf:type owl:Class ;
+                   rdfs:subClassOf cw:DietaryRestaurant ;
+                   rdfs:label "Vegan restaurant" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#Vegetable
+cw:Vegetable rdf:type owl:Class ;
+             rdfs:subClassOf cw:VeganIngredient ;
+             rdfs:comment "For simplicity, this ontology relies on the original meaning to refer to all edible plant matter, including the flowers, fruits, stems, leaves, roots, and seeds." ;
+             rdfs:label "Vegetable" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#VegetarianIngredient
+cw:VegetarianIngredient rdf:type owl:Class ;
+                        rdfs:subClassOf cw:Ingredient .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#VegetarianPizza
+cw:VegetarianPizza rdf:type owl:Class ;
+                   owl:equivalentClass [ owl:intersectionOf ( cw:Pizza
+                                                              [ rdf:type owl:Restriction ;
+                                                                owl:onProperty cw:hasIngredient ;
+                                                                owl:allValuesFrom cw:VegetarianIngredient
+                                                              ]
+                                                            ) ;
+                                         rdf:type owl:Class
+                                       ] ;
+                   rdfs:subClassOf cw:PizzaByStyle ;
+                   rdfs:label "Vegetarian pizza" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#VegetarianRestaurant
+cw:VegetarianRestaurant rdf:type owl:Class ;
+                        rdfs:subClassOf cw:DietaryRestaurant ;
+                        rdfs:label "Vegetarian restaurant" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#WinterSquash
+cw:WinterSquash rdf:type owl:Class ;
+                rdfs:subClassOf cw:Vegetable ;
+                rdfs:label "Winter squash" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#YellowPepper
+cw:YellowPepper rdf:type owl:Class ;
+                rdfs:subClassOf cw:Pepper ;
+                rdfs:label "Yellow pepper" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#Zucchini
+cw:Zucchini rdf:type owl:Class ;
+            rdfs:subClassOf cw:Vegetable ;
+            rdfs:label "Zucchini" .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#DaiyaCheese
+cw:DaiyaCheese rdf:type owl:NamedIndividual ,
+                        cw:VeganCheese ;
+               rdfs:comment "Daiya is a brand of dairy-free products" ;
+               rdfs:label "Daiya cheese" .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#EUR
+cw:EUR rdf:type owl:NamedIndividual ,
+                cw:Currency .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#GBP
+cw:GBP rdf:type owl:NamedIndividual ,
+                cw:Currency .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#US
+cw:US rdf:type owl:NamedIndividual ,
+               cw:Country .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#USD
+cw:USD rdf:type owl:NamedIndividual ,
+                cw:Currency .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#WV
+cw:WV rdf:type owl:NamedIndividual ,
+               cw:State ;
+      cw:locatedInCountry cw:US .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#Weirton
+cw:Weirton rdf:type owl:NamedIndividual ,
+                    cw:City ;
+           cw:locatedInState cw:WV .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#address_3601_Main_St_Weirton
+cw:address_3601_Main_St_Weirton rdf:type owl:NamedIndividual ,
+                                         cw:Address ;
+                                cw:locatedInCity cw:Weirton ;
+                                cw:firstLineAddress "3601 Main St"^^xsd:string ;
+                                cw:postCode "26062"^^xsd:string .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#bacon
+cw:bacon rdf:type owl:NamedIndividual ,
+                  cw:Bacon .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#beef
+cw:beef rdf:type owl:NamedIndividual ,
+                 cw:Beef .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#feta
+cw:feta rdf:type owl:NamedIndividual ,
+                 cw:Feta .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#ham
+cw:ham rdf:type owl:NamedIndividual ,
+                cw:Ham .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#hawaiian_gourmet_stuffed_pizza_at_sicilias_pizzeria_weirton
+cw:hawaiian_gourmet_stuffed_pizza_at_sicilias_pizzeria_weirton rdf:type owl:NamedIndividual ,
+                                                                        cw:HawaiianPizza ;
+                                                               cw:hasIngredient cw:ham ,
+                                                                                cw:pineapple ;
+                                                               cw:hasValue <http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#7.99USD> ;
+                                                               cw:itemName "Hawaiian Gourmet Stuffed Pizza"^^xsd:string .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#meat_lover_gourmet_stuffed_pizza_at_sicilias_pizzeria_weirton
+cw:meat_lover_gourmet_stuffed_pizza_at_sicilias_pizzeria_weirton rdf:type owl:NamedIndividual ,
+                                                                          cw:Pizza ;
+                                                                 cw:hasIngredient cw:bacon ,
+                                                                                  cw:beef ,
+                                                                                  cw:pepperoni ,
+                                                                                  cw:sausage ;
+                                                                 cw:hasValue <http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#7.99USD> ;
+                                                                 cw:itemName "Meat Lover Gourmet Stuffed Pizza"^^xsd:string .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#mediterranean_gourmet_suffed_pizza_at_sicilias_pizzeria_weirton
+cw:mediterranean_gourmet_suffed_pizza_at_sicilias_pizzeria_weirton rdf:type owl:NamedIndividual ,
+                                                                            cw:Pizza ;
+                                                                   cw:hasIngredient cw:feta ,
+                                                                                    cw:mozzarella ,
+                                                                                    cw:spinach ,
+                                                                                    cw:tomato ;
+                                                                   cw:itemName "Mediterranean Gourmet Suffed Pizza"^^xsd:string .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#mozzarella
+cw:mozzarella rdf:type owl:NamedIndividual ,
+                       cw:Mozzarella .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#pepperoni
+cw:pepperoni rdf:type owl:NamedIndividual ,
+                      cw:Pepperoni .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#pineapple
+cw:pineapple rdf:type owl:NamedIndividual ,
+                      cw:Pineapple .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#sausage
+cw:sausage rdf:type owl:NamedIndividual ,
+                    cw:Sausage .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#sicilias_pizzeria_weirton
+cw:sicilias_pizzeria_weirton rdf:type owl:NamedIndividual ,
+                                      cw:PizzaPlace ;
+                             cw:locatedInAddress cw:address_3601_Main_St_Weirton ;
+                             cw:locatedInCity cw:Weirton ;
+                             cw:serves cw:hawaiian_gourmet_stuffed_pizza_at_sicilias_pizzeria_weirton ,
+                                       cw:meat_lover_gourmet_stuffed_pizza_at_sicilias_pizzeria_weirton ,
+                                       cw:mediterranean_gourmet_suffed_pizza_at_sicilias_pizzeria_weirton ;
+                             cw:restaurantName "Sicilia's Pizzeria"^^xsd:string .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#spinach
+cw:spinach rdf:type owl:NamedIndividual ,
+                    cw:Spinach .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#tomato
+cw:tomato rdf:type owl:NamedIndividual ,
+                   cw:Tomato .
+
+
+###  http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#7.99USD
+<http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#7.99USD> rdf:type owl:NamedIndividual ,
+                                                                                  cw:ItemValue ;
+                                                                         cw:amountCurrency cw:USD ;
+                                                                         cw:amount "7.99"^^xsd:double .
+
+
+#################################################################
+#    General axioms
+#################################################################
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( cw:Address
+                cw:City
+                cw:Country
+                cw:Restaurant
+                cw:State
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( cw:BarbecueSauce
+                cw:Cheese
+                cw:Meat
+                cw:OliveOil
+                cw:SeaFood
+                cw:Tofu
+                cw:TomatoSauce
+                cw:VeganCheese
+                cw:Vegetable
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( cw:Currency
+                cw:Food
+                cw:ItemValue
+                cw:Location
+              )
+] .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

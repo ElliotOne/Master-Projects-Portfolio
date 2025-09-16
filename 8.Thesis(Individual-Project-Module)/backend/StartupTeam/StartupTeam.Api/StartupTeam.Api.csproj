@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <InvariantGlobalization>false</InvariantGlobalization>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <UserSecretsId>514b28c0-4583-45ef-bb5a-dc9d601335be</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="appsettings.Development.json" />
+    <Content Remove="appsettings.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="appsettings.Development.json" />
+    <None Include="appsettings.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.7">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.19.5" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Modules\StartupTeam.Module.JobManagement\StartupTeam.Module.JobManagement.csproj" />
+    <ProjectReference Include="..\Modules\StartupTeam.Module.MatchingManagement\StartupTeam.Module.MatchingManagement.csproj" />
+    <ProjectReference Include="..\Modules\StartupTeam.Module.PortfolioManagement\StartupTeam.Module.PortfolioManagement.csproj" />
+    <ProjectReference Include="..\Modules\StartupTeam.Module.TeamManagement\StartupTeam.Module.TeamManagement.csproj" />
+    <ProjectReference Include="..\Modules\StartupTeam.Module.UserManagement\StartupTeam.Module.UserManagement.csproj" />
+    <ProjectReference Include="..\Shared\StartupTeam.Shared\StartupTeam.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

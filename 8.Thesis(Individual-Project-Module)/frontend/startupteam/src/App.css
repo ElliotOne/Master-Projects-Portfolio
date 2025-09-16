@@ -1,0 +1,1389 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.card-body {
+  flex: 1;
+}
+
+html {
+  font-size: 14px;
+  position: relative;
+  min-height: 100%;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn-link.nav-link:focus,
+.form-control:focus,
+.form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #3025fb;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  color: #71778d;
+  background-color: #e2e2e2;
+  -webkit-font-smoothing: antialiased;
+  margin-bottom: 60px;
+  overflow-x: hidden;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  line-height: 50px;
+  background-color: #f5f5f5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #3d405c;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+h1 {
+  font-size: 34px;
+}
+
+h2 {
+  font-size: 28px;
+  line-height: 30px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h4 {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+h5 {
+  font-size: 15px;
+  line-height: 26px;
+}
+
+h6 {
+  font-size: 12px;
+}
+
+p {
+  margin: 0px 0px 20px 0px;
+}
+
+p:last-child {
+  margin: 0px;
+}
+
+a {
+  color: #71748d;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #4656e9;
+}
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+.material-symbols-outlined {
+  vertical-align: top;
+  font-size: 1.25rem;
+  color: #666;
+}
+
+.btn .material-symbols-outlined {
+  margin-right: 5px;
+  color: #fff;
+}
+
+.w-15 {
+  width: 15%;
+}
+
+/* -----------------------
+      Buttons
+-------------------------*/
+
+.btn {
+  font-size: 14px;
+  padding: 9px 16px;
+  border-radius: 2px;
+}
+
+/*--- btn primary --*/
+
+.btn-primary {
+  color: #fff;
+  background-color: #3033d3;
+  border-color: #3033d3;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #4656e9;
+  border-color: #4656e9;
+}
+
+.btn-primary.focus,
+.btn-primary:focus {
+  color: #fff;
+  background-color: #4656e9;
+  border-color: #4656e9;
+  box-shadow: 0 0 0 1px rgb(37, 52, 158);
+}
+
+.btn-primary:not(:disabled):not(.disabled).active:focus,
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgb(37, 52, 158);
+}
+
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #4656e9;
+  border-color: #4656e9;
+}
+
+/*--- btn secondary --*/
+
+.btn-secondary {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.btn-secondary:hover {
+  color: #fff;
+  background-color: #5a6268;
+  border-color: #5a6268;
+}
+
+.btn-secondary.focus,
+.btn-secondary:focus {
+  color: #fff;
+  background-color: #5a6268;
+  border-color: #5a6268;
+  box-shadow: 0 0 0 1px rgb(110, 110, 110);
+}
+
+.btn-secondary:not(:disabled):not(.disabled).active,
+.btn-secondary:not(:disabled):not(.disabled):active,
+.show > .btn-secondary.dropdown-toggle {
+  color: #fff;
+  background-color: #5a6268;
+  border-color: #5a6268;
+}
+
+/*--- btn success --*/
+
+.btn-success {
+  color: #fff;
+  background-color: #2ec551;
+  border-color: #2ec551;
+}
+
+.btn-success:hover {
+  color: #fff;
+  background-color: #21ae41;
+  border-color: #21ae41;
+}
+
+.btn-success.focus,
+.btn-success:focus {
+  color: #fff;
+  background-color: #21ae41;
+  border-color: #21ae41;
+  box-shadow: 0 0 0 1px rgb(18, 158, 50);
+}
+
+.btn-success:not(:disabled):not(.disabled).active,
+.btn-success:not(:disabled):not(.disabled):active,
+.show > .btn-success.dropdown-toggle {
+  color: #fff;
+  background-color: #21ae41;
+  border-color: #21ae41;
+}
+
+/*--- btn danger --*/
+
+.btn-danger {
+  color: #fff;
+  background-color: #ef172c;
+  border-color: #ef172c;
+}
+
+.btn-danger:hover {
+  color: #fff;
+  background-color: #da0419;
+  border-color: #da0419;
+}
+
+.btn-danger.focus,
+.btn-danger:focus {
+  color: #fff;
+  background-color: #da0419;
+  border-color: #da0419;
+  box-shadow: 0 0 0 1px rgb(218, 4, 25);
+}
+
+.btn-danger:not(:disabled):not(.disabled).active,
+.btn-danger:not(:disabled):not(.disabled):active,
+.show > .btn-danger.dropdown-toggle {
+  color: #fff;
+  background-color: #da0419;
+  border-color: #da0419;
+}
+
+/*--- btn warning --*/
+
+.btn-warning {
+  color: #2e2f39;
+  background-color: #ffc108;
+  border-color: #ffc108;
+}
+
+.btn-warning:hover {
+  color: #2e2f39;
+  background-color: #f3b600;
+  border-color: #f3b600;
+}
+
+.btn-warning.focus,
+.btn-warning:focus {
+  color: #2e2f39;
+  background-color: #f3b600;
+  border-color: #f3b600;
+  box-shadow: 0 0 0 1px rgb(238, 182, 0);
+}
+
+.btn-warning:not(:disabled):not(.disabled).active,
+.btn-warning:not(:disabled):not(.disabled):active,
+.show > .btn-warning.dropdown-toggle {
+  color: #2e2f39;
+  background-color: #f3b600;
+  border-color: #f3b600;
+}
+
+/*--- btn info --*/
+
+.btn-info {
+  color: #fff;
+  background-color: #25d5f2;
+  border-color: #25d5f2;
+}
+
+.btn-info:hover {
+  color: #fff;
+  background-color: #17c0dc;
+  border-color: #17c0dc;
+}
+
+.btn-info.focus,
+.btn-info:focus {
+  color: #fff;
+  background-color: #17c0dc;
+  border-color: #17c0dc;
+  box-shadow: 0 0 0 1px rgb(238, 184, 22);
+}
+
+.btn-info:not(:disabled):not(.disabled).active,
+.btn-info:not(:disabled):not(.disabled):active,
+.show > .btn-info.dropdown-toggle {
+  color: #fff;
+  background-color: #17c0dc;
+  border-color: #17c0dc;
+}
+
+/*--- btn light --*/
+
+.btn-light {
+  color: #71738d;
+  background-color: #f0f0f8;
+  border-color: #f0f0f8;
+}
+
+.btn-light:hover {
+  color: #2e2f39;
+  background-color: #d7d7df;
+  border-color: #d7d7df;
+}
+
+.btn-light.focus,
+.btn-light:focus {
+  color: #2e2f39;
+  background-color: #d7d7df;
+  border-color: #d7d7df;
+  box-shadow: 0 0 0 1px rgb(215, 215, 223);
+}
+
+/*--- btn dark --*/
+
+.btn-dark {
+  color: #fff;
+  background-color: #2e2f39;
+  border-color: #2e2f39;
+}
+
+.btn-dark:hover {
+  color: #2e2f39;
+  background-color: #d7d7df;
+  border-color: #d7d7df;
+}
+
+.btn-dark.focus,
+.btn-dark:focus {
+  color: #fff;
+  background-color: #d7d7df;
+  border-color: #d7d7df;
+  box-shadow: 0 0 0 1px rgb(46, 47, 57);
+}
+
+/*--- btn outline primary --*/
+
+.btn-outline-primary {
+  color: #3033d3;
+  background-color: transparent;
+  border-color: #3033d3;
+}
+
+.btn-outline-primary:hover {
+  color: #fff;
+  background-color: #3033d3;
+  border-color: #3033d3;
+}
+
+.btn-outline-primary.focus {
+  color: #fff;
+  background-color: #3033d3;
+  border-color: #3033d3;
+  box-shadow: 0 0 0 1px rgb(65, 77, 167);
+}
+
+/*--- btn size --*/
+
+.btn-xs {
+  padding: 4px 10px;
+  font-size: 12px;
+}
+
+.btn-sm {
+  padding: 5px 12px;
+  font-size: 14px;
+}
+
+.btn-lg {
+  padding: 11px 20px;
+  font-size: 15px;
+}
+
+section .section-header {
+  margin-bottom: 30px;
+}
+
+/* -----------------------
+      Forms
+-------------------------*/
+
+label {
+  display: block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-size: 15px;
+  color: #71748d;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #71748d;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #d2d2e4;
+  border-radius: 2px;
+}
+
+.form-control:focus {
+  color: #71748d;
+  background-color: #fff;
+  border-color: #a7a7f0;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(214, 214, 255, 0.75);
+}
+
+/* file upload button */
+input[type="file"]::file-selector-button {
+  font-size: 14px;
+  padding: 9px 16px;
+  border-radius: 2px;
+  color: #fff;
+  background-color: #3033d3;
+  border-color: #3033d3;
+  cursor: pointer;
+}
+
+.input[type="file"]::file-selector-button:hover {
+  color: #fff;
+  background-color: #4656e9;
+  border-color: #4656e9;
+}
+
+input[type="file"]::file-selector-button:active {
+  color: #fff;
+  background-color: #4656e9;
+  border-color: #4656e9;
+  box-shadow: 0 0 0 1px rgb(37, 52, 158);
+}
+
+button:focus {
+  outline: 0;
+}
+
+select.form-control {
+  color: #71748d;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-position: 99% 52%;
+  background-size: auto;
+  background-repeat: no-repeat;
+  padding-right: 15px;
+  border: 1px solid #d2d2e4;
+  border-radius: 2px;
+}
+
+textarea.form-control {
+  height: auto;
+  color: #71748d;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #d2d2e4;
+  border-radius: 2px;
+  padding: 12px 16px;
+}
+
+input::-webkit-input-placeholder {
+  color: #71748d !important;
+}
+
+input:focus::-webkit-input-placeholder {
+  color: #3033d3 !important;
+}
+
+textarea::-webkit-input-placeholder {
+  color: #71748d !important;
+}
+
+textarea:focus::-webkit-input-placeholder {
+  color: #3033d3 !important;
+}
+
+.form-group {
+  margin-bottom: 12px;
+}
+
+.form-hint {
+  font-size: 12px;
+  margin: 10px 0px !important;
+}
+
+.field-validation-error {
+  margin-top: 5px;
+  color: #ef172c;
+}
+
+.profile-image-container .img {
+  height: 100px;
+  width: 100px;
+  border: 2px solid #3033d3;
+  border-radius: 50%;
+}
+
+.info-group .info-text {
+  margin-bottom: 15px;
+}
+
+/* -----------------------
+      Navbar
+-------------------------*/
+.navbar .navbar-brand {
+  width: 130px;
+  height: auto;
+}
+
+.navbar .nav-link:hover {
+  color: #4656e9 !important;
+}
+
+/* -----------------------
+      Cards
+-------------------------*/
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-header {
+  background-color: #fff;
+  border-bottom: 1px solid #e6e6f2;
+}
+
+.card-subtitle {
+  font-size: 14px;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-text {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.card-footer {
+  border-top: 1px solid #e6e6f2;
+  background: #f6f6ff;
+}
+
+.toolbar {
+  font-size: 18px;
+}
+
+.card-footer-item {
+  padding: 12px 28px;
+}
+
+.card-footer-item-bordered:not(:last-child) {
+  border-right: 1px solid rgb(230, 230, 242);
+}
+
+/* -----------------------
+ Dashboard Overview Section
+-------------------------*/
+.dashaboard-overview-section {
+  padding: 20px;
+}
+
+.dashaboard-overview-section .container {
+  max-width: 1200px;
+}
+
+.dashaboard-overview-section .container .btn-dashboard {
+  width: 100%;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.dashaboard-overview-section .container .btn-dashboard .ico {
+  font-size: 24px;
+  margin-right: 15px;
+}
+
+.dashaboard-overview-section .container .btn-dashboard .text {
+  font-size: 18px;
+}
+
+/* -----------------------
+  Job Application List Section
+-------------------------*/
+.job-application-list-section {
+  padding: 20px;
+}
+
+.job-application-list-section .container {
+  max-width: 1200px;
+}
+
+.job-application-list-section .d-flex {
+  display: flex;
+  align-items: center;
+}
+
+/* -----------------------
+  Job Applications Management Section
+-------------------------*/
+.job-applications-management-section {
+  padding: 20px;
+}
+
+.job-applications-management-section .container {
+  max-width: 1200px;
+}
+
+.job-applications-management-section .d-flex {
+  display: flex;
+  align-items: center;
+}
+
+/* -----------------------
+  Job Application Section
+-------------------------*/
+.job-application-section {
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  margin: 50px 0 100px 0;
+}
+
+.job-application-section .job-details-card,
+.job-application-section .applicant-details-card,
+.job-application-section .founder-details-card,
+.job-application-section .application-materials-card,
+.job-application-section .application-form-card {
+  padding: 2rem;
+}
+
+.job-application-section .job-details-card .section-title,
+.job-application-section .applicant-details-card .section-title,
+.job-application-section .founder-details-card .section-title,
+.job-application-section .application-materials-card .section-title,
+.job-application-section .application-form-card .section-title {
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+
+.job-application-section .job-details-card .section-title .info-group,
+.job-application-section .applicant-details-card .section-title .info-group,
+.job-application-section .founder-details-card .section-title .info-group,
+.job-application-section .application-materials-card .section-title .info-group,
+.job-application-section .application-form-card .section-title .info-group {
+  margin-bottom: 1.5rem;
+}
+
+.job-application-section
+  .job-details-card
+  .section-title
+  .info-group
+  .info-label,
+.job-application-section
+  .applicant-details-card
+  .section-title
+  .info-group
+  .info-label,
+.job-application-section
+  .founder-details-card
+  .section-title
+  .info-group
+  .info-label,
+.job-application-section
+  .application-materials-card
+  .section-title
+  .info-group
+  .info-label,
+.job-application-section
+  .application-form-card
+  .section-title
+  .info-group
+  .info-label {
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.job-application-section
+  .job-details-card
+  .section-title
+  .info-group
+  .info-text,
+.job-application-section
+  .applicant-details-card
+  .section-title
+  .info-group
+  .info-text,
+.job-application-section
+  .founder-details-card
+  .section-title
+  .info-group
+  .info-text,
+.job-application-section
+  .application-materials-card
+  .section-title
+  .info-group
+  .info-text,
+.job-application-section
+  .application-form-card
+  .section-title
+  .info-group
+  .info-text {
+  font-size: 1rem;
+  color: #555;
+}
+
+.job-application-section
+  .job-details-card
+  .section-title
+  .info-group
+  .info-link,
+.job-application-section
+  .applicant-details-card
+  .section-title
+  .info-group
+  .info-link,
+.job-application-section
+  .founder-details-card
+  .section-title
+  .info-group
+  .info-link,
+.job-application-section
+  .application-materials-card
+  .section-title
+  .info-group
+  .info-link,
+.job-application-section
+  .application-form-card
+  .section-title
+  .info-group
+  .info-link {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.job-application-section
+  .job-details-card
+  .section-title
+  .info-group
+  .info-link:hover,
+.job-application-section
+  .applicant-details-card
+  .section-title
+  .info-group
+  .info-link:hover,
+.job-application-section
+  .founder-details-card
+  .section-title
+  .info-group
+  .info-link:hover,
+.job-application-section
+  .application-materials-card
+  .section-title
+  .info-group
+  .info-link:hover,
+.job-application-section
+  .application-form-card
+  .section-title
+  .info-group
+  .info-link
+  :hover {
+  text-decoration: underline;
+}
+
+/* -----------------------
+  Job Application Card
+-------------------------*/
+.job-application-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s;
+}
+
+.job-application-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* -----------------------
+  Job Card
+-------------------------*/
+.job-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s;
+}
+
+.job-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* -----------------------
+  Portfolio Card
+-------------------------*/
+.portfolio-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s;
+}
+
+.portfolio-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.portfolio-card .card-title {
+  font-weight: 700;
+}
+
+.portfolio-card .d-flex {
+  display: flex;
+  align-items: center;
+}
+
+.portfolio-card .card-text {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* -----------------------
+      Form Section
+-------------------------*/
+.form-section {
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  margin: 50px 0 100px 0;
+}
+
+/* -----------------------
+      Auth Section
+-------------------------*/
+
+.auth-section .card .card-header .logo-img {
+  width: 300px;
+  height: auto;
+}
+
+.auth-section .row {
+  padding: 10% 0;
+}
+
+/* -----------------------
+   Job Detail Section
+-------------------------*/
+.job-detail-section {
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  margin: 50px 0 100px 0;
+}
+
+.job-detail-section .job-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.job-detail-section .job-summary {
+  margin-bottom: 1.5rem;
+}
+
+.job-detail-section .job-summary {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.job-detail-section .job-summary .summary-item {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  color: #555;
+}
+
+.job-detail-section .job-summary .summary-item .summary-text {
+  margin: 0;
+  margin-left: 0.5rem;
+}
+
+.job-detail-section .job-details-card {
+  padding: 2rem;
+}
+
+.job-detail-section .job-details-card .section-title {
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+
+.job-detail-section .job-details-card .section-title .info-group {
+  margin-bottom: 1.5rem;
+}
+
+.job-detail-section .job-details-card .section-title .info-group .info-label {
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.job-detail-section .job-details-card .section-title .info-group .info-text {
+  font-size: 1rem;
+  color: #555;
+}
+
+.job-detail-section .job-details-card .section-title .info-group .info-link {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.job-detail-section
+  .job-details-card
+  .section-title
+  .info-group
+  .info-link:hover {
+  text-decoration: underline;
+}
+
+.job-detail-section .job-details-card .application-requirements {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.job-detail-section .job-details-card .application-requirements .requirement {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  color: #555;
+}
+
+.job-detail-section .job-details-card .application-requirements .requirement i {
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+.job-detail-section
+  .job-details-card
+  .application-requirements
+  .requirement
+  .requirement-text {
+  font-size: 1rem;
+}
+
+.job-detail-section
+  .job-details-card
+  .application-requirements
+  .requirement
+  .required {
+  color: #28a745;
+}
+
+.job-detail-section
+  .job-details-card
+  .application-requirements
+  .requirement
+  .not-required {
+  color: #dc3545;
+}
+
+/* -----------------------
+   Job List Section
+-------------------------*/
+.job-list-section {
+  padding: 20px;
+}
+
+.job-list-section .container {
+  max-width: 1200px;
+}
+
+.job-list-section .d-flex {
+  display: flex;
+  align-items: center;
+}
+
+.job-list-section .material-symbols-outlined {
+  font-size: 1.25rem;
+}
+
+/* -----------------------
+   Jobs Management Section
+-------------------------*/
+.jobs-management-section {
+  padding: 20px;
+}
+
+.jobs-management-section .container {
+  max-width: 1200px;
+}
+
+.jobs-management-section .card-title {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.jobs-management-section .d-flex {
+  display: flex;
+  align-items: center;
+}
+
+.jobs-management-section .material-symbols-outlined {
+  font-size: 1.25rem;
+}
+
+/* -----------------------
+      Matches Section
+-------------------------*/
+.matches-section {
+  padding: 20px;
+}
+
+.matches-section .container {
+  max-width: 1200px;
+}
+
+/* -----------------------
+   Porfolio Management Section
+-------------------------*/
+.portfolio-management-section {
+  padding: 20px;
+}
+
+.portfolio-management-section .container {
+  max-width: 1200px;
+}
+
+/* -----------------------
+  Portoflio Item Section
+-------------------------*/
+.portfolio-item-detail-section {
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  margin: 50px 0 100px 0;
+}
+
+.portfolio-item-detail-section .portfolio-item-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.portfolio-item-detail-section .portfolio-item-summary {
+  margin-bottom: 1.5rem;
+}
+
+.portfolio-item-detail-section .portfolio-item-summary .summary-item {
+  margin-bottom: 1.5rem;
+}
+
+.portfolio-item-detail-section
+  .portfolio-item-summary
+  .summary-item
+  .info-label {
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.portfolio-item-detail-section
+  .portfolio-item-summary
+  .summary-item
+  .info-text {
+  font-size: 1rem;
+  color: #555;
+}
+
+.portfolio-item-detail-section
+  .portfolio-item-summary
+  .summary-item
+  .info-link {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.portfolio-item-detail-section
+  .portfolio-item-summary
+  .summary-item
+  .info-link:hover {
+  text-decoration: underline;
+}
+
+/* -----------------------
+  Team Detail Section
+-------------------------*/
+.team-detail-section {
+  padding: 20px;
+}
+
+.team-detail-section .container {
+  padding: 20px;
+}
+
+.team-detail-sub-section {
+  margin-bottom: 25px;
+}
+
+/* -----------------------
+  Team List Section
+-------------------------*/
+.team-list-section {
+  padding: 20px;
+}
+
+.team-list-section .container {
+  max-width: 1200px;
+}
+
+.team-list-section .d-flex {
+  display: flex;
+  align-items: center;
+}
+
+/* -----------------------
+  Teams Management Section
+-------------------------*/
+.teams-management-section {
+  padding: 20px;
+}
+
+.teams-management-section .container {
+  max-width: 1200px;
+}
+
+.teams-management-section .d-flex {
+  display: flex;
+  align-items: center;
+}
+
+/* -----------------------
+  Team Card
+-------------------------*/
+.team-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s;
+}
+
+.team-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.team-card .card-title {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.team-card .card-text {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* -----------------------
+  User List Section
+-------------------------*/
+.user-list-section {
+  margin-top: 4rem;
+}
+
+.user-card {
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.user-card:hover {
+  transform: scale(1.05);
+}
+
+.user-card .card-img-top {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 20px auto 10px;
+  display: block;
+  border: 2px solid;
+}
+
+.user-card .card-body {
+  text-align: center;
+}
+
+.user-card .card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.user-card .badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 0.75rem;
+  padding: 0.3rem 0.6rem;
+  border-radius: 0.25rem;
+}
+
+.user-card .btn-light {
+  margin-top: 1rem;
+  color: #333;
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
+}
+
+.user-card .btn-light:hover {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+/* -----------------------
+  User Profile Section
+-------------------------*/
+.user-profile-section {
+  padding: 2rem;
+  margin: 50px 0 100px 0;
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.user-profile-section .container {
+  max-width: 1200px;
+}
+
+.user-profile-section .row {
+  margin-bottom: 1rem;
+}
+
+.user-profile-section .user-name {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.user-profile-section .badge {
+  font-size: 0.875rem;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+.user-profile-section .badge-warning {
+  background-color: #ffc107;
+  color: #212529;
+}
+
+.user-profile-section .badge-info {
+  background-color: #17a2b8;
+  color: #fff;
+}
+
+.user-profile-section .badge-light {
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+.user-profile-section .user-details-card {
+  padding: 1.5rem;
+  background-color: #f8f9fa;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.user-profile-section .user-details-card .profile-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.user-profile-section
+  .user-details-card
+  .profile-image-container
+  .user-profile-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid;
+}
+
+.user-profile-section .section-title {
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.user-profile-section .info-group {
+  margin-bottom: 1.5rem;
+}
+
+.user-profile-section .info-label {
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.user-profile-section .info-text {
+  font-size: 1rem;
+  color: #555;
+}
+
+.user-profile-section .list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+
+.user-profile-section .list-unstyled li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.user-profile-section .list-unstyled li:last-child {
+  border-bottom: none;
+}
+
+.user-profile-section .text-center {
+  text-align: center;
+}

@@ -1,0 +1,487 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#"
+     xml:base="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:ps="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski">
+        <dc:creator>Pawel Staszynski, Ali Momenzadeh Kholenjani</dc:creator>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#hasPizza -->
+
+    <owl:ObjectProperty rdf:about="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#hasPizza">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#hasTopping -->
+
+    <owl:ObjectProperty rdf:about="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#hasTopping">
+        <owl:inverseOf rdf:resource="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#isToppingOf"/>
+        <rdfs:domain rdf:resource="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#Pizza"/>
+        <rdfs:range rdf:resource="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#PizzaTopping"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#isToppingOf -->
+
+    <owl:ObjectProperty rdf:about="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#isToppingOf">
+        <rdfs:domain rdf:resource="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#Pizza"/>
+        <rdfs:range rdf:resource="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#PizzaTopping"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#sellsAlcohol -->
+
+    <owl:ObjectProperty rdf:about="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#sellsAlcohol">
+        <rdfs:domain rdf:resource="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#Venue"/>
+        <owl:propertyDisjointWith rdf:resource="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#doesn&apos;tsellAlcohol"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#doesn&apos;tsellAlcohol -->
+
+    <owl:ObjectProperty rdf:about="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#doesn&apos;tsellAlcohol">
+        <rdfs:domain rdf:resource="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#Venue"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#hasPostcode -->
+
+    <owl:DatatypeProperty rdf:about="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#hasPostcode">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#Location"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#hasValue -->
+
+    <owl:DatatypeProperty rdf:about="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#hasValue">
+        <rdfs:domain rdf:resource="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#Price"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#isCurrency -->
+
+    <owl:DatatypeProperty rdf:about="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#isCurrency">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#Price"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#AmericanRestaurant -->
+
+    <owl:Class rdf:about="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#AmericanRestaurant">
+        <rdfs:subClassOf rdf:resource="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#Venue"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#sellsAlcohol"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#AmericanRestaurant"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#Bacon -->
+
+    <owl:Class rdf:about="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#Bacon">
+        <rdfs:subClassOf rdf:resource="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#PizzaTopping"/>
+        <rdfs:comment xml:lang="pl">Boczek</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#Bar -->
+
+    <owl:Class rdf:about="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#Bar">
+        <rdfs:subClassOf rdf:resource="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#Venue"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#sellsAlcohol"/>
+                <owl:someValuesFrom rdf:resource="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#Bar"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Bar has to sell some alcohol. Kids are not allowed.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#CaliforniaPizza -->
+
+    <owl:Class rdf:about="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#CaliforniaPizza">
+        <rdfs:subClassOf rdf:resource="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#NamedPizza"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#hasTopping"/>
+                <owl:someValuesFrom rdf:resource="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#CheddarCheese"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#hasTopping"/>
+                <owl:someValuesFrom rdf:resource="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#Cheese"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#hasTopping"/>
+                <owl:someValuesFrom rdf:resource="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#Mushroom"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#hasTopping"/>
+                <owl:someValuesFrom rdf:resource="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#RomaTomatoes"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#hasTopping"/>
+                <owl:someValuesFrom rdf:resource="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#Spinach"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#hasTopping"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#ChickenBreast"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#HawaiianPizza"/>
+        <owl:disjointWith rdf:resource="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#PizzaDaAli"/>
+        <rdfs:comment>This is expensive pizza to make</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#CheddarCheese -->
+
+    <owl:Class rdf:about="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#CheddarCheese">
+        <rdfs:subClassOf rdf:resource="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#PizzaTopping"/>
+        <owl:disjointWith rdf:resource="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#Mozzarella"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#Cheese -->
+
+    <owl:Class rdf:about="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#Cheese">
+        <rdfs:subClassOf rdf:resource="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#PizzaTopping"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#ChickenBreast -->
+
+    <owl:Class rdf:about="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#ChickenBreast">
+        <rdfs:subClassOf rdf:resource="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#PizzaTopping"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#Food -->
+
+    <owl:Class rdf:about="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#Food"/>
+    
+
+
+    <!-- https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#FrenchRestaurant -->
+
+    <owl:Class rdf:about="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#FrenchRestaurant">
+        <rdfs:subClassOf rdf:resource="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#Venue"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#sellsAlcohol"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#FrenchRestaurant"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#Ham -->
+
+    <owl:Class rdf:about="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#Ham">
+        <rdfs:subClassOf rdf:resource="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#PizzaTopping"/>
+        <rdfs:comment xml:lang="pl">Szynka</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#HawaiianPizza -->
+
+    <owl:Class rdf:about="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#HawaiianPizza">
+        <rdfs:subClassOf rdf:resource="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#NamedPizza"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#hasTopping"/>
+                <owl:someValuesFrom rdf:resource="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#Ham"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#hasTopping"/>
+                <owl:someValuesFrom rdf:resource="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#Pineapple"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#hasTopping"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#Bacon"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#PizzaDaAli"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#ItalianRestaurant -->
+
+    <owl:Class rdf:about="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#ItalianRestaurant">
+        <rdfs:subClassOf rdf:resource="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#Venue"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#sellsAlcohol"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#ItalianRestaurant"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#Location -->
+
+    <owl:Class rdf:about="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#Location"/>
+    
+
+
+    <!-- https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#Mozzarella -->
+
+    <owl:Class rdf:about="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#Mozzarella">
+        <rdfs:subClassOf rdf:resource="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#PizzaTopping"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#Mushroom -->
+
+    <owl:Class rdf:about="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#Mushroom">
+        <rdfs:subClassOf rdf:resource="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#PizzaTopping"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#NamedPizza -->
+
+    <owl:Class rdf:about="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#NamedPizza">
+        <rdfs:subClassOf rdf:resource="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#Pizza"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#Pineapple -->
+
+    <owl:Class rdf:about="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#Pineapple">
+        <rdfs:subClassOf rdf:resource="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#PizzaTopping"/>
+        <owl:disjointWith rdf:resource="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#Spinach"/>
+        <rdfs:comment>Canned or fresh.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#Pizza -->
+
+    <owl:Class rdf:about="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#Pizza">
+        <rdfs:subClassOf rdf:resource="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#Food"/>
+        <owl:disjointWith rdf:resource="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#PizzaTopping"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#PizzaDaAli -->
+
+    <owl:Class rdf:about="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#PizzaDaAli">
+        <rdfs:subClassOf rdf:resource="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#NamedPizza"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#hasTopping"/>
+                <owl:someValuesFrom rdf:resource="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#Bacon"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#hasTopping"/>
+                <owl:someValuesFrom rdf:resource="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#Cheese"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#hasTopping"/>
+                <owl:someValuesFrom rdf:resource="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#Mushroom"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#PizzaPlace -->
+
+    <owl:Class rdf:about="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#PizzaPlace">
+        <rdfs:subClassOf rdf:resource="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#Venue"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#doesn&apos;tsellAlcohol"/>
+                <owl:allValuesFrom rdf:resource="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#PizzaPlace"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#PizzaTopping -->
+
+    <owl:Class rdf:about="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#PizzaTopping">
+        <rdfs:subClassOf rdf:resource="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#Food"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#PizzeriaDaAli -->
+
+    <owl:Class rdf:about="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#PizzeriaDaAli">
+        <rdfs:subClassOf rdf:resource="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#Venue"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#hasPizza"/>
+                <owl:someValuesFrom rdf:resource="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#PizzaDaAli"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#sellsAlcohol"/>
+                <owl:someValuesFrom rdf:resource="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#PizzeriaDaAli"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#Price -->
+
+    <owl:Class rdf:about="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#Price"/>
+    
+
+
+    <!-- https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#Restaurant -->
+
+    <owl:Class rdf:about="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#Restaurant">
+        <rdfs:subClassOf rdf:resource="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#Venue"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#sellsAlcohol"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#Restaurant"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#RomaTomatoes -->
+
+    <owl:Class rdf:about="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#RomaTomatoes">
+        <rdfs:subClassOf rdf:resource="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#PizzaTopping"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#Spinach -->
+
+    <owl:Class rdf:about="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#Spinach">
+        <rdfs:subClassOf rdf:resource="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#PizzaTopping"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#Venue -->
+
+    <owl:Class rdf:about="https://www.city.ac.uk/inm713-in3067/2024/pawel_staszynski#Venue"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+

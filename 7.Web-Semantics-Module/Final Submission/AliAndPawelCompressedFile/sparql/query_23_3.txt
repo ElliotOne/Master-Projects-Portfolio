@@ -1,0 +1,20 @@
+PREFIX cw: <http://www.semanticweb.org/city/in3067-inm713/2024/restaurants#>
+
+SELECT ?restaurantName ?pizza ?ingredient
+WHERE {
+  {
+    ?pizza rdf:type cw:Pizza .
+    ?pizza cw:servedIn ?restaurant .
+    ?restaurant cw:restaurantName ?restaurantName .
+    ?pizza cw:hasIngredient ?ingredient .
+    FILTER (?ingredient = cw:Fig || ?ingredient = cw:Pineapple)
+  }
+  UNION
+  {
+    ?pizza rdf:type cw:Pizza .
+    ?pizza cw:servedIn ?restaurant .
+    ?restaurant cw:restaurantName ?restaurantName .
+    ?pizza cw:hasIngredient ?ingredient .
+    FILTER (?ingredient = cw:Olives)
+  }
+}

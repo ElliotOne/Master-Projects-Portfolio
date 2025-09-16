@@ -1,0 +1,52 @@
+﻿@model CoStudyCloud.Core.ViewModels.ErrorViewModel
+@{
+    ViewData["Title"] = "Error";
+
+    string errorMessage = string.Empty;
+
+    switch (Model.ErrorCode)
+    {
+        case 400:
+            errorMessage = "Your request is cannot be processed.";
+            break;
+
+        case 401:
+            errorMessage = "You are not allowed to view this page.";
+            break;
+
+        case 403:
+            errorMessage = "You are not allowed to view this page.";
+            break;
+
+        case 404:
+            errorMessage = "The page you were looking for does not exist.";
+            break;
+
+        case 408:
+            errorMessage = "Your request time is out.";
+            break;
+
+        case 500:
+            errorMessage = "There was an error on the server.";
+            break;
+
+        default:
+            errorMessage = "There was an error in the website.";
+            break;
+    }
+}
+
+<section class="error-section">
+    <div class="row justify-content-center">
+        <div class="col-12 mb-5">
+            <div class="section-title text-center">
+                <h2 class="text-danger">Error</h2>
+            </div>
+        </div>
+        <div class="col-lg-6 col-md-8 col-sm-12 col-12">
+            <p class="text-center">
+                @errorMessage
+            </p>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,99 @@
+const True = 1
+const False = 0
+range B = False..True
+range N = 1..2 //1=Hatfields, 2=McCoys
+
+CLAN = (raiseFlag -> checkFlag -> visit -> water -> leave -> lowerFlag -> CLAN). 
+
+RIVER = RIVER[False][False][1], // initially no flag is raised, and the hatfields has the turn
+RIVER[hatFlag:B][mcFlag:B][turn:N] =
+	(
+		hatfields.raiseFlag -> RIVER[True][False][2]
+		|hatfields.checkFlag->
+			(
+				when(!mcFlag || turn==1)
+        			hatfields.visit -> hatfields.leave -> hatfields.lowerFlag -> RIVER[False][False][turn]
+			)
+		
+		|mcCoys.raiseFlag -> RIVER[False][True][1]
+		|mcCoys.checkFlag->
+			(
+				when(!hatFlag || turn==2)
+        			mcCoys.visit -> mcCoys.leave -> mcCoys.lowerFlag -> RIVER[False][False][turn]
+			)
+    ).
+
+property NOCARNAGE =
+    (
+	hatfields.visit -> hatfields.leave -> NOCARNAGE
+    |mcCoys.visit -> mcCoys.leave -> NOCARNAGE
+    ).
+
+progress HATFIELDSVISIT = {hatfields.visit}
+progress MCCOYSVISIT = {mcCoys.visit}
+
+||SafeRiver = (hatfields:CLAN || mcCoys:CLAN || RIVER || NOCARNAGE) /*<< {hatfields.raiseFlag}*/.
+
+/*
+	Q6.d: The "NOCARNAGE" safety property from Question 3 is fully met in this updated model.
+
+	Q6.e: In the current model, a turn indicator mechanism is being used, and the progress criteria from
+	Question 5 (HATFIELDSVISIT and MCCOYSVISIT) are fully met whether the clans are acting greedily or not.
+	To model the greedy scenario, the commented "<< {hatfields.raiseFlag}" part should be reinstated.
+*/
+
+
+/*
+	**! SECOND SOLUTION !**
+
+	Regarding the explanation provided for Question 6, it suggests the possibility of employing a turn indicator process,
+	as opposed to managing this aspect through a river-associated variable. Consequently, a second solution was devised wherein
+	the TURN process is utilized for expressing turn indications. Again, both the safety property and progress criteria are satisfied.
+	It is pertinent to note that the implemented Java code, in Question 7, exclusively mirrors the instantiation of the first solution.
+	This choice was motivated by the solution's comparatively straightforward implementation and reduced susceptibility to errors.
+*/
+
+/*
+
+const True = 1
+const False = 0
+range B = False..True
+range N = 1..2 //1=Hatfields, 2=McCoys
+
+CLAN = (raiseFlag -> checkFlag -> visit -> water -> leave -> lowerFlag -> CLAN). 
+
+TURN = TURN[1], //initially the hatfields has the turn
+TURN[u:N] = (getTurn[u]->TURN[u] 
+            |setTurn[v:N]->TURN[v]).
+
+RIVER = RIVER[False][False], //initially no flag is raised
+RIVER[hatFlag:B][mcFlag:B] =
+	(
+		hatfields.raiseFlag -> turn.setTurn[2] -> RIVER[True][False]
+		|hatfields.checkFlag -> turn.getTurn[t:N] ->
+			(
+				when(!mcFlag || t==1)
+        			hatfields.visit -> hatfields.leave -> hatfields.lowerFlag -> RIVER[False][False]
+			)
+		
+		|mcCoys.raiseFlag -> turn.setTurn[1] -> RIVER[False][True]
+		|mcCoys.checkFlag -> turn.getTurn[t:N] ->
+			(
+				when(!hatFlag || t==2)
+        			mcCoys.visit -> mcCoys.leave -> mcCoys.lowerFlag -> RIVER[False][False]
+			)
+    ).
+
+property NOCARNAGE =
+    (
+	hatfields.visit -> hatfields.leave -> NOCARNAGE
+    |mcCoys.visit -> mcCoys.leave -> NOCARNAGE
+    ).
+
+progress HATFIELDSVISIT = {hatfields.visit}
+progress MCCOYSVISIT = {mcCoys.visit}
+
+||SafeRiver = (hatfields:CLAN || mcCoys:CLAN || RIVER || NOCARNAGE || turn:TURN).
+
+*/
+

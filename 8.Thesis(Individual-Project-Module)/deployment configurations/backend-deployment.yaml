@@ -1,0 +1,77 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: backend-app
+  labels:
+    app: backend-app
+spec:
+  replicas: 1 # Number of application instances to run
+  selector:
+    matchLabels:
+      app: backend-app
+  template:
+    metadata:
+      labels:
+        app: backend-app
+    spec:
+      nodeSelector:
+        agentpool: userpool # Ensures deployment to the userpool
+      tolerations:
+      - key: "kubernetes.azure.com/scalesetpriority"
+        operator: "Equal"
+        value: "spot"
+        effect: "NoSchedule"
+      containers:
+        - name: backend-app
+          image: # Docker image and tag to be deployed
+          ports:
+            - containerPort: 8080 # Port exposed by the application (defined in Dockerfile)
+            - containerPort: 8081 # Another port exposed by the application (defined in Dockerfile)
+          env:
+            # JWT configuration settings
+            - name: JwtSettings__SecretKey
+              value: ""
+            - name: JwtSettings__Issuer
+              value: ""
+            - name: JwtSettings__ExpiresInHours
+              value: "6"
+            - name: JwtSettings__Audience
+              value: ""
+            
+            # Email configuration settings
+            - name: EmailSettings__Username
+              value: ""
+            - name: EmailSettings__SmtpPort
+              value: "587"
+            - name: EmailSettings__SmtpHost
+              value: "smtp.gmail.com"
+            - name: EmailSettings__Password
+              value: ""
+
+            # CORS settings
+            - name: CorsSettings__AllowedOrigins__0
+              value: ""
+            - name: CorsSettings__AllowedOrigins__1
+              value: "https://accounts.google.com"
+            
+            # Database connection settings
+            - name: ConnectionStrings__DefaultConnection
+              value: ""
+            
+            # Azure Blob Storage settings
+            - name: BlobStorage__ConnectionString
+              value: ""
+            
+            # Google Authentication settings
+            - name: Authentication__Google__ClientSecret
+              value: ""
+            - name: Authentication__Google__ClientId
+              value: ""
+           
+           # Kestrel Certificate Password for local development
+            - name: Kestrel__Certificates__Development__Password
+              value: ""
+
+           # Confirm Email Redirect URL setting
+            - name: ConfirmEmailRedirectUrl
+              value: ""

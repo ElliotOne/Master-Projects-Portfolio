@@ -1,0 +1,503 @@
+name,address,city,country,postcode,state,categories,menu item,item value,currency,item description
+Little Pizza Paradise,Cascade Village Mall Across From Target,Bend,US,97701,OR,Pizza Place,Bianca Pizza,22.5,USD,
+Little Pizza Paradise,Cascade Village Mall Across From Target,Bend,US,97701,OR,Pizza Place,Cheese Pizza,18.95,USD,
+The Brentwood,148 S Barrington Ave,Los Angeles,US,90049,Brentwood,"American Restaurant,Bar,Bakery","Pizza, Margherita",12,USD,
+The Brentwood,148 S Barrington Ave,Los Angeles,US,90049,Brentwood,"American Restaurant,Bar,Bakery","Pizza, Mushroom",13,USD,
+The Brentwood,148 S Barrington Ave,Los Angeles,US,90049,Brentwood,"American Restaurant,Bar,Bakery","Pizza, Puttenesca",13,USD,"Olives, onions, capers, tomatoes"
+The Brentwood,148 S Barrington Ave,Los Angeles,US,90049,Brentwood,"American Restaurant,Bar,Bakery","Pizza, Salami Piccante",15,USD,
+The Brentwood,148 S Barrington Ave,Los Angeles,US,90049,Brentwood,"American Restaurant,Bar,Bakery","Pizza, White Truffle Meat Sauce",15,USD,
+Bravo Pizza Hollywood,5142 Hollywood Blvd,Los Angeles,US,90027,Los Feliz,Pizza Place,Cheese Pizza,10.99,USD,Choose a pizza size.
+Bravo Pizza Hollywood,5142 Hollywood Blvd,Los Angeles,US,90027,Los Feliz,Pizza Place,Hawaiian Pizza,11.99,USD,"Canadian bacon, pineapple."
+Bravo Pizza Hollywood,5142 Hollywood Blvd,Los Angeles,US,90027,Los Feliz,Pizza Place,Meat Lover Pizza,16.99,USD,
+Bravo Pizza Hollywood,5142 Hollywood Blvd,Los Angeles,US,90027,Los Feliz,Pizza Place,Pizza Sub,5.99,USD,
+Bravo Pizza Hollywood,5142 Hollywood Blvd,Los Angeles,US,90027,Los Feliz,Pizza Place,Super Pizza Sub,5.99,USD,
+Bravo Pizza Hollywood,5142 Hollywood Blvd,Los Angeles,US,90027,Los Feliz,Pizza Place,Veggie Pizza,16.99,USD,
+Lucky's Pub,801 Saint Emanuel St,Houston,US,77003,TX,"Bar,Beer Garden,Sports Bar,Sports Bar, Bar, and Beer Garden",Create Your Own Pizza,9.95,USD,Choose any of your own toppings to make it your own
+Roadhouse Cafe,478 South St,Hyannis,US,2601,MA,"American Restaurant, Seafood Restaurant, and French Restaurant",Cheese Pizza,8.95,USD,
+Roadhouse Cafe,478 South St,Hyannis,US,2601,MA,"American Restaurant, Seafood Restaurant, and French Restaurant",Pepperoni Pizza,10.95,USD,
+Brigham Young University,1 N University Hl,Provo,US,84602,UT,"University,University University",House Made Pizza,,,
+Brigham Young University,1 N University Hl,Provo,US,84602,UT,"University,University University",Mexican Pizza Dip,19.95,USD,Seven layer bean dip
+Brigham Young University,1 N University Hl,Provo,US,84602,UT,"University,University University",Pepperoni Pizza,,,1 each (324.00 g)
+Brigham Young University,1 N University Hl,Provo,US,84602,UT,"University,University University",Pizza Bagel,,,1 each (149.18 g)
+Luke's Locker,9595 Six Pines Dr,Spring,US,77380,TX,"Sporting Goods Shop,Shoe Store,Sporting Goods Shop and Shoe Store Town Center,Sporting Goods Shop and Shoe Store,Sportswear,Shoe Stores,Running Stores,Clothing Stores,Sporting Goods",Pizza Con Uovo Fritto,,,
+Francesca's On Chestnut,200 E Chestnut St,Chicago,US,60611,Ontario Street,"Italian Restaurant,Restaurant,Italian Restaurant Streeterville",Pizza Margherita,10.99,USD,
+Francesca's On Chestnut,200 E Chestnut St,Chicago,US,60611,Ontario Street,"Italian Restaurant,Restaurant,Italian Restaurant Streeterville",Pizza Margherita,10.99,USD,
+Francesca's On Chestnut,200 E Chestnut St,Chicago,US,60611,Ontario Street,"Italian Restaurant,Restaurant,Italian Restaurant Streeterville",Pizza Schiacchiata Alla Toscana,,,
+Francesca's On Chestnut,200 E Chestnut St,Chicago,US,60611,Ontario Street,"Italian Restaurant,Restaurant,Italian Restaurant Streeterville",Pizza Schiacchiata Alla Toscana,,,
+Country Bagel Bakery,145 E Gay St,West Chester,US,,PA,"Bagels,Bakeries,Restaurants,Restaurant,Breakfast Brunch & Lunch Restaurants,,Bagel Shop,Breakfast Spot,Coffee Shop",Pizza Bagel,,USD,with pepperoni
+Country Bagel Bakery,145 E Gay St,West Chester,US,,PA,"Bagels,Bakeries,Restaurants,Restaurant,Breakfast Brunch & Lunch Restaurants,,Bagel Shop,Breakfast Spot,Coffee Shop",Pizza Bagel,,USD,with mushroom
+Country Bagel Bakery,145 E Gay St,West Chester,US,,PA,"Bagels,Bakeries,Restaurants,Restaurant,Breakfast Brunch & Lunch Restaurants,,Bagel Shop,Breakfast Spot,Coffee Shop",Pizza Bagel,,USD,with pepperoni & mushroom
+Country Bagel Bakery,145 E Gay St,West Chester,US,,PA,"Bagels,Bakeries,Restaurants,Restaurant,Breakfast Brunch & Lunch Restaurants,,Bagel Shop,Breakfast Spot,Coffee Shop",Pizza Bagel (plain),2.59,USD,
+Country Bagel Bakery,145 E Gay St,West Chester,US,,PA,"Bagels,Bakeries,Restaurants,Restaurant,Breakfast Brunch & Lunch Restaurants,,Bagel Shop,Breakfast Spot,Coffee Shop",Pizza Bagel With Mushroom,3.29,USD,
+Country Bagel Bakery,145 E Gay St,West Chester,US,,PA,"Bagels,Bakeries,Restaurants,Restaurant,Breakfast Brunch & Lunch Restaurants,,Bagel Shop,Breakfast Spot,Coffee Shop",Pizza Bagel With Pepperoni,3.29,USD,
+Country Bagel Bakery,145 E Gay St,West Chester,US,19380,PA,"Bagels,Bakeries,Restaurants,Restaurant,Breakfast Brunch & Lunch Restaurants,,Bagel Shop,Breakfast Spot,Coffee Shop",Pizza Bagel With Pepperoni and Mushroom,3.59,USD,
+Buca Di Beppo - San Jose - Oakridge,925 Blossom Hill Road Oakridge Mall,San Jose,US,95123,CA,Restaurant,Pizza Con Formaggio,,,
+Giovanni's Pizza and Pasta,26900 Newport Rd,Menifee,US,92584,CA,"Italian Restaurant,Pizza Place,Take Out Restaurants,Restaurants,Italian Restaurant and Pizza Place,Pizza,doctor",Bbq Chicken Pizza,8.99,USD,"BBQ Sauce, Mozzarella Cheese, diced Chicken Breast, Onions"
+Giovanni's Pizza and Pasta,26900 Newport Rd,Menifee,US,92584,CA,"Italian Restaurant,Pizza Place,Take Out Restaurants,Restaurants,Italian Restaurant and Pizza Place,Pizza,doctor",Breakfast Pizza,8.99,USD,
+Giovanni's Pizza and Pasta,26900 Newport Rd,Menifee,US,92584,CA,"Italian Restaurant,Pizza Place,Take Out Restaurants,Restaurants,Italian Restaurant and Pizza Place,Pizza,doctor",Cadillac Pizza,8.99,USD,
+Giovanni's Pizza and Pasta,26900 Newport Rd,Menifee,US,92584,CA,"Italian Restaurant,Pizza Place,Take Out Restaurants,Restaurants,Italian Restaurant and Pizza Place,Pizza,doctor",Hawaiin Pizza,8.99,USD,
+Giovanni's Pizza and Pasta,26900 Newport Rd,Menifee,US,92584,CA,"Italian Restaurant,Pizza Place,Take Out Restaurants,Restaurants,Italian Restaurant and Pizza Place,Pizza,doctor",Pesto Chicken Pizza,8.99,USD,
+Giovanni's Pizza and Pasta,26900 Newport Rd,Menifee,US,92584,CA,"Italian Restaurant,Pizza Place,Take Out Restaurants,Restaurants,Italian Restaurant and Pizza Place,Pizza,doctor",Pizza Bread,4.59,USD,
+Giovanni's Pizza and Pasta,26900 Newport Rd,Menifee,US,92584,CA,"Italian Restaurant,Pizza Place,Take Out Restaurants,Restaurants,Italian Restaurant and Pizza Place,Pizza,doctor",Southwest Pizza,8.99,USD,
+Giovanni's Pizza and Pasta,26900 Newport Rd,Menifee,US,92584,CA,"Italian Restaurant,Pizza Place,Take Out Restaurants,Restaurants,Italian Restaurant and Pizza Place,Pizza,doctor",Thai Chicken Pizza,8.99,USD,
+Giovanni's Pizza and Pasta,26900 Newport Rd,Menifee,US,92584,CA,"Italian Restaurant,Pizza Place,Take Out Restaurants,Restaurants,Italian Restaurant and Pizza Place,Pizza,doctor",Vegetarian Pizza,8.99,USD,
+Uncle John's Pizza,3480 S Carrier Pkwy,Grand Prairie,US,75052,TX,"Restaurants,Pizza Place Southwest Dallas,Pizza Place",Bbq Pizza,,,
+Uncle John's Pizza,3480 S Carrier Pkwy,Grand Prairie,US,75052,TX,"Restaurants,Pizza Place Southwest Dallas,Pizza Place",Create Your Own Pizza,,,
+Philly's Subs,2111 Stewart Ave,Wausau,US,54401,WI,Sandwich Place,Pizza,4.99,USD,"Pepperoni, marinara, garlic, seasoning and parmesan cheese"
+Satsuma,1707 Delaware Ave,Wilmington,US,19806,DE,"Asian Restaurant,Asian Restaurant Forty Acres",Tuna Pizza,12,USD,
+Satsuma,1707 Delaware Ave,Wilmington,US,19806,DE,"Asian Restaurant,Asian Restaurant Forty Acres",Tuna Pizza,12,USD,
+Gatehouse Restaurant,116 Ann St,Pickens,US,29671,SC,"Family Style Restaurants,Restaurants,Restaurant",Small Pepperoni or Cheese Pizza,2.99,USD,
+Imo's Pizza,2000 El Lago Dr,Arnold,US,63010,MO,"Pizza,Delicatessens,Take Out Restaurants,Restaurants,Pizza Place",Bbq Chicken Pizza,,,
+Imo's Pizza,2000 El Lago Dr,Arnold,US,63010,MO,"Pizza,Delicatessens,Take Out Restaurants,Restaurants,Pizza Place",Cheese Pizza,,,
+Imo's Pizza,2000 El Lago Dr,Arnold,US,63010,MO,"Pizza,Delicatessens,Take Out Restaurants,Restaurants,Pizza Place",Deluxe Pizza,,,
+Imo's Pizza,2000 El Lago Dr,Arnold,US,63010,MO,"Pizza,Delicatessens,Take Out Restaurants,Restaurants,Pizza Place",Meat Pizza,,,
+Imo's Pizza,2000 El Lago Dr,Arnold,US,63010,MO,"Pizza,Delicatessens,Take Out Restaurants,Restaurants,Pizza Place",Vegetable Pizza,,,
+Applebee's Tracy,3060 Naglee Rd,Tracy,US,95304,CA,American Restaurant,Cheesy Bread Pizza (full),,,
+Little Caesars Pizza,2619 Red Bluff Kroger Jct,Pasadena,US,77506,TX,Pizza Place,3 Meat Treat Pizza,8,USD,"Our original round pizza topped with pepperoni, sausage and bacon."
+Little Caesars Pizza,2619 Red Bluff Kroger Jct,Pasadena,US,77506,TX,Pizza Place,Deep Dish Pizza,7,USD,
+Little Caesars Pizza,2619 Red Bluff Kroger Jct,Pasadena,US,77506,TX,Pizza Place,Ultimate Supreme Pizza,9,USD,"Our original round pizza topped with pepperoni, Italian sausage, mushroom, onion, and green pepper."
+Joey's N Y Pizza,11165 S Eastern Ave,Henderson,US,89052,NV,"Pizza Place,Pizza,Take Out Restaurants,Caterers,Italian Restaurants,Restaurants",Garden Pizza,19.99,USD,"Broccoli, spinach, peppers and mushrooms"
+Joey's N Y Pizza,11165 S Eastern Ave,Henderson,US,89052,NV,"Pizza Place,Pizza,Take Out Restaurants,Caterers,Italian Restaurants,Restaurants",Margarita Pizza,18.99,USD,
+Joey's N Y Pizza,11165 S Eastern Ave,Henderson,US,89052,NV,"Pizza Place,Pizza,Take Out Restaurants,Caterers,Italian Restaurants,Restaurants",Supreme Pizza,21.99,USD,"Sausage, pepperoni, meatballs, peppers, onions, black olives, mushrooms"
+Joey's N Y Pizza,11165 S Eastern Ave,Henderson,US,89052,NV,"Pizza Place,Pizza,Take Out Restaurants,Caterers,Italian Restaurants,Restaurants",White Pizza,16.99,USD,"Fresh mozzarella, fresh parmesan and fresh garlic"
+Keyme,21100 91st Pl S,Kent,US,98031,WA,"Keymakers,Locks & Locksmiths",Pizza Toppings,1.75,USD,"Italian pepperoni, hot italian sausage, fresh ground western beef, cob smoked bacon, marinated chicken breast, new england baked ham anchovy filets, fresh plum tomatoes, freshly cut broccoli, fresh white mushrooms, fresh green spinach, freshly sliced eggplant, freshly sliced red onions, freshly sliced green peppers, marinated sun dried tomatoes, sliced jalapeno peppers, roasted red peppers, freshly chopped garlic, california black olives, sweet hawaiian pineapple, marinated artichoke hearts, scrambled eggs new, italian gorgonzola cheese, greek feta cheese, vegan soy cheese, grated parmesan cheese, flavorful four cheese blend"
+Tower Hill Tavern,264 Lakeside Ave,Laconia,US,3246,Weirs Beach,"Restaurants,Bars & Pubs",Pizza,15,USD,
+Brio Tuscan Grille - Southlake - Southlake Town Square,1431 Plaza Pl,Southlake,US,76092,TX,Restaurant,Sausage Onion Jam Pizza,8.95,USD,"Boursin, mozzarella, arugula, parmesan"
+Doubledave's Pizza Works,3505 A Longmire Dr,College Station,US,77845,TX,"Restaurant,Pizza Place",Cheese Pizza,13.99,USD,
+Doubledave's Pizza Works,3505 A Longmire Dr,College Station,US,77845,TX,"Restaurant,Pizza Place",Chocolate Chip Pizza,3.99,USD,
+Frank's Pizzeria,711 N 132nd St,Omaha,US,68154,NE,"Pizza Place,Take Out Restaurants,Restaurants,Pizza",B.l.t. Pizza,,,"Bacon , lettuce, tomato, mayo, ranch"
+Frank's Pizzeria,711 N 132nd St,Omaha,US,68154,NE,"Pizza Place,Take Out Restaurants,Restaurants,Pizza",Bbq Chicken Pizza,,,"Bbq sauce, chicken, red onions"
+Frank's Pizzeria,711 N 132nd St,Omaha,US,68154,NE,"Pizza Place,Take Out Restaurants,Restaurants,Pizza",Buffalo Chicken Pizza,,,"Hot sauce, chicken, ranch dressing,  blue cheese"
+Frank's Pizzeria,711 N 132nd St,Omaha,US,68154,NE,"Pizza Place,Take Out Restaurants,Restaurants,Pizza",Margherita Pizza,,,Fresh mozzarella and basil
+Frank's Pizzeria,711 N 132nd St,Omaha,US,68154,NE,"Pizza Place,Take Out Restaurants,Restaurants,Pizza",White Pizza,16.24,USD,"Mozzarella, ricotta, garlic, no sauce"
+Casino's Pizza,190 N Swift Rd,Addison,US,60101,IL,"Pizza Place,Restaurant",Cheese Pizzarito,6.7,USD,"Our backed light crust, stuffed and folded with our freshest ingredients, basted with garlic butter, sprinkled with romano cheese and parsley"
+Casino's Pizza,190 N Swift Rd,Addison,US,60101,IL,"Pizza Place,Restaurant",Pizza Slices,2.76,USD,Served all day
+Glutenfree Things,11651 W 64th Ave,Arvada,US,80004,CO,"Bakery,Bakery Restaurants,Food Products Retail,Variety Stores,Organic Foods & Products,Bakeries,Restaurant,Bakery Northwest Arvada",Pizza Dough Balls,7.99,USD,
+Glutenfree Things,11651 W 64th Ave,Arvada,US,80004,CO,"Bakery,Bakery Restaurants,Food Products Retail,Variety Stores,Organic Foods & Products,Bakeries,Restaurant,Bakery Northwest Arvada",Pizza Dough Flats,7.99,USD,
+Mediterraneo Ristorante,22 Englar Rd,Westminster,US,21157,MD,Italian Restaurant,Margherita Pizza,15.95,USD,
+Patrick Molloy's Sports Pub,50a,Hermosa Beach,US,90254,CA,"Pub,Sports Bar",Build Your Own Pizza,9.75,USD,
+Patrick Molloy's Sports Pub,50a,Hermosa Beach,US,90254,CA,"Pub,Sports Bar",Build Your Own Pizza,11.5,USD,
+Patrick Molloy's Sports Pub,50a,Hermosa Beach,US,90254,CA,"Pub,Sports Bar",Cheese Pizza,3,USD,
+Salerno's Pizza Restaurant,19 Kelly St,Luzerne,US,18709,PA,"Pizza Place,Take Out Restaurants,Restaurants,Italian Restaurants,Pizza",Chicken Wing Pizza,13.95,USD,Mild or hot
+Salerno's Pizza Restaurant,19 Kelly St,Luzerne,US,18709,PA,"Pizza Place,Take Out Restaurants,Restaurants,Italian Restaurants,Pizza",Neapolitan Style Pizza,9.95,USD,
+Nino's Trattoria & Pizzeria,111 Lawrence Rd,Lawrence Township,US,8648,Lawrenceville,"Pizza Place,Italian Restaurant,Restaurants,Pizza Place and Italian Restaurant",Blt Pizza,19.95,USD,
+Nino's Trattoria & Pizzeria,111 Lawrence Rd,Lawrence Township,US,8648,Lawrenceville,"Pizza Place,Italian Restaurant,Restaurants,Pizza Place and Italian Restaurant",Cheese Pizza,11.95,USD,
+Nino's Trattoria & Pizzeria,111 Lawrence Rd,Lawrence Township,US,8648,Lawrenceville,"Pizza Place,Italian Restaurant,Restaurants,Pizza Place and Italian Restaurant",Cheese Pizza,11.95,USD,Classic cheese or create your own pizza.
+Nino's Trattoria & Pizzeria,111 Lawrence Rd,Lawrence Township,US,8648,Lawrenceville,"Pizza Place,Italian Restaurant,Restaurants,Pizza Place and Italian Restaurant",Cheese Pizza Slice,2,USD,
+Nino's Trattoria & Pizzeria,111 Lawrence Rd,Lawrence Township,US,8648,Lawrenceville,"Pizza Place,Italian Restaurant,Restaurants,Pizza Place and Italian Restaurant",Cheesesteak Stuffed Cheese Pizza,22.95,USD,
+Nino's Trattoria & Pizzeria,111 Lawrence Rd,Lawrence Township,US,8648,Lawrenceville,"Pizza Place,Italian Restaurant,Restaurants,Pizza Place and Italian Restaurant",Cheesesteak Stuffed Cheese Pizza,22.95,USD,With beef or chicken in double crust pizza.
+Nino's Trattoria & Pizzeria,111 Lawrence Rd,Lawrence Township,US,8648,Lawrenceville,"Pizza Place,Italian Restaurant,Restaurants,Pizza Place and Italian Restaurant",Chicken Alfredo Pizza,19.95,USD,
+Nino's Trattoria & Pizzeria,111 Lawrence Rd,Lawrence Township,US,8648,Lawrenceville,"Pizza Place,Italian Restaurant,Restaurants,Pizza Place and Italian Restaurant",Chicken Parmigiana Pizza,19.95,USD,
+Nino's Trattoria & Pizzeria,111 Lawrence Rd,Lawrence Township,US,8648,Lawrenceville,"Pizza Place,Italian Restaurant,Restaurants,Pizza Place and Italian Restaurant",Chicken Wing Pizza,19.95,USD,
+Nino's Trattoria & Pizzeria,111 Lawrence Rd,Lawrence Township,US,8648,Lawrenceville,"Pizza Place,Italian Restaurant,Restaurants,Pizza Place and Italian Restaurant",Chicken Wing Pizza,19.95,USD,"Hot sauce, celery, grilled chicken and bleu cheese."
+Nino's Trattoria & Pizzeria,111 Lawrence Rd,Lawrence Township,US,8648,Lawrenceville,"Pizza Place,Italian Restaurant,Restaurants,Pizza Place and Italian Restaurant",Margherita Pizza,15.95,USD,
+Nino's Trattoria & Pizzeria,111 Lawrence Rd,Lawrence Township,US,8648,Lawrenceville,"Pizza Place,Italian Restaurant,Restaurants,Pizza Place and Italian Restaurant",Margherita Pizza,15.95,USD,Brooklyn style. Square thick pan pizza.
+Nino's Trattoria & Pizzeria,111 Lawrence Rd,Lawrence Township,US,8648,Lawrenceville,"Pizza Place,Italian Restaurant,Restaurants,Pizza Place and Italian Restaurant",Old Fashion Pizza,15.95,USD,
+Nino's Trattoria & Pizzeria,111 Lawrence Rd,Lawrence Township,US,8648,Lawrenceville,"Pizza Place,Italian Restaurant,Restaurants,Pizza Place and Italian Restaurant",Old Fashion Pizza,15.95,USD,No cheese on it. Square thick pan pizza.
+Nino's Trattoria & Pizzeria,111 Lawrence Rd,Lawrence Township,US,8648,Lawrenceville,"Pizza Place,Italian Restaurant,Restaurants,Pizza Place and Italian Restaurant",Old Fashion Tomato Pizza,12.95,USD,
+Nino's Trattoria & Pizzeria,111 Lawrence Rd,Lawrence Township,US,8648,Lawrenceville,"Pizza Place,Italian Restaurant,Restaurants,Pizza Place and Italian Restaurant",Old Fashion Tomato Pizza,12.95,USD,No cheese.
+Nino's Trattoria & Pizzeria,111 Lawrence Rd,Lawrence Township,US,8648,Lawrenceville,"Pizza Place,Italian Restaurant,Restaurants,Pizza Place and Italian Restaurant",Pizza Fries,4.25,USD,
+Nino's Trattoria & Pizzeria,111 Lawrence Rd,Lawrence Township,US,8648,Lawrenceville,"Pizza Place,Italian Restaurant,Restaurants,Pizza Place and Italian Restaurant",Pizza Steak Sub,7.25,USD,
+Nino's Trattoria & Pizzeria,111 Lawrence Rd,Lawrence Township,US,8648,Lawrenceville,"Pizza Place,Italian Restaurant,Restaurants,Pizza Place and Italian Restaurant",Rancher Pizza,19.95,USD,
+Nino's Trattoria & Pizzeria,111 Lawrence Rd,Lawrence Township,US,8648,Lawrenceville,"Pizza Place,Italian Restaurant,Restaurants,Pizza Place and Italian Restaurant",Rancher Pizza,19.95,USD,"Bacon, chicken, green peppers, chopped tomatoes and cheddar cheese."
+Nino's Trattoria & Pizzeria,111 Lawrence Rd,Lawrence Township,US,8648,Lawrenceville,"Pizza Place,Italian Restaurant,Restaurants,Pizza Place and Italian Restaurant",Sicilian Pizza,15.95,USD,
+Nino's Trattoria & Pizzeria,111 Lawrence Rd,Lawrence Township,US,8648,Lawrenceville,"Pizza Place,Italian Restaurant,Restaurants,Pizza Place and Italian Restaurant",Sicilian Pizza,15.95,USD,Classic cheese or create your own square thick pan sicilian pizza.
+Nino's Trattoria & Pizzeria,111 Lawrence Rd,Lawrence Township,US,8648,Lawrenceville,"Pizza Place,Italian Restaurant,Restaurants,Pizza Place and Italian Restaurant",Taco Pizza,19.95,USD,
+Nino's Trattoria & Pizzeria,111 Lawrence Rd,Lawrence Township,US,8648,Lawrenceville,"Pizza Place,Italian Restaurant,Restaurants,Pizza Place and Italian Restaurant",Taco Pizza,19.95,USD,"Lettuce, tomatoes, ground beef and cheddar cheese."
+Nino's Trattoria & Pizzeria,111 Lawrence Rd,Lawrence Township,US,8648,Lawrenceville,"Pizza Place,Italian Restaurant,Restaurants,Pizza Place and Italian Restaurant",Trenton Tomato Pizza,14.95,USD,
+Nino's Trattoria & Pizzeria,111 Lawrence Rd,Lawrence Township,US,8648,Lawrenceville,"Pizza Place,Italian Restaurant,Restaurants,Pizza Place and Italian Restaurant",Trenton Tomato Pizza,14.95,USD,"Cheese on bottom, plum tomatoes on top."
+Nino's Trattoria & Pizzeria,111 Lawrence Rd,Lawrence Township,US,8648,Lawrenceville,"Pizza Place,Italian Restaurant,Restaurants,Pizza Place and Italian Restaurant",White Pizza,11.95,USD,
+Nino's Trattoria & Pizzeria,111 Lawrence Rd,Lawrence Township,US,8648,Lawrenceville,"Pizza Place,Italian Restaurant,Restaurants,Pizza Place and Italian Restaurant",White Pizza,11.95,USD,Classic cheese or create your own pizza.
+Oceano Bistro - Clayton,44 N Brentwood,Saint Louis,US,63105,MO,Restaurant,Cheese Pizza,5,USD,
+Brothers 2,2901 Watson Blvd,Endicott,US,13760,Crestview Heights,"Italian Restaurant, Pizza Place, and Bar,catering companies",Pizza,9.5,USD,
+Brothers 2,2901 Watson Blvd,Endicott,US,13760,Crestview Heights,"Italian Restaurant, Pizza Place, and Bar,catering companies",Pizza Skins,,,
+Uno Pizzeria & Grill - Sturbridge,100 Charlton Rd,Sturbridge,US,1566,MA,"American Restaurant, Pizza Place, and Gluten-free Restaurant,American Restaurant,Pizza Place,Gluten-free Restaurant",Half Pizzas,5.99,USD,
+Uno Pizzeria & Grill - Sturbridge,100 Charlton Rd,Sturbridge,US,1566,MA,"American Restaurant, Pizza Place, and Gluten-free Restaurant,American Restaurant,Pizza Place,Gluten-free Restaurant",M.y.o.p Make Your Own Pizza,,,
+Uno Pizzeria & Grill - Sturbridge,100 Charlton Rd,Sturbridge,US,1566,MA,"American Restaurant, Pizza Place, and Gluten-free Restaurant,American Restaurant,Pizza Place,Gluten-free Restaurant",Make Your Own Pizza,,,
+Uno Pizzeria & Grill - Sturbridge,100 Charlton Rd,Sturbridge,US,1566,MA,"American Restaurant, Pizza Place, and Gluten-free Restaurant,American Restaurant,Pizza Place,Gluten-free Restaurant",Mini Cheese and Tomato Deep Dish Pizza,2.99,USD,
+Uno Pizzeria & Grill - Sturbridge,100 Charlton Rd,Sturbridge,US,1566,MA,"American Restaurant, Pizza Place, and Gluten-free Restaurant,American Restaurant,Pizza Place,Gluten-free Restaurant",Mini Cheese or Pepperoni Thin Crust Pizza,2.99,USD,
+Uno Pizzeria & Grill - Sturbridge,100 Charlton Rd,Sturbridge,US,1566,MA,"American Restaurant, Pizza Place, and Gluten-free Restaurant,American Restaurant,Pizza Place,Gluten-free Restaurant",Pizza of The Day,8.99,USD,
+Uno Pizzeria & Grill - Sturbridge,100 Charlton Rd,Sturbridge,US,1566,MA,"American Restaurant, Pizza Place, and Gluten-free Restaurant,American Restaurant,Pizza Place,Gluten-free Restaurant",Pizza Skins,2.99,USD,"Deep dish crust filled with red bliss mashed potatoes. topped with bacon, cheddar and sour cream"
+Uno Pizzeria & Grill - Sturbridge,100 Charlton Rd,Sturbridge,US,1566,MA,"American Restaurant, Pizza Place, and Gluten-free Restaurant,American Restaurant,Pizza Place,Gluten-free Restaurant",Thin Crust or Deep Dish Pizza,,,Cheese or pepperoni
+Doubledave's Pizzaworks,401 E Whitestone Blvd,Cedar Park,US,78613,TX,Pizza Place,Cheese Pizza,5.99,USD,
+Doubledave's Pizzaworks,401 E Whitestone Blvd,Cedar Park,US,78613,TX,Pizza Place,Chocolate Chip Pizza,3.99,USD,
+Buon Cibo,2631 Mcingvale Rd,Hernando,US,38632,MS,"Food and Beverage,Restaurant",Byo Pizza,7,USD,
+Buon Cibo,2631 Mcingvale Rd,Hernando,US,38632,MS,"Food and Beverage,Restaurant",Cheese Pizza,4.75,USD,
+Buon Cibo,2631 Mcingvale Rd,Hernando,US,38632,MS,"Food and Beverage,Restaurant",Pepperoni Pizza,4.75,USD,
+Tomato & Basil,1876 Black Rock Tpke,Fairfield,US,6825,CT,"Pizza Place,Italian Restaurants,Pizza,Mediterranean Restaurants,Restaurants",Cheese Pizza,7.99,USD,
+Tomato & Basil,1876 Black Rock Tpke,Fairfield,US,6825,CT,"Pizza Place,Italian Restaurants,Pizza,Mediterranean Restaurants,Restaurants",Rollatini Pizza,10.99,USD,"Breaded eggplant, ricotta cheese, basil, tomato sauce and fresh mozzarella"
+Blockbuster,1310 N W 23rd Ave,Gainesville,US,32605,FL,"Video Rental & Sales,Video Games,DVD Sales & Service",Pizza Sub,4.25,USD,
+Stissing House,7801 S Main St,Pine Plains,US,12567,Mount Ross,"Taverns,Bars,Caterers,Bar & Grills,Family Style Restaurants,Restaurants,Bars & Clubs,Bars & Pubs,Catering,Beer Taverns & Pubs",Pizza of The Day,,,priced accordingly
+Larosa's Pizzeria,901 Loveland Madeira Rd,Loveland,US,45140,Murdock,Pizza Place,Kids Size Pizza,4.39,USD,
+Mario's - Staten Island,1657 Richmond Rd,Staten Island,US,10304,NY,Restaurant,Brick Oven Pizza Al Metro,,,
+Mario's - Staten Island,1657 Richmond Rd,Staten Island,US,10304,NY,Restaurant,Fried Pizza,,,
+Mario's - Staten Island,1657 Richmond Rd,Staten Island,US,10304,NY,Restaurant,Pork Tenderloin Pizzaiola,,,
+The Lookout Catering,8680 Pineview Ln N,Osseo,US,55369,Hassan,"Sports Bar, Bar, and American Restaurant",Cheese Pizza,,,
+The Lookout Catering,8680 Pineview Ln N,Osseo,US,55369,Hassan,"Sports Bar, Bar, and American Restaurant",Pepperoni Pizza,,,
+Boston's Restaurant & Sports Bar,14004 E Indiana Ave,Spokane,US,99216,City Of Spokane Valley,"Pizza Place,Restaurant,American Restaurant",Eggscellent Pizza (white),10.75,USD,
+Ristorante Italiano,555 Soquel Ave,Santa Cruz,US,95062,CA,"Caterers,Restaurants,Take Out Restaurants,Italian Restaurants,Fast Food Restaurants,Mediterranean Restaurants,Seafood Restaurants,Italian Restaurant",Mini Pizza,5.99,USD,
+Zios Italian Kitchen - Olathe,11981 S Strang Line Rd,Olathe,US,66062,KS,Italian Restaurant,Artichoke Chicken Pizza,8.79,USD,"Creamy artichoke spinach sauce, featuring bacon, is topped with sliced chicken breast, fresh tomatoes, artichokes, mozzarella and cheddar cheese."
+Zios Italian Kitchen - Olathe,11981 S Strang Line Rd,Olathe,US,66062,KS,Italian Restaurant,Barbecue Chicken Pizza,8.79,USD,"Sweet bbq sauce topped with bbq chicken breast, bacon, red onions and mozzarella and gouda cheeses. garnished with cilantro and crispy onions."
+Zios Italian Kitchen - Olathe,11981 S Strang Line Rd,Olathe,US,66062,KS,Italian Restaurant,California Pizza,8.99,USD,"Alfredo sauce, sliced grilled chicken breast, bacon, fresh mushrooms, spinach and roma tomatoes. topped with mozzarella and smoked gouda cheeses."
+Zios Italian Kitchen - Olathe,11981 S Strang Line Rd,Olathe,US,66062,KS,Italian Restaurant,Chicken Club Pizza,8.79,USD,"Homestyle tomato sauce, sliced chicken breast,   bacon and fresh roma tomatoes topped with smoked   provolone, mozzarella and cheddar cheeses."
+Zios Italian Kitchen - Olathe,11981 S Strang Line Rd,Olathe,US,66062,KS,Italian Restaurant,Margherita Pizza,8.79,USD,
+Zios Italian Kitchen - Olathe,11981 S Strang Line Rd,Olathe,US,66062,KS,Italian Restaurant,Pepperoni Pizza,8.79,USD,
+Zios Italian Kitchen - Olathe,11981 S Strang Line Rd,Olathe,US,66062,KS,Italian Restaurant,Pizza Mia,8.59,USD,Create your own specialty pizza from any of our sauces and 3 toppings.
+Town Pub,378 Broad St,Bloomfield,US,7003,Grove,"American Restaurants,Bars,Pizza,Italian Restaurants,Mediterranean Restaurants,Night Clubs,Taverns,Bar & Grills,Family Style Restaurants,Restaurants,Northern Nj,Pub",Cheese Steak Pizza,17,USD,
+Town Pub,378 Broad St,Bloomfield,US,7003,Grove,"American Restaurants,Bars,Pizza,Italian Restaurants,Mediterranean Restaurants,Night Clubs,Taverns,Bar & Grills,Family Style Restaurants,Restaurants,Northern Nj,Pub",Chicken Parmesan Pizza,17,USD,
+Town Pub,378 Broad St,Bloomfield,US,7003,Grove,"American Restaurants,Bars,Pizza,Italian Restaurants,Mediterranean Restaurants,Night Clubs,Taverns,Bar & Grills,Family Style Restaurants,Restaurants,Northern Nj,Pub",Personal Pizza,5,USD,
+Town Pub,378 Broad St,Bloomfield,US,7003,Grove,"American Restaurants,Bars,Pizza,Italian Restaurants,Mediterranean Restaurants,Night Clubs,Taverns,Bar & Grills,Family Style Restaurants,Restaurants,Northern Nj,Pub",Vodka Sauce Pizza,15,USD,
+I Love Bagels,28985 Golden Lantern,Laguna Niguel,US,92677,CA,"Restaurant,Restaurants,Bagels,Bakeries,Bagel Shop",Pizza Bagel,2.95,USD,
+Ming Garden Cocktails Chinese Restaurant,4138 Ogletown Stanton Rd,Newark,US,19713,DE,"Chinese Restaurants,Cocktail Lounges,Take Out Restaurants,Fast Food Restaurants,Seafood Restaurants,Bar and Grills,Asian Restaurants,Restaurants,Chinese Restaurant",Chinese Pizza,2.5,USD,
+Tascali's Decades Pasta & Grill,6007 Us 60 E,Barboursville,US,25504,WV,Italian Restaurant,Personal Pizza,6.99,USD,"With two toppings, sauce and mozzarella."
+Tascali's Decades Pasta & Grill,6007 Us 60 E,Barboursville,US,25504,WV,Italian Restaurant,Pizza Bread,5.99,USD,
+Chena's Alaskan Grill,4200 Boat St,Fairbanks,US,99709,AK,"Restaurants,Catering,American Restaurants,Bar and Grills,Seafood Restaurants,Bars,Family Style Restaurants,Night Clubs,Taverns,Caterers,Restaurant,American Restaurant",House Made Pizza,,,
+La Hacienda,1602 E Forsyth St,Americus,US,31709,GA,"Restaurant,Restaurants,Mexican Restaurant",Mexican Pizza,3.75,USD,Flour tortilla topped with cheese sauce and ground beef
+West River Cafe,148 W River St,Providence,US,2904,No Providence,"Caf and Coffee Shop,Coffee & Espresso Restaurants,Coffee Shops,Pizza,Caterers,Bagels,Restaurants",Pizza Combo,4.95,USD,
+Original Giorgio's,14 Scott Adam Rd,Cockeysville,US,21030,MD,"Pizza Place,Mediterranean Restaurant,Take Out Restaurants,Caterers,Restaurants,Pizza",Bbq Chicken Pizza,16.95,USD,"BBQ sauce, grilled chicken breast, cheddar and mozzarella."
+Original Giorgio's,14 Scott Adam Rd,Cockeysville,US,21030,MD,"Pizza Place,Mediterranean Restaurant,Take Out Restaurants,Caterers,Restaurants,Pizza",Bbq Chicken Pizza,,,"BBQ sauce, grilled chicken breast, cheddar and mozzarella."
+Original Giorgio's,14 Scott Adam Rd,Cockeysville,US,21030,MD,"Pizza Place,Mediterranean Restaurant,Take Out Restaurants,Caterers,Restaurants,Pizza",Buffalo Chicken Pizza,16.95,USD,"Buffalo sauce, grilled chicken, mozzarella and cheddar cheese."
+Original Giorgio's,14 Scott Adam Rd,Cockeysville,US,21030,MD,"Pizza Place,Mediterranean Restaurant,Take Out Restaurants,Caterers,Restaurants,Pizza",Californian Pizza,17.95,USD,
+Original Giorgio's,14 Scott Adam Rd,Cockeysville,US,21030,MD,"Pizza Place,Mediterranean Restaurant,Take Out Restaurants,Caterers,Restaurants,Pizza",Cheese Steak Pizza,16.95,USD,"Philly steak, green peppers, mushrooms, onions, provolone and mozzarella."
+Original Giorgio's,14 Scott Adam Rd,Cockeysville,US,21030,MD,"Pizza Place,Mediterranean Restaurant,Take Out Restaurants,Caterers,Restaurants,Pizza",Greek Pizza,16.95,USD,"Gyro meat, ground beef, salami, black olives, green peppers, onions, tomato, feta and mozzarella cheese."
+Original Giorgio's,14 Scott Adam Rd,Cockeysville,US,21030,MD,"Pizza Place,Mediterranean Restaurant,Take Out Restaurants,Caterers,Restaurants,Pizza",Italiano Pizza,17.95,USD,
+Original Giorgio's,14 Scott Adam Rd,Cockeysville,US,21030,MD,"Pizza Place,Mediterranean Restaurant,Take Out Restaurants,Caterers,Restaurants,Pizza",Margherita Pizza,16.95,USD,"Fresh basil, rich tomato sauce and fresh mozzarella cheese."
+Original Giorgio's,14 Scott Adam Rd,Cockeysville,US,21030,MD,"Pizza Place,Mediterranean Restaurant,Take Out Restaurants,Caterers,Restaurants,Pizza",Mediterranean Pizza,17.95,USD,"Chicken breast, artichokes, black olives, basil, feta and mozzarella cheese."
+Original Giorgio's,14 Scott Adam Rd,Cockeysville,US,21030,MD,"Pizza Place,Mediterranean Restaurant,Take Out Restaurants,Caterers,Restaurants,Pizza",Monte Carlo Pizza (white),17.95,USD,"Chicken breast, portabella mushrooms, broccoli, olive oil, basil, ricotta and mozzarella cheese."
+Original Giorgio's,14 Scott Adam Rd,Cockeysville,US,21030,MD,"Pizza Place,Mediterranean Restaurant,Take Out Restaurants,Caterers,Restaurants,Pizza",Pizza Burger,9.95,USD,
+Original Giorgio's,14 Scott Adam Rd,Cockeysville,US,21030,MD,"Pizza Place,Mediterranean Restaurant,Take Out Restaurants,Caterers,Restaurants,Pizza",Pizza Fries,4.95,USD,
+Original Giorgio's,14 Scott Adam Rd,Cockeysville,US,21030,MD,"Pizza Place,Mediterranean Restaurant,Take Out Restaurants,Caterers,Restaurants,Pizza",Pizza Steak,9.95,USD,
+Original Giorgio's,14 Scott Adam Rd,Cockeysville,US,21030,MD,"Pizza Place,Mediterranean Restaurant,Take Out Restaurants,Caterers,Restaurants,Pizza",Pizza Sub,9.95,USD,
+Original Giorgio's,14 Scott Adam Rd,Cockeysville,US,21030,MD,"Pizza Place,Mediterranean Restaurant,Take Out Restaurants,Caterers,Restaurants,Pizza",Seafood Pizza,17.95,USD,
+Original Giorgio's,14 Scott Adam Rd,Cockeysville,US,21030,MD,"Pizza Place,Mediterranean Restaurant,Take Out Restaurants,Caterers,Restaurants,Pizza",Sicilian Pizza,17.95,USD,"Genoa salami, spicy capricolla and bacon with a blend of mozzarella, cheddar and rich tomato sauce."
+Original Giorgio's,14 Scott Adam Rd,Cockeysville,US,21030,MD,"Pizza Place,Mediterranean Restaurant,Take Out Restaurants,Caterers,Restaurants,Pizza",Two Slices of Cheese Pizza,4.95,USD,With juice or 12oz soda
+Original Giorgio's,14 Scott Adam Rd,Cockeysville,US,21030,MD,"Pizza Place,Mediterranean Restaurant,Take Out Restaurants,Caterers,Restaurants,Pizza",Two Slices of Cheese Pizza,,,With juice or 12oz soda
+Original Giorgio's,14 Scott Adam Rd,Cockeysville,US,21030,MD,"Pizza Place,Mediterranean Restaurant,Take Out Restaurants,Caterers,Restaurants,Pizza",Veggie Lovers Pizza,16.95,USD,"Green and banana peppers, onions, mushrooms, black olives and tomatoes."
+Original Giorgio's,14 Scott Adam Rd,Cockeysville,US,21030,MD,"Pizza Place,Mediterranean Restaurant,Take Out Restaurants,Caterers,Restaurants,Pizza",White Pizza,15.95,USD,"Garlic sauce, spinach, ricotta and mozzarella."
+Casa-Rica,400 N Center St,Westminster,US,21157,MD,"Mexican Restaurant,Indian Restaurant",Mexican Pizza,,,"Beef, chicken or bean"
+Crane Alley,115 W Main St,Urbana,US,61801,IL,"Take Out Restaurants,Bars,American Restaurants,Restaurant,Restaurants,Night Clubs,Bar & Grills,Taverns,Bar,American Restaurant",Pita Pizza,,,"Red Onion, Mushroom, Spinach, Tomato, Marinara, Mozzarella, Romano served with a Garden Salad"
+Peter Piper Pizza,4940 E Ray Rd,Phoenix,US,85044,AZ,"Pizza,Restaurants,Pizza Place,Pizza Place Ahwatukee Foothills",Pizza Mexicana,15.99,USD,"Mozzarella and cheddar, chorizo, red onion and jalapenos."
+Gina Maria's Pizza,1400 County Road 101 N,Minneapolis,US,55447,MN,"Pizza Place,Pizza,Restaurants",Greek Pizza,,,
+Gina Maria's Pizza,1400 County Road 101 N,Minneapolis,US,55447,MN,"Pizza Place,Pizza,Restaurants",White Pizza,,,
+Martinizing,14805 W 64th Ave,Arvada,US,80007,CO,"Sales Promotions & Counseling Services,Sales Consultants",White Pizza,12,USD,
+Nypd Pizza,400 S Orlando Ave,Maitland,US,32751,FL,"Pizza Place,American Restaurant,Karaoke Bar,Pizza Place, American Restaurant, and Karaoke Bar",Pizza Blanca,18.5,USD,
+Nypd Pizza,400 S Orlando Ave,Maitland,US,32751,FL,"Pizza Place,American Restaurant,Karaoke Bar,Pizza Place, American Restaurant, and Karaoke Bar",Pizza Bomba,17.45,USD,
+Nypd Pizza,400 S Orlando Ave,Maitland,US,32751,FL,"Pizza Place,American Restaurant,Karaoke Bar,Pizza Place, American Restaurant, and Karaoke Bar",Pizza Margherita,13.95,USD,
+Enterprise Deli,1 Corporate Dr,Shelton,US,6484,CT,"Deli / Bodega,Delicatessens,Restaurants,Restaurant",Chicken Pizza,5.25,USD,"Breaded chicken with 2 ounces of pepperoni, melted provolone topped with marinara sauce"
+Pizza Bistro,4952 Merrick Rd,Massapequa Park,US,11762,NY,Pizza Place,Spicy Buffalo Pizza,20.5,USD,
+Riccardo's Pizza,522 Saddle River Rd,Saddle Brook,US,7663,NJ,"Italian Restaurant,Restaurant",Baked Ziti Pizza,16.95,USD,
+Riccardo's Pizza,522 Saddle River Rd,Saddle Brook,US,7663,NJ,"Italian Restaurant,Restaurant",Capelli Pizza,14,USD,
+Riccardo's Pizza,522 Saddle River Rd,Saddle Brook,US,7663,NJ,"Italian Restaurant,Restaurant",Cheesesteak Pizza,16.95,USD,
+Riccardo's Pizza,522 Saddle River Rd,Saddle Brook,US,7663,NJ,"Italian Restaurant,Restaurant",Chicken Parmigiana Pizza,16.95,USD,"Fried chicken, mozzarella and tomato sauce"
+Riccardo's Pizza,522 Saddle River Rd,Saddle Brook,US,7663,NJ,"Italian Restaurant,Restaurant",Grandma Pizza,16.25,USD,"Fresh mozzarella, plum tomatoes and basil"
+Riccardo's Pizza,522 Saddle River Rd,Saddle Brook,US,7663,NJ,"Italian Restaurant,Restaurant",Hawaiian Pizza,16.95,USD,Ham and pineapple
+Riccardo's Pizza,522 Saddle River Rd,Saddle Brook,US,7663,NJ,"Italian Restaurant,Restaurant",Large Pizza and Mussels,19.99,USD,
+Riccardo's Pizza,522 Saddle River Rd,Saddle Brook,US,7663,NJ,"Italian Restaurant,Restaurant",Large Pizza Cheese,16.99,USD,Pepperoni and Sausage and 2 Liter Soda
+Riccardo's Pizza,522 Saddle River Rd,Saddle Brook,US,7663,NJ,"Italian Restaurant,Restaurant",Order 3 Large Pizzas and Get The 4th Pizza Free,37.99,USD,
+Riccardo's Pizza,522 Saddle River Rd,Saddle Brook,US,7663,NJ,"Italian Restaurant,Restaurant",Primavera Pizza,16.95,USD,
+Riccardo's Pizza,522 Saddle River Rd,Saddle Brook,US,7663,NJ,"Italian Restaurant,Restaurant",Vegetarian Pizza,16.95,USD,"Broccoli, spinach, peppers and mushrooms"
+Riccardo's Pizza,522 Saddle River Rd,Saddle Brook,US,7663,NJ,"Italian Restaurant,Restaurant",White Pizza,14,USD,
+Carluccio's,932 S 10th St,Philadelphia,US,19147,PA,"Italian Restaurant,Restaurants,Restaurant Equipment & Supplies Retail",Pizza Burger,8.95,USD,
+Carluccio's,932 S 10th St,Philadelphia,US,19147,PA,"Italian Restaurant,Restaurants,Restaurant Equipment & Supplies Retail",Pizza Fries,3.5,USD,
+Carluccio's,932 S 10th St,Philadelphia,US,19147,PA,"Italian Restaurant,Restaurants,Restaurant Equipment & Supplies Retail",Pizza Steak,7.25,USD,With our homemade sauce
+Avellino's Pizza,775 Goodman Rd E,Southaven,US,38671,MS,"Take Out Restaurants,Caterers,Restaurants,Italian Restaurants,Pizza",Pizza Bread,4.59,USD,
+Prima Pizza,133 Back River Neck Rd,Essex,US,21221,MD,"Pizza,Restaurants",Greek Pizza,16.99,USD,
+Prima Pizza,133 Back River Neck Rd,Essex,US,21221,MD,"Pizza,Restaurants",Pizza Bites,3.49,USD,
+Prima Pizza,133 Back River Neck Rd,Essex,US,21221,MD,"Pizza,Restaurants",Pizza Burger,8.99,USD,
+Prima Pizza,133 Back River Neck Rd,Essex,US,21221,MD,"Pizza,Restaurants",Pizza Fries,3.99,USD,
+Prima Pizza,133 Back River Neck Rd,Essex,US,21221,MD,"Pizza,Restaurants",Pizza Steak,8.99,USD,
+Prima Pizza,133 Back River Neck Rd,Essex,US,21221,MD,"Pizza,Restaurants",Pizza Sub,8.99,USD,
+Prima Pizza,133 Back River Neck Rd,Essex,US,21221,MD,"Pizza,Restaurants",Steak Pizza,16.99,USD,
+Prima Pizza,133 Back River Neck Rd,Essex,US,21221,MD,"Pizza,Restaurants",White Pizza,13.99,USD,Greek style pizza
+Prince Pizza,22507 Plymouth Rd,Redford,US,48239,MI,"Pizza Place,Take Out Restaurants,Caterers,Pizza Place North West Detroit,Restaurants,Pizza",Pizza  Burger,3.75,USD,
+Prince Pizza,22507 Plymouth Rd,Redford,US,48239,MI,"Pizza Place,Take Out Restaurants,Caterers,Pizza Place North West Detroit,Restaurants,Pizza",Pizza Fries,3.75,USD,
+Jet's Pizza,901 Nordic Dr,White Lake,US,48383,MI,"Pizza Place,Take Out Restaurants,Restaurants,Sandwich Shops,Pizza",8 Corner Pizza,11.99,USD,
+Jet's Pizza,901 Nordic Dr,White Lake,US,48383,MI,"Pizza Place,Take Out Restaurants,Restaurants,Sandwich Shops,Pizza",Pizza,5.99,USD,
+Harry's Pizza,405 Sea St,Quincy,US,2169,Quincy Center,"Pizza,Caterers,Sandwich Shops,Restaurants",Meat Lovers Pizza,,,"Pepperoni, sausage, bacon, meatball and cheese."
+Greek's Pizzeria,8028 S Emerson Ave,Indianapolis,US,46237,IN,Pizza Place,Cheese Pizza,1.42,USD,
+Greek's Pizzeria,8028 S Emerson Ave,Indianapolis,US,46237,IN,Pizza Place,Gourmet Chicken Ranch Pizza,18.76,USD,
+Greek's Pizzeria,8028 S Emerson Ave,Indianapolis,US,46237,IN,Pizza Place,Gourmet Meat Pizzatm,19.22,USD,
+Greek's Pizzeria,8028 S Emerson Ave,Indianapolis,US,46237,IN,Pizza Place,Mexico City Grill Pizza,7.99,USD,"Your choice of shredded chicken, chorizo or Angus ground beef stuffed into two flat crisp tortillas. Covered with melted queso cheese and topped with pico de gallo."
+Greek's Pizzeria,8028 S Emerson Ave,Indianapolis,US,46237,IN,Pizza Place,Mexico City Pizza,5.99,USD,"Shredded chicken, chorizo or Angus ground beef stuffed into two flat crisp tortillas. Covered with melted queso cheese and topped with pico de gallo."
+Greek's Pizzeria,8028 S Emerson Ave,Indianapolis,US,46237,IN,Pizza Place,White Pizza,18.35,USD,
+The Spud Spot,1818 Manhattan Blvd,Harvey,US,70058,LA,"Restaurants,Take Out Restaurants,Fast Food Restaurants,American Restaurants,Creole & Cajun Restaurants,Restaurant,Breakfast Brunch & Lunch Restaurants,,Snack Place",Pizza,6.49,USD,"Pepperoni in marinara sauce, mozzarella cheese, chives"
+China Kitchen,406 E Colfax Ave,Denver,US,80203,CO,"Restaurant,Chinese,Chinese Restaurant",Pizza Roll,1.2,USD,
+Tavern At The Inn,200 E Main Cross St,Findlay,US,45840,OH,"American Restaurants,Bars,Party and Event Planners,Brew Pubs,Meeting and Event Planning Services,Banquet Halls and Reception Facilities,Seafood Restaurants,Caterers,Taverns,Pizza,Restaurants,Business Services,Expos Conventions,Bars Clubs,Bars Pubs,Event Planning,Banquet Rooms,Reception Centers,Party Planners,Bed Breakfasts,Hotels Motels,Conventions,Wholesale Industrial Inspection Devices,Lounge",Berlin Pizza,8.75,USD,"Corned beef, 1000 island, sauerkraut, red onion"
+Tavern At The Inn,200 E Main Cross St,Findlay,US,45840,OH,"American Restaurants,Bars,Party and Event Planners,Brew Pubs,Meeting and Event Planning Services,Banquet Halls and Reception Facilities,Seafood Restaurants,Caterers,Taverns,Pizza,Restaurants,Business Services,Expos Conventions,Bars Clubs,Bars Pubs,Event Planning,Banquet Rooms,Reception Centers,Party Planners,Bed Breakfasts,Hotels Motels,Conventions,Wholesale Industrial Inspection Devices,Lounge",Pizza Bruschetta,7.75,USD,"Basil pesto, fresh tomato, red onion and black olives"
+Tavern At The Inn,200 E Main Cross St,Findlay,US,45840,OH,"American Restaurants,Bars,Party and Event Planners,Brew Pubs,Meeting and Event Planning Services,Banquet Halls and Reception Facilities,Seafood Restaurants,Caterers,Taverns,Pizza,Restaurants,Business Services,Expos Conventions,Bars Clubs,Bars Pubs,Event Planning,Banquet Rooms,Reception Centers,Party Planners,Bed Breakfasts,Hotels Motels,Conventions,Wholesale Industrial Inspection Devices,Lounge",Shrimp Scampi Pizza,12.5,USD,"Tender gulf shrimp, creamy white garlic sauce, green onion"
+California Pizza Kitchen,10300 Forest Hill Blvd,Wellington,US,33414,Village Of Wellington,"Pizza Place,Take Out Restaurants,American Restaurants,Restaurants,Italian Restaurants,Pizza",Pizza,116.99,USD,
+California Pizza Kitchen,10300 Forest Hill Blvd,Wellington,US,33414,Village Of Wellington,"Pizza Place,Take Out Restaurants,American Restaurants,Restaurants,Italian Restaurants,Pizza",The Original Bbq Chicken Pizza,14.29,USD,"Created here in 1985. Our legendary BBQ sauce, smoked gouda, red onions and fresh cilantro transform this original to iconic"
+Knolla's Pizza,3817 W 13th St N,Wichita,US,67203,KS,Pizza Place,Taco Pizza,4.89,USD,
+Sluggers Sports Bar,14 E 10th St,Erie,US,16501,PA,"Sports Bar, American Restaurant, and Bar,American Restaurant,Bar,Sports Bar",Pizza Logs,4.99,USD,Traditional pizza logs with pepperoni and mozzarella cheese served with a side of our homemade marinara sauce
+Sluggers Sports Bar,14 E 10th St,Erie,US,16501,PA,"Sports Bar, American Restaurant, and Bar,American Restaurant,Bar,Sports Bar",Pizza Logs,,,Traditional pizza logs with pepperoni and mozzarella cheese served with a side of our homemade marinara sauce
+Suraya's - Grill and Fried Chicken,1665 Stelton Rd,Piscataway,US,8854,NJ,American Restaurant and Asian Restaurant,Buffalo Pizza,7.99,USD,"Crispy breaded chicken, blue cheese and buffalo sauce"
+Suraya's - Grill and Fried Chicken,1665 Stelton Rd,Piscataway,US,8854,NJ,American Restaurant and Asian Restaurant,Cheese Pizza,6.99,USD,
+Suraya's - Grill and Fried Chicken,1665 Stelton Rd,Piscataway,US,8854,NJ,American Restaurant and Asian Restaurant,Grilled Chicken Pizza,7.99,USD,With onions and green peppers
+Suraya's - Grill and Fried Chicken,1665 Stelton Rd,Piscataway,US,8854,NJ,American Restaurant and Asian Restaurant,Pizza Burger,4.49,USD,
+Suraya's - Grill and Fried Chicken,1665 Stelton Rd,Piscataway,US,8854,NJ,American Restaurant and Asian Restaurant,Pizza Fries,4.99,USD,
+Suraya's - Grill and Fried Chicken,1665 Stelton Rd,Piscataway,US,8854,NJ,American Restaurant and Asian Restaurant,Vegetable Pizza,7.99,USD,
+Icon Grill,1933 5th Ave,Seattle,US,98101,WA,"American Restaurant,Restaurant",Bbq Chicken Pizza,16,USD,
+Icon Grill,1933 5th Ave,Seattle,US,98101,WA,"American Restaurant,Restaurant",Bbq Chicken Pizza,16,USD,
+Icon Grill,1933 5th Ave,Seattle,US,98101,WA,"American Restaurant,Restaurant",Pepperoni Pizza,15,USD,
+Icon Grill,1933 5th Ave,Seattle,US,98101,WA,"American Restaurant,Restaurant",Pepperoni Pizza,15,USD,
+Icon Grill,1933 5th Ave,Seattle,US,98101,WA,"American Restaurant,Restaurant",Smoked Chicken Bbq Pizza,16,USD,
+Icon Grill,1933 5th Ave,Seattle,US,98101,WA,"American Restaurant,Restaurant",Spinach Artichoke Pizza,15,USD,
+Icon Grill,1933 5th Ave,Seattle,US,98101,WA,"American Restaurant,Restaurant",Wood Fire Grilled Pizza,15,USD,
+Michael's Jewish Delicatessen,130 Town Center Rd,King Of Prussia,US,19406,PA,Deli / Bodega,Pizza Steak,7.29,USD,
+Spagio,1295 Grandview Ave,Columbus,US,43212,Marble Cliff,"Restaurant,Restaurants,European Restaurants",Garden Pizza,15,USD,
+Atheneos Greek Village Cafe,1425 Gross Rd,Mesquite,US,75149,TX,"Restaurants,Texas (tx),Mesquite,Mesquite Restaurants,Greek Restaurant,Restaurant",Cheese Pizza,4.75,USD,
+Atheneos Greek Village Cafe,1425 Gross Rd,Mesquite,US,75149,TX,"Restaurants,Texas (tx),Mesquite,Mesquite Restaurants,Greek Restaurant,Restaurant",Gyro Pita Pizza,6.99,USD,Includes mini greek salad
+Atheneos Greek Village Cafe,1425 Gross Rd,Mesquite,US,75149,TX,"Restaurants,Texas (tx),Mesquite,Mesquite Restaurants,Greek Restaurant,Restaurant",Gyro Pizza,9.75,USD,
+Midori Japanese Restaurant,3130 Route 10 W,Denville,US,7834,NJ,Japanese Restaurant,Sushi Pizza,10.95,USD,Tuna or salmon scallion pancake seaweed spicy kapayaki sauce
+China Moon,938 N Main St,Suffolk,US,23434,VA,Chinese Restaurant,Pizza Roll,1.25,USD,
+Louie's Pizza,1019 Westgate Ave,Newark,US,43055,OH,"Pizza,Restaurants,Pizza Place,Take Out Restaurants,Caterers","Italian, Veggie or Pizza Sub",4.5,USD,
+Walnut Grille,1203 Walnut St,Newton Highlands,US,2461,MA,"Vegetarian / Vegan Restaurant,Restaurant,Bar & Grills,Caterers,Restaurants",Adult Cheese Pizza,9,USD,Any topping extra charge will be applied
+Walnut Grille,1203 Walnut St,Newton Highlands,US,2461,MA,"Vegetarian / Vegan Restaurant,Restaurant,Bar & Grills,Caterers,Restaurants",Artichoke and Sweet Potato Pizza,12.5,USD,"Roasted artichoke hearts, sweet potatoes, olive tapenade, fresh basil, fire roasted red peppers, mozzarella and herb goat cheese topped with baby arugula"
+Walnut Grille,1203 Walnut St,Newton Highlands,US,2461,MA,"Vegetarian / Vegan Restaurant,Restaurant,Bar & Grills,Caterers,Restaurants",Tuscan Fig and Oyster Mushroom Pizza,12.5,USD,"Organic black mission figs, marinated oyster mushrooms, caramelized onions, fire roasted red peppers, mozzarella and gorgonzola cheese topped with fresh basil"
+Pirate's Cove,1401 Coshocton Ave,Mount Vernon,US,43050,OH,"Pizza,Caterers,Take Out Restaurants,Family Style Restaurants,Restaurants,Catering,Pizza Place",Captain Jean Pizza,17.49,USD,
+Pirate's Cove,1401 Coshocton Ave,Mount Vernon,US,43050,OH,"Pizza,Caterers,Take Out Restaurants,Family Style Restaurants,Restaurants,Catering,Pizza Place",Cheese Pizza,12.5,USD,
+Pirate's Cove,1401 Coshocton Ave,Mount Vernon,US,43050,OH,"Pizza,Caterers,Take Out Restaurants,Family Style Restaurants,Restaurants,Catering,Pizza Place",Cove Taco Pizza,19.99,USD,
+Pirate's Cove,1401 Coshocton Ave,Mount Vernon,US,43050,OH,"Pizza,Caterers,Take Out Restaurants,Family Style Restaurants,Restaurants,Catering,Pizza Place",Greek Pizza,19.99,USD,
+Pirate's Cove,1401 Coshocton Ave,Mount Vernon,US,43050,OH,"Pizza,Caterers,Take Out Restaurants,Family Style Restaurants,Restaurants,Catering,Pizza Place",H.o.g. Pizza,19.99,USD,
+Pirate's Cove,1401 Coshocton Ave,Mount Vernon,US,43050,OH,"Pizza,Caterers,Take Out Restaurants,Family Style Restaurants,Restaurants,Catering,Pizza Place",Man Eater Mike Pizza,19.99,USD,
+Pirate's Cove,1401 Coshocton Ave,Mount Vernon,US,43050,OH,"Pizza,Caterers,Take Out Restaurants,Family Style Restaurants,Restaurants,Catering,Pizza Place",Maneater Mike Pizza,19.99,USD,
+Pirate's Cove,1401 Coshocton Ave,Mount Vernon,US,43050,OH,"Pizza,Caterers,Take Out Restaurants,Family Style Restaurants,Restaurants,Catering,Pizza Place",Pirate Special Pizza,18.99,USD,
+Pirate's Cove,1401 Coshocton Ave,Mount Vernon,US,43050,OH,"Pizza,Caterers,Take Out Restaurants,Family Style Restaurants,Restaurants,Catering,Pizza Place",Pizza Bread,5.79,USD,"Garlic buttered buns, pizza sauce, pepperoni and provolone cheese baked to bring out the true flavors"
+Antonio's Pizza,1001 Jason Pl,Chatham,US,62629,IL,"Pizza Place,Restaurants,Food & Entertainment",Deluxe Pizza,12.99,USD,"Cheese, pepperoni, mushrooms, green peppers, sausage"
+Antonio's Pizza,1001 Jason Pl,Chatham,US,62629,IL,"Pizza Place,Restaurants,Food & Entertainment",Greek Pizza,16.99,USD,"Feta cheese, green olives, black olives, green peppers, onions"
+Antonio's Pizza,1001 Jason Pl,Chatham,US,62629,IL,"Pizza Place,Restaurants,Food & Entertainment",Pizza By The Slice,1.79,USD,
+Antonio's Pizza,1001 Jason Pl,Chatham,US,62629,IL,"Pizza Place,Restaurants,Food & Entertainment",Pizza Sub,5.99,USD,
+Antonio's Pizza,1001 Jason Pl,Chatham,US,62629,IL,"Pizza Place,Restaurants,Food & Entertainment",Supreme Deluxe Pizza,12.99,USD,"Pepperoni, mushrooms, onions, green peppers, sausage, meatballs, black olives, extra cheese"
+Antonio's Pizza,1001 Jason Pl,Chatham,US,62629,IL,"Pizza Place,Restaurants,Food & Entertainment",Veggie or Meat Deluxe Pizza,12.99,USD,
+Antonio's Pizza,1001 Jason Pl,Chatham,US,62629,IL,"Pizza Place,Restaurants,Food & Entertainment",White Pizza,8.99,USD,"Mozzarella, ricotta and parmesan cheeses"
+Broad Street Cafe,562 Broad St,Newark,US,7102,Midtown,"Breakfast Spot,labor organizations",Broad Street Cheese Pizza,8.5,USD,A classic featuring our house made pizza sauce.
+Broad Street Cafe,562 Broad St,Newark,US,7102,Midtown,"Breakfast Spot,labor organizations",Pizza Bianca,10,USD,"Mozzarella, ricotta and parmesan cheeses, artichoke hearts, garlic and herbs."
+Broad Street Cafe,562 Broad St,Newark,US,7102,Midtown,"Breakfast Spot,labor organizations",Vegan Pizza,8.5,USD,"Zucchini, tomatoes, artichoke hearts and eggplant."
+Art Cafe,3610 Route 378,Bethlehem,US,18015,PA,Restaurant,Margarita Flat Bread Pizza,7,USD,"Flat bread seasoned with garlic olive oil topped with mozzarella, parmesan, tomatoes and balsamic glaze."
+Hunan Gourmet,357 Us Highway 9,Englishtown,US,7726,NJ,"Chinese Restaurants,Gourmet Restaurants,Asian Restaurants,Restaurants,Hunan Restaurants,Seafood Restaurants,Chinese Restaurant",Tuna Pizza,12,USD,
+Austin's Pizza,7301 N Fm 620,Austin,US,78726,TX,"Pizza,Take Out Restaurants,Italian Restaurants,Caterers,Restaurants,Pizza Place",Bacon Pizzaburger,14.49,USD,"Hamburger, breakfast bacon, red onions, and cheddar cheese ."
+Austin's Pizza,7301 N Fm 620,Austin,US,78726,TX,"Pizza,Take Out Restaurants,Italian Restaurants,Caterers,Restaurants,Pizza Place",Dessert Pizza,7.99,USD,Stuffed with an all natural cinnamon apple filling and topped with icing and powdered  sugar . made with real butter and no high fructose corn syrup
+Austin's Pizza,7301 N Fm 620,Austin,US,78726,TX,"Pizza,Take Out Restaurants,Italian Restaurants,Caterers,Restaurants,Pizza Place",Las Pizzas Del Fuego,13.99,USD,"Pepperoni, jalapeno, and crushed red peppers ."
+Austin's Pizza,7301 N Fm 620,Austin,US,78726,TX,"Pizza,Take Out Restaurants,Italian Restaurants,Caterers,Restaurants,Pizza Place",Pizza Rolls,11.99,USD,
+Austin's Pizza,7301 N Fm 620,Austin,US,78726,TX,"Pizza,Take Out Restaurants,Italian Restaurants,Caterers,Restaurants,Pizza Place",The White Pizza,13.39,USD,"Alfredo sauce, mozzarella, and provolone cheese ."
+Sir Pizza,Madison St,Madison,US,,TN,Pizza Place,White Pizza,10,USD,"Provolone cheese, garlic, olive oil, sliced tomatoes (may substitute another topping)"
+Milanos Pizza,9822 Libra Ave,Sacramento,US,95827,CA,"Pizza Place,Sacramento Restaurants",Buffalo Chicken Pizza,14.25,USD,
+Milanos Pizza,9822 Libra Ave,Sacramento,US,95827,CA,"Pizza Place,Sacramento Restaurants",Carne Pizza,15.5,USD,
+Milanos Pizza,9822 Libra Ave,Sacramento,US,95827,CA,"Pizza Place,Sacramento Restaurants",Deluxe Style Pizza,11,USD,
+Milanos Pizza,9822 Libra Ave,Sacramento,US,95827,CA,"Pizza Place,Sacramento Restaurants",Hawaiian Pizza,13,USD,
+Milanos Pizza,9822 Libra Ave,Sacramento,US,95827,CA,"Pizza Place,Sacramento Restaurants",Pepperoni Pizza Steak,5,USD,
+Milanos Pizza,9822 Libra Ave,Sacramento,US,95827,CA,"Pizza Place,Sacramento Restaurants",Pizza Steak,4.5,USD,
+Milanos Pizza,9822 Libra Ave,Sacramento,US,95827,CA,"Pizza Place,Sacramento Restaurants",Plain Cheese Pizza,11,USD,
+Milanos Pizza,9822 Libra Ave,Sacramento,US,95827,CA,"Pizza Place,Sacramento Restaurants",Primavera Pizza,14,USD,
+Milanos Pizza,9822 Libra Ave,Sacramento,US,95827,CA,"Pizza Place,Sacramento Restaurants",Sicilian Style Pizza,14,USD,
+Milanos Pizza,9822 Libra Ave,Sacramento,US,95827,CA,"Pizza Place,Sacramento Restaurants",Veggie Pizza,13.5,USD,
+Milanos Pizza,9822 Libra Ave,Sacramento,US,95827,CA,"Pizza Place,Sacramento Restaurants",White Pizza,11.5,USD,
+Lineage - Permanently Closed,242 Harvard St,Brookline,US,2446,MA,Restaurant,Wood Oven Pizza,14,USD,"house made sausage, pickled onion, broccoli rabe, creamy goat cheese"
+Fox's Pizza Den,4921 State Road 26 E,Lafayette,US,47905,IN,"Pizza Place,Pizza,Restaurants,Take Out Restaurants,Fast Food Restaurants,Italian Restaurants,Family Style Restaurants",Cheese Pizza,12.99,USD,
+Fox's Pizza Den,4921 State Road 26 E,Lafayette,US,47905,IN,"Pizza Place,Pizza,Restaurants,Take Out Restaurants,Fast Food Restaurants,Italian Restaurants,Family Style Restaurants",Pizzaroni,7.99,USD,
+Fox's Pizza Den,4921 State Road 26 E,Lafayette,US,47905,IN,"Pizza Place,Pizza,Restaurants,Take Out Restaurants,Fast Food Restaurants,Italian Restaurants,Family Style Restaurants",Taco Pizza,,,
+Fox's Pizza Den,4921 State Road 26 E,Lafayette,US,47905,IN,"Pizza Place,Pizza,Restaurants,Take Out Restaurants,Fast Food Restaurants,Italian Restaurants,Family Style Restaurants",Veggie Pizza,,,
+Bronson Strike Zone,717 E Chicago St,Bronson,US,49028,MI,"Batting Cages,Bowling Lanes & Bowling Centers,Bowling Alley,Sports Bar,Arcade",Large Cheese Pizza.,9.99,USD,
+Bronson Strike Zone,717 E Chicago St,Bronson,US,49028,MI,"Batting Cages,Bowling Lanes & Bowling Centers,Bowling Alley,Sports Bar,Arcade",Large Supreme Pizza.,14.99,USD,
+Bronson Strike Zone,717 E Chicago St,Bronson,US,49028,MI,"Batting Cages,Bowling Lanes & Bowling Centers,Bowling Alley,Sports Bar,Arcade",Small Cheese Pizza,3.99,USD,
+Bronson Strike Zone,717 E Chicago St,Bronson,US,49028,MI,"Batting Cages,Bowling Lanes & Bowling Centers,Bowling Alley,Sports Bar,Arcade",Small Supreme Pizza,5.99,USD,
+Copeland's Cheescake Bistro,2001 Saint Charles Ave,New Orleans,US,70130,LA,"American Restaurant,Cajun / Creole Restaurant,Bakery",Great Tasting Cheese Pizza,4.95,USD,
+Copeland's Cheescake Bistro,2001 Saint Charles Ave,New Orleans,US,70130,LA,"American Restaurant,Cajun / Creole Restaurant,Bakery",Original Herb Cheese Pizza Points,4.99,USD,8 Pizza Points
+Uno Pizzeria & Grill,95 Mall Rd Burlington Mall Nordstrom Entrance,Burlington,US,1803,MA,Restaurant,Chicago Classic Deep Dish Pizza,,,
+Uno Pizzeria & Grill,95 Mall Rd Burlington Mall Nordstrom Entrance,Burlington,US,1803,MA,Restaurant,Chicken Verde Artisan Crust Pizza,12.49,USD,"Chicken, roasted red peppers, garlic and spinach topped with mozzarella, drizzled with basil pesto"
+Uno Pizzeria & Grill,95 Mall Rd Burlington Mall Nordstrom Entrance,Burlington,US,1803,MA,Restaurant,Classic Margherita Artisan Crust Pizza,11.49,USD,
+Uno Pizzeria & Grill,95 Mall Rd Burlington Mall Nordstrom Entrance,Burlington,US,1803,MA,Restaurant,Gluten Free Cheese Tomato Thin Crust Pizza,10.99,USD,
+Uno Pizzeria & Grill,95 Mall Rd Burlington Mall Nordstrom Entrance,Burlington,US,1803,MA,Restaurant,Gluten Free Pepperoni Thin Crust Pizza,11.99,USD,
+Uno Pizzeria & Grill,95 Mall Rd Burlington Mall Nordstrom Entrance,Burlington,US,1803,MA,Restaurant,Gluten Free Veggie Thin Crust Pizza,11.49,USD,
+Uno Pizzeria & Grill,95 Mall Rd Burlington Mall Nordstrom Entrance,Burlington,US,1803,MA,Restaurant,Napoli Artisan Crust Pizza,12.49,USD,
+Uno Pizzeria & Grill,95 Mall Rd Burlington Mall Nordstrom Entrance,Burlington,US,1803,MA,Restaurant,Pizza Skins,9.99,USD,
+Uno Pizzeria & Grill,95 Mall Rd Burlington Mall Nordstrom Entrance,Burlington,US,1803,MA,Restaurant,Prosciutto Arugula Artisan Crust Pizza,12.99,USD,"Prosciutto and roasted red peppers topped with aged white cheddar, mozzarella, parmesan and arugula, drizzled with balsamic glaze"
+Dioli's Italian Market,2898 Reynolda Rd,Winston Salem,US,27106,Oldtown,"Mediterranean Restaurants,Restaurants,Bakeries,Delis And Delicatessens,Italian Restaurants,Pizza,Delicatessens,Deli / Bodega,Italian Restaurant",Flatbread Pizza of The Day,7.25,USD,
+Dioli's Italian Market,2898 Reynolda Rd,Winston Salem,US,27106,Oldtown,"Mediterranean Restaurants,Restaurants,Bakeries,Delis And Delicatessens,Italian Restaurants,Pizza,Delicatessens,Deli / Bodega,Italian Restaurant",Meatball Pizza,,,
+D. Vino Italian Food and Wine Bar - Monte Carlo,3770 Las Vegas Blvd S,Las Vegas,US,89109,NV,Restaurant,Caprese Pizza,14,USD,"Fresh Mozzarella, Slices of Fresh Roma Tomatoes, Zucchini Blossoms, Topped with Fresh Basil Leaves, Dried Oregano, Drizzle of Balsamic Glaze"
+Little Italy Pizza,1495 Union Ave,Memphis,US,38104,Mphs,"Pizza Place,Italian Restaurant",White Pizza,8.95,USD,Mozzarella and Ricotta
+Mexican Gardens,15950 Eureka Rd,Southgate,US,48195,MI,Mexican Restaurant,Homemade Mexican Pizza,9.99,USD,Your Choice Of Bbq Chicken Or Sante Fe
+Mexican Gardens,15950 Eureka Rd,Southgate,US,48195,MI,Mexican Restaurant,Vegetarian Mexican Pizza,9.99,USD,"Our Homemade Flour Tortilla And Specialty Blend Cheese, With Spinach, Tomato, Onion And Green Pepper"
+Mi Pal's Deli,2300 S 16th St,Philadelphia,US,19145,PA,"Deli / Bodega,Mediterranean Restaurants,American Restaurants,Deli / Bodega South Philadelphia,Caterers,Restaurants,Sandwich Shops,Bagels,Italian Restaurants,Delicatessens,Health Food Restaurants",Chicken Pizza Steak,6.95,USD,
+Mi Pal's Deli,2300 S 16th St,Philadelphia,US,19145,PA,"Deli / Bodega,Mediterranean Restaurants,American Restaurants,Deli / Bodega South Philadelphia,Caterers,Restaurants,Sandwich Shops,Bagels,Italian Restaurants,Delicatessens,Health Food Restaurants",Pepperoni Chicken Pizza Steak,6.95,USD,
+Mi Pal's Deli,2300 S 16th St,Philadelphia,US,19145,PA,"Deli / Bodega,Mediterranean Restaurants,American Restaurants,Deli / Bodega South Philadelphia,Caterers,Restaurants,Sandwich Shops,Bagels,Italian Restaurants,Delicatessens,Health Food Restaurants",Pepperoni Pizza Burger,3.95,USD,
+Mi Pal's Deli,2300 S 16th St,Philadelphia,US,19145,PA,"Deli / Bodega,Mediterranean Restaurants,American Restaurants,Deli / Bodega South Philadelphia,Caterers,Restaurants,Sandwich Shops,Bagels,Italian Restaurants,Delicatessens,Health Food Restaurants",Pepperoni Pizza Pretzel,1.5,USD,
+Mi Pal's Deli,2300 S 16th St,Philadelphia,US,19145,PA,"Deli / Bodega,Mediterranean Restaurants,American Restaurants,Deli / Bodega South Philadelphia,Caterers,Restaurants,Sandwich Shops,Bagels,Italian Restaurants,Delicatessens,Health Food Restaurants",Pepperoni Pizza Steak,6.95,USD,
+Mi Pal's Deli,2300 S 16th St,Philadelphia,US,19145,PA,"Deli / Bodega,Mediterranean Restaurants,American Restaurants,Deli / Bodega South Philadelphia,Caterers,Restaurants,Sandwich Shops,Bagels,Italian Restaurants,Delicatessens,Health Food Restaurants",Pizza Burger,3.95,USD,
+Mi Pal's Deli,2300 S 16th St,Philadelphia,US,19145,PA,"Deli / Bodega,Mediterranean Restaurants,American Restaurants,Deli / Bodega South Philadelphia,Caterers,Restaurants,Sandwich Shops,Bagels,Italian Restaurants,Delicatessens,Health Food Restaurants",Pizza Fries,3.95,USD,
+Mi Pal's Deli,2300 S 16th St,Philadelphia,US,19145,PA,"Deli / Bodega,Mediterranean Restaurants,American Restaurants,Deli / Bodega South Philadelphia,Caterers,Restaurants,Sandwich Shops,Bagels,Italian Restaurants,Delicatessens,Health Food Restaurants",Pizza Pretzel,1.25,USD,
+Mi Pal's Deli,2300 S 16th St,Philadelphia,US,19145,PA,"Deli / Bodega,Mediterranean Restaurants,American Restaurants,Deli / Bodega South Philadelphia,Caterers,Restaurants,Sandwich Shops,Bagels,Italian Restaurants,Delicatessens,Health Food Restaurants",Pizza Roll,1.75,USD,
+Mi Pal's Deli,2300 S 16th St,Philadelphia,US,19145,PA,"Deli / Bodega,Mediterranean Restaurants,American Restaurants,Deli / Bodega South Philadelphia,Caterers,Restaurants,Sandwich Shops,Bagels,Italian Restaurants,Delicatessens,Health Food Restaurants",Pizza Steak,6.95,USD,
+Supreme Roast Beef & Sea Food,18 Maple St,Danvers,US,1923,MA,"Greek Restaurant and Fast Food Restaurant,Greek Restaurant,Fast Food Restaurant",Pizza Roll,1.85,USD,
+Rosa Ii Pizzeria & Restaurant,7559 Metropolitan Ave,Middle Village,US,11379,Elmhurst,Pizza Place,Pizza Dough,2.5,USD,
+Rosa Ii Pizzeria & Restaurant,7559 Metropolitan Ave,Middle Village,US,11379,Elmhurst,Pizza Place,Round Pizza By The Slice,1.75,USD,
+Taco Pronto,8385 W 21st St N,Wichita,US,67205,KS,"Mexican Restaurant,Fast Food Restaurant",Taco Pizza,1.99,USD,"Ground beef, melted cheddar cheese and your choice of sauce on a fried corn shell topped with green olives."
+Tre Restaurant & Wine Bar,173 Ludlow St,New York,US,10002,New York City,"Restaurant,Italian Restaurant,Italian Restaurant and Breakfast Spot,Breakfast Spot,Italian Restaurant and Breakfast Spot Lower East Side",Vegetarian Pizza,,,
+Tilted Kilt Mission Valley,1640 Camino Del Rio N,San Diego,US,92108,CA,"Pub,Bar,Sports Bar",Byop (build Your Own Pizza),,,Start out with the classic flatbread pizza (your choice of sauce and mozzarella cheese)
+Gran Morsi,22 Warren St,New York,US,10007,Manhattan,"Restaurant,Italian Restaurant",Arugula Pizza (seasonal),14,USD,
+Gran Morsi,22 Warren St,New York,US,10007,Manhattan,"Restaurant,Italian Restaurant",Autumn Pizza (seasonal),14,USD,"Butternut squash, roasted brussels sprouts and bacon."
+Gran Morsi,22 Warren St,New York,US,10007,Manhattan,"Restaurant,Italian Restaurant",Bronx Bomber Pizza,14,USD,"Mortadella, genoa salami, soppressata and provolone cheese."
+Gran Morsi,22 Warren St,New York,US,10007,Manhattan,"Restaurant,Italian Restaurant",Bruha Pizza,14,USD,"Butternut squash, ricotta cheese and sage."
+Gran Morsi,22 Warren St,New York,US,10007,Manhattan,"Restaurant,Italian Restaurant",Carne Pizza,14,USD,"Sausage, rabe and ricotta cheese."
+Gran Morsi,22 Warren St,New York,US,10007,Manhattan,"Restaurant,Italian Restaurant",Fennel Pizza (seasonal),14,USD,"Crispy prosciutto chips, ricotta cheese, rosemary and artichokes."
+Gran Morsi,22 Warren St,New York,US,10007,Manhattan,"Restaurant,Italian Restaurant",Formaggi Pizza,14,USD,"Ricotta, mozzarella and pecorino cheeses."
+Gran Morsi,22 Warren St,New York,US,10007,Manhattan,"Restaurant,Italian Restaurant",Funghi Pizza,14,USD,"Wild mushrooms, grilled portobellos and smoked mozzarella cheese."
+Gran Morsi,22 Warren St,New York,US,10007,Manhattan,"Restaurant,Italian Restaurant",Margherita Pizza,14,USD,"Mozzarella cheese, marinara and basil."
+Gran Morsi,22 Warren St,New York,US,10007,Manhattan,"Restaurant,Italian Restaurant",Nutella Pizza,8,USD,
+Gran Morsi,22 Warren St,New York,US,10007,Manhattan,"Restaurant,Italian Restaurant",Pesto Pizza (seasonal),14,USD,"Artichokes, fresh tomatoes and parmesan cheese."
+Kennebunk House Of Pizza,5 York St,Kennebunk,US,4043,ME,"Restaurants,Italian Restaurants,Pizza,Pizza Place",Chicken Supreme Pizza,18.6,USD,Large
+Kennebunk House Of Pizza,5 York St,Kennebunk,US,4043,ME,"Restaurants,Italian Restaurants,Pizza,Pizza Place",Loaded Steak Pizza,17.95,USD,
+The Fire Den,1231 Park St,Alameda,US,94501,CA,"Sports Bar,Bar,Sports Bar and Bar,Sports Bar and Bar East End",Arthichoke Heart Chicken Pizza,23.99,USD,
+The Fire Den,1231 Park St,Alameda,US,94501,CA,"Sports Bar,Bar,Sports Bar and Bar,Sports Bar and Bar East End",Bbq Chicken Pizza,23.99,USD,
+The Fire Den,1231 Park St,Alameda,US,94501,CA,"Sports Bar,Bar,Sports Bar and Bar,Sports Bar and Bar East End",Combination Pizza,23.99,USD,
+The Fire Den,1231 Park St,Alameda,US,94501,CA,"Sports Bar,Bar,Sports Bar and Bar,Sports Bar and Bar East End",Create Your Own Pizza,,,
+The Fire Den,1231 Park St,Alameda,US,94501,CA,"Sports Bar,Bar,Sports Bar and Bar,Sports Bar and Bar East End",Fire Den Supreme Pizza,23.99,USD,
+The Fire Den,1231 Park St,Alameda,US,94501,CA,"Sports Bar,Bar,Sports Bar and Bar,Sports Bar and Bar East End",Garlic Chicken Pizza,23.99,USD,
+The Fire Den,1231 Park St,Alameda,US,94501,CA,"Sports Bar,Bar,Sports Bar and Bar,Sports Bar and Bar East End",Greek Chicken Pizza,23.99,USD,
+The Fire Den,1231 Park St,Alameda,US,94501,CA,"Sports Bar,Bar,Sports Bar and Bar,Sports Bar and Bar East End",Hawaiian Pizza,23.99,USD,
+The Fire Den,1231 Park St,Alameda,US,94501,CA,"Sports Bar,Bar,Sports Bar and Bar,Sports Bar and Bar East End",Italian Pizza,23.99,USD,
+The Fire Den,1231 Park St,Alameda,US,94501,CA,"Sports Bar,Bar,Sports Bar and Bar,Sports Bar and Bar East End",Pesto Chicken Pizza,23.99,USD,
+The Fire Den,1231 Park St,Alameda,US,94501,CA,"Sports Bar,Bar,Sports Bar and Bar,Sports Bar and Bar East End",Pesto Sauce Pizza (vegetarian),23.99,USD,
+The Fire Den,1231 Park St,Alameda,US,94501,CA,"Sports Bar,Bar,Sports Bar and Bar,Sports Bar and Bar East End",Pizza Special,8.99,USD,
+The Fire Den,1231 Park St,Alameda,US,94501,CA,"Sports Bar,Bar,Sports Bar and Bar,Sports Bar and Bar East End",Vegetarian Pizza,23.99,USD,
+Russo's Pizza,1760 44th St S W,Wyoming,US,49519,MI,"Pizza Place,Italian Restaurant,Salad Place,Restaurant",Pizza Sub,,,
+Russo's Pizza,1760 44th St S W,Wyoming,US,49519,MI,"Pizza Place,Italian Restaurant,Salad Place,Restaurant",Taco Pizza,12.25,USD,
+Kyoto Sushi,153 11 Union Tpke,Flushing,US,11367,Queens,"Sushi Restaurant, Asian Restaurant, and Japanese Restaurant Northeastern Queens,Restaurants,Japanese Restaurant,Asian Restaurant,Sushi Restaurant,Locksmiths",Spicy Tuna Pizza or Spicy Salmon Pizza,12.95,USD,
+Booies Pizza,653 W 26th St,Erie,US,16508,PA,"Caterers,Carry-out food,Karaoke,Pizza,Restaurants,American restaurants,Cafeteria restaurants,Italian restaurants,Sandwiches,Catering,Sandwich Shops,Food Delivery Service,Take Out Restaurants,Cafeteria,Pizza Place",Pizza,5.99,USD,
+Patsy's Pizzeria,801 2nd Ave,New York,US,10017,Manhattan,restaurant,Cheese Pizza,17,USD,
+Fazoli's,315 S College Mall Rd,Bloomington,US,47401,IN,"Italian Restaurant,Fast Food Restaurant",Pizza Slice,4,USD,Cheese or Pepperoni
+Fazoli's,315 S College Mall Rd,Bloomington,US,47401,IN,"Italian Restaurant,Fast Food Restaurant",Whole Pizza,11,USD,Cheese or Pepperoni
+Paisans Pizza - Berwyn,6226 W Ogden,Berwyn,US,60402,IL,Restaurant,Famous Paisans Pizza Sauce Quart,,,
+Paisans Pizza - Berwyn,6226 W Ogden,Berwyn,US,60402,IL,Restaurant,Four 18 Pizzas,,,"(two toppings each), 60 Wings and Four 2 liters of Soda."
+Paisans Pizza - Berwyn,6226 W Ogden,Berwyn,US,60402,IL,Restaurant,Gluten Free Pizza,,,
+The Italian Oven,623 Highland Ave,Connellsville,US,15425,S Connelsvl,Italian Restaurant,Pizza Fries,6.99,USD,"Our pizza dough stuffed with pepperoni, cheese and seasonings deep fried to a golden brown."
+Pagliacci Pizza,13005 N E 70th Pl,Kirkland,US,98033,Juanita,Pizza Place,The Original Cheese Pizza,,,With tomato sauce or fresh garlic and olive oil and add the toppings you select for your own pizza combination.
+The Melting Pot - White Plains,30 Mamaroneck Ave,White Plains,US,10601,NY,Restaurant,Chicago Deep Dish Pizza,,,
+The Melting Pot - White Plains,30 Mamaroneck Ave,White Plains,US,10601,NY,Restaurant,Pizza Topping Dippers,,,
+Oh' Brian's on the Green,1300 Raritan Rd,Clark,US,7066,NJ,"Gastropub,Latin American Restaurants,Bars,American Restaurants,Restaurant,Brew Pubs,Caterers,Restaurants,Night Clubs,Family Style Restaurants,Bar & Grills,Mexican Restaurants,Taverns",The Reuben Pizza,13,USD,"shredded mozzarella, corned beef, russian dressing"
+Oh' Brian's on the Green,1300 Raritan Rd,Clark,US,7066,NJ,"Gastropub,Latin American Restaurants,Bars,American Restaurants,Restaurant,Brew Pubs,Caterers,Restaurants,Night Clubs,Family Style Restaurants,Bar & Grills,Mexican Restaurants,Taverns",White Pizza,13,USD,
+Baldinelli Pizza,12326 W 143rd St,Homer Glen,US,,IL,"Pizza,Restaurants,Pizza Place",Four Pig Pizza,,,
+Baldinelli Pizza,12326 W 143rd St,Homer Glen,US,,IL,"Pizza,Restaurants,Pizza Place",Pizza Bread,3.75,USD,
+Valley Lahvosh Baking,502 M St,Fresno,US,,CA,"Bakery,Bakeries,Wholesale Bakeries,Cookies & Crackers,Restaurants",Classic Pepperoni Lahvosh Pizza,,,
+Cristy's Pizza,1001 S Main St,Baltimore,US,43105,OH,"Pizza Place,Pizza,Sandwich Shops,Italian Restaurants,Delicatessens,Restaurants",Blt Pizza,,,"Crisp bacon, provolone, tomato sauce, tomato, lettuce, miracle whip"
+Cristy's Pizza,1001 S Main St,Baltimore,US,43105,OH,"Pizza Place,Pizza,Sandwich Shops,Italian Restaurants,Delicatessens,Restaurants",Create Your Own Pizza,,,
+Cristy's Pizza,1001 S Main St,Baltimore,US,43105,OH,"Pizza Place,Pizza,Sandwich Shops,Italian Restaurants,Delicatessens,Restaurants",Margherita Pizza,,,
+Cristy's Pizza,1001 S Main St,Baltimore,US,43105,OH,"Pizza Place,Pizza,Sandwich Shops,Italian Restaurants,Delicatessens,Restaurants",Margherita Pizza (on Honey Wheat Dough),15.3,USD,
+Cristy's Pizza,1001 S Main St,Baltimore,US,43105,OH,"Pizza Place,Pizza,Sandwich Shops,Italian Restaurants,Delicatessens,Restaurants",New York Style Pizza,,,
+Cristy's Pizza,1001 S Main St,Baltimore,US,43105,OH,"Pizza Place,Pizza,Sandwich Shops,Italian Restaurants,Delicatessens,Restaurants",Philly Cheese Steak Pizza,,,
+Cristy's Pizza,1001 S Main St,Baltimore,US,43105,OH,"Pizza Place,Pizza,Sandwich Shops,Italian Restaurants,Delicatessens,Restaurants",Pizza,5.95,USD,
+Cristy's Pizza,1001 S Main St,Baltimore,US,43105,OH,"Pizza Place,Pizza,Sandwich Shops,Italian Restaurants,Delicatessens,Restaurants",Rolled Pizza Bites 10,5.95,USD,
+Cristy's Pizza,1001 S Main St,Baltimore,US,43105,OH,"Pizza Place,Pizza,Sandwich Shops,Italian Restaurants,Delicatessens,Restaurants",Veggie Pizza (on Honey Wheat Dough),16.2,USD,
+Steinway Pizza,3151 Steinway St,Astoria,US,11103,Queens,Pizza Place,Caeser Sald Pizza,18.5,USD,"Grilled chicken, roman lettuce, groutons, caeser salad dressin"
+Steinway Pizza,3151 Steinway St,Astoria,US,11103,Queens,Pizza Place,Caprese Pizza,20,USD,
+Steinway Pizza,3151 Steinway St,Astoria,US,11103,Queens,Pizza Place,Grandma Pizza (round or Square),17,USD,"Fresh mozzarella, garlic tomato, and basil"
+Steinway Pizza,3151 Steinway St,Astoria,US,11103,Queens,Pizza Place,Hawaiian Pizza,19,USD,"Ham, cheese and Pineapple"
+Steinway Pizza,3151 Steinway St,Astoria,US,11103,Queens,Pizza Place,Pizza Primavera,16,USD,"Fresh zucchini, onions , tomatoes, mushrooms"
+Steinway Pizza,3151 Steinway St,Astoria,US,11103,Queens,Pizza Place,Pizza Upside Down,16,USD,
+Steinway Pizza,3151 Steinway St,Astoria,US,11103,Queens,Pizza Place,Pizza Vodka Sauce,16,USD,Vodka sauce
+Steinway Pizza,3151 Steinway St,Astoria,US,11103,Queens,Pizza Place,Pizza White,18,USD,
+Steinway Pizza,3151 Steinway St,Astoria,US,11103,Queens,Pizza Place,Regular Chicken Pizza,19,USD,
+Steinway Pizza,3151 Steinway St,Astoria,US,11103,Queens,Pizza Place,Taco Pizza,20,USD,
+Potbelly Sandwich Shop,Midway Airport,Chicago,US,60638,Forest View,wich Place,Pizza Sandwich,5.55,USD,"Pepperoni, marinara sauce, provolone cheese, mushrooms and italian seasoning"
+Charlies American Grill & Spirits,701 Gordon Dr,Sioux City,US,51101,IA,"American Restaurant and Bar,American Restaurant,Bar",Pizza,,,With fresh fruit
+Cafe Veloce,12514 120th Ave N E,Kirkland,US,98034,Kingsgate,"italian restaurant,Italian Restaurant, Pizza Place, and Wine Bar,Restaurant",Moped Pizza,10,USD,
+Hungry Howie's Pizza,1909 E Ray Rd,Chandler,US,85225,AZ,"Pizza Place,Pizza,Restaurants,Take Out Restaurants",Bacon Cheddar Burger Pizza,7,USD,
+Hungry Howie's Pizza,1909 E Ray Rd,Chandler,US,85225,AZ,"Pizza Place,Pizza,Restaurants,Take Out Restaurants",Create Pizza,3,USD,
+Hungry Howie's Pizza,1909 E Ray Rd,Chandler,US,85225,AZ,"Pizza Place,Pizza,Restaurants,Take Out Restaurants",Howie Maui Pizza,7,USD,
+Hungry Howie's Pizza,1909 E Ray Rd,Chandler,US,85225,AZ,"Pizza Place,Pizza,Restaurants,Take Out Restaurants",Howie Special Pizza,7,USD,
+Hungry Howie's Pizza,1909 E Ray Rd,Chandler,US,85225,AZ,"Pizza Place,Pizza,Restaurants,Take Out Restaurants",Large Pepperoni Plus Pizza,12,USD,Loaded with Extra Pepperoni and Extra Mozzarella Cheese.
+Hungry Howie's Pizza,1909 E Ray Rd,Chandler,US,85225,AZ,"Pizza Place,Pizza,Restaurants,Take Out Restaurants",Large The Works Pizza,15,USD,
+Hungry Howie's Pizza,1909 E Ray Rd,Chandler,US,85225,AZ,"Pizza Place,Pizza,Restaurants,Take Out Restaurants",Meat Eaters Pizza,8,USD,
+Hungry Howie's Pizza,1909 E Ray Rd,Chandler,US,85225,AZ,"Pizza Place,Pizza,Restaurants,Take Out Restaurants",Medium Cheese Pizza,5,USD,
+Hungry Howie's Pizza,1909 E Ray Rd,Chandler,US,85225,AZ,"Pizza Place,Pizza,Restaurants,Take Out Restaurants",Philly Cheesesteak Pizza,8,USD,
+Hungry Howie's Pizza,1909 E Ray Rd,Chandler,US,85225,AZ,"Pizza Place,Pizza,Restaurants,Take Out Restaurants",Pizza Dipping Sauce Cup,0.59,USD,
+Hungry Howie's Pizza,1909 E Ray Rd,Chandler,US,85225,AZ,"Pizza Place,Pizza,Restaurants,Take Out Restaurants",Pizza Sub,3,USD,
+Hungry Howie's Pizza,1909 E Ray Rd,Chandler,US,85225,AZ,"Pizza Place,Pizza,Restaurants,Take Out Restaurants",Pizza Sub Deluxe,4,USD,
+Hungry Howie's Pizza,1909 E Ray Rd,Chandler,US,85225,AZ,"Pizza Place,Pizza,Restaurants,Take Out Restaurants",The Works Pizza,8,USD,
+Hungry Howie's Pizza,1909 E Ray Rd,Chandler,US,85225,AZ,"Pizza Place,Pizza,Restaurants,Take Out Restaurants",Veggie Pizza,7,USD,"Mushroom, Slivered Onion, Green Pepper, Black Olive, Sliced Tomato and Mozzarella Cheese."
+Tony Soprano's Pizza,3747 Church Rd,Mount Laurel,US,8054,Mount Laurel Township,"Restaurants,Italian Restaurants,Pizza,Pizza Place",Pizza Fries,4.99,USD,
+Pie In The Sky,267 Swanton Rd,Saint Albans,US,5478,St Albans,"Restaurants,Pizza,Delicatessens",Cheese Pizza,6.95,USD,"Garlic (no charge) , carrots, bacon, mushrooms, onions, sauteed onions, green peppers, fresh tomatoes, broccoli, black olives, pepperocini, hot pepper rings, pineapple, pepperoni, sausage, ham, meatball, vermont cheddar, ricotta blend, extra cheese, anchovies."
+Mellow Mushroom Pizza Bakers,1201 16th St,Denver,US,80202,CO,"Pizza Place, Bar, and Sports Bar LoDo,American Restaurant,Coffee Shop LoDo,Restaurants,Pizza Place, Bar, and Sports Bar,Pizza Place LoDo,Bakeries,Restaurant,American Restaurant LoDo,Bar,Dessert Shops,Pizza Place,Sports Bar,Burger Joint, American Restaurant, and Fast Food Restaurant LoDo",B.b.q. Chicken Pizza,12.95,USD,"Mozzarella, fontina, red onion and cilantro"
+Mellow Mushroom Pizza Bakers,1201 16th St,Denver,US,80202,CO,"Pizza Place, Bar, and Sports Bar LoDo,American Restaurant,Coffee Shop LoDo,Restaurants,Pizza Place, Bar, and Sports Bar,Pizza Place LoDo,Bakeries,Restaurant,American Restaurant LoDo,Bar,Dessert Shops,Pizza Place,Sports Bar,Burger Joint, American Restaurant, and Fast Food Restaurant LoDo",Build Your Own Pizza,,,
+Mellow Mushroom Pizza Bakers,1201 16th St,Denver,US,80202,CO,"Pizza Place, Bar, and Sports Bar LoDo,American Restaurant,Coffee Shop LoDo,Restaurants,Pizza Place, Bar, and Sports Bar,Pizza Place LoDo,Bakeries,Restaurant,American Restaurant LoDo,Bar,Dessert Shops,Pizza Place,Sports Bar,Burger Joint, American Restaurant, and Fast Food Restaurant LoDo",Cheese Pizza,10.95,USD,
+Mellow Mushroom Pizza Bakers,1201 16th St,Denver,US,80202,CO,"Pizza Place, Bar, and Sports Bar LoDo,American Restaurant,Coffee Shop LoDo,Restaurants,Pizza Place, Bar, and Sports Bar,Pizza Place LoDo,Bakeries,Restaurant,American Restaurant LoDo,Bar,Dessert Shops,Pizza Place,Sports Bar,Burger Joint, American Restaurant, and Fast Food Restaurant LoDo",French Bread Pizza,,,
+Mellow Mushroom Pizza Bakers,1201 16th St,Denver,US,80202,CO,"Pizza Place, Bar, and Sports Bar LoDo,American Restaurant,Coffee Shop LoDo,Restaurants,Pizza Place, Bar, and Sports Bar,Pizza Place LoDo,Bakeries,Restaurant,American Restaurant LoDo,Bar,Dessert Shops,Pizza Place,Sports Bar,Burger Joint, American Restaurant, and Fast Food Restaurant LoDo",Gluten Free Veg Out Pizza,,,
+Mellow Mushroom Pizza Bakers,1201 16th St,Denver,US,80202,CO,"Pizza Place, Bar, and Sports Bar LoDo,American Restaurant,Coffee Shop LoDo,Restaurants,Pizza Place, Bar, and Sports Bar,Pizza Place LoDo,Bakeries,Restaurant,American Restaurant LoDo,Bar,Dessert Shops,Pizza Place,Sports Bar,Burger Joint, American Restaurant, and Fast Food Restaurant LoDo",Hawaiian Pizza,12.95,USD,"Canadian bacon, ham, fresh pineapple, red onion, tomato sauce and mozzarella"
+Mellow Mushroom Pizza Bakers,1201 16th St,Denver,US,80202,CO,"Pizza Place, Bar, and Sports Bar LoDo,American Restaurant,Coffee Shop LoDo,Restaurants,Pizza Place, Bar, and Sports Bar,Pizza Place LoDo,Bakeries,Restaurant,American Restaurant LoDo,Bar,Dessert Shops,Pizza Place,Sports Bar,Burger Joint, American Restaurant, and Fast Food Restaurant LoDo",Pepperoni Pizza,11.95,USD,
+Mellow Mushroom Pizza Bakers,1201 16th St,Denver,US,80202,CO,"Pizza Place, Bar, and Sports Bar LoDo,American Restaurant,Coffee Shop LoDo,Restaurants,Pizza Place, Bar, and Sports Bar,Pizza Place LoDo,Bakeries,Restaurant,American Restaurant LoDo,Bar,Dessert Shops,Pizza Place,Sports Bar,Burger Joint, American Restaurant, and Fast Food Restaurant LoDo",Roasted Vegetable Pizza,12.95,USD,"Roasted eggplant, red and yellow peppers, grilled onion, artichokes, kalamata olives, tomato and mozzarella. goat cheese on request"
+Mellow Mushroom Pizza Bakers,1201 16th St,Denver,US,80202,CO,"Pizza Place, Bar, and Sports Bar LoDo,American Restaurant,Coffee Shop LoDo,Restaurants,Pizza Place, Bar, and Sports Bar,Pizza Place LoDo,Bakeries,Restaurant,American Restaurant LoDo,Bar,Dessert Shops,Pizza Place,Sports Bar,Burger Joint, American Restaurant, and Fast Food Restaurant LoDo",Spicy Meat Pizza,12.95,USD,"Italian sausage, prosciutto, pepperoni, spicy salami, caramelized onions and tomato"
+Mellow Mushroom Pizza Bakers,1201 16th St,Denver,US,80202,CO,"Pizza Place, Bar, and Sports Bar LoDo,American Restaurant,Coffee Shop LoDo,Restaurants,Pizza Place, Bar, and Sports Bar,Pizza Place LoDo,Bakeries,Restaurant,American Restaurant LoDo,Bar,Dessert Shops,Pizza Place,Sports Bar,Burger Joint, American Restaurant, and Fast Food Restaurant LoDo",Thai Dye Pizza,,,
+Mellow Mushroom Pizza Bakers,1201 16th St,Denver,US,80202,CO,"Pizza Place, Bar, and Sports Bar LoDo,American Restaurant,Coffee Shop LoDo,Restaurants,Pizza Place, Bar, and Sports Bar,Pizza Place LoDo,Bakeries,Restaurant,American Restaurant LoDo,Bar,Dessert Shops,Pizza Place,Sports Bar,Burger Joint, American Restaurant, and Fast Food Restaurant LoDo",The Everything Pizza,12.95,USD,"Pepperoni, sausage, peppers, onions, mushrooms, mozzarella and tomato. kalamata olives on request"
+Grassfields Bar & Grill,Rt 114,Danvers,US,1923,MA,American Restaurant,Thin Crust Margarita Pizza,8.99,USD,
+Tavern On The Square,18607 Bothell Way N E,Bothell,US,98011,Queensgate,Restaurant,Mushroom Hunter Pizza,11,USD,"olive oil, roasted wild mushrooms, goat cheese fried shallots"
+Euro Pizzeria,120 E Post Rd,White Plains,US,10601,NY,Pizza Place,Caprese Pizza,18.99,USD,"Fresh Tomato, Fresh Mozzarella and Basil"
+Euro Pizzeria,120 E Post Rd,White Plains,US,10601,NY,Pizza Place,Pizza,11.5,USD,
+Euro Pizzeria,120 E Post Rd,White Plains,US,10601,NY,Pizza Place,Pizza Marinara,14.99,USD,Fresh Garlic and Basil Sprinkled with Parmigiana and Reggiano
+Euro Pizzeria,120 E Post Rd,White Plains,US,10601,NY,Pizza Place,Pizza Primavera,18.99,USD,"Spinach, Eggplant, Sliced Tomato and Mushrooms"
+Euro Pizzeria,120 E Post Rd,White Plains,US,10601,NY,Pizza Place,Pizza Rolls,5.49,USD,"Eggplant Parmigiana, Chicken Parmigiana, and Pepperoni Rolls"
+Euro Pizzeria,120 E Post Rd,White Plains,US,10601,NY,Pizza Place,Pizza Toppings,2.5,USD,
+Euro Pizzeria,120 E Post Rd,White Plains,US,10601,NY,Pizza Place,Sorrentino Pizza,18.99,USD,"Eggplant, Ricotta Cheese, Tomato Sauce, Mozzarella and Romano Cheese"
+Euro Pizzeria,120 E Post Rd,White Plains,US,10601,NY,Pizza Place,Specialty Pizza Toppings,3.5,USD,"Grilled Chicken, Goat Cheese, Gorgonzola, Broccoli Rabe"
+Euro Pizzeria,120 E Post Rd,White Plains,US,10601,NY,Pizza Place,Spinach Pizza,17.99,USD,"Freshly Sauteed Spinach, Mozzarella and Garlic"
+Euro Pizzeria,120 E Post Rd,White Plains,US,10601,NY,Pizza Place,White Pizza,18.99,USD,"Ricotta, Mozzarella and Garlic"
+Abo's Pizza,2220 Wildcat Reserve,Littleton,US,80129,CO,Pizza Place,Meat Lover Pizza,23.5,USD,
+Abo's Pizza,2220 Wildcat Reserve,Littleton,US,80129,CO,Pizza Place,New York Style Pizza,16,USD,
+Abo's Pizza,2220 Wildcat Reserve,Littleton,US,80129,CO,Pizza Place,Pizza By The Slice,,,Made to order
+Abo's Pizza,2220 Wildcat Reserve,Littleton,US,80129,CO,Pizza Place,Pizza By The Slice,2.75,USD,Made to order
+Abo's Pizza,2220 Wildcat Reserve,Littleton,US,80129,CO,Pizza Place,Pizza Slice,,,Max 3 toppings per slice
+Abo's Pizza,2220 Wildcat Reserve,Littleton,US,80129,CO,Pizza Place,Supreme Combo Pizza,23.5,USD,
+Abo's Pizza,2220 Wildcat Reserve,Littleton,US,80129,CO,Pizza Place,Veggie Combo Pizza,23.5,USD,
+Abo's Pizza,2220 Wildcat Reserve,Littleton,US,80129,CO,Pizza Place,Veggie Supreme Pizza,23.5,USD,
+Rivertowne North Shore,337 N Shore Dr,Pittsburgh,US,15212,Pitt,"American Restaurant,Bar",Blast Furnace Pizza,17.99,USD,"Sausage, pepperoni, capicola and hot pizza sauce, hot peppers and onions"
+Rivertowne North Shore,337 N Shore Dr,Pittsburgh,US,15212,Pitt,"American Restaurant,Bar",Buffalo Chicken Pizza,17.99,USD,Grilled chicken breast smothered in fire sauce with tomatoes and blue cheese crumbles and pizza cheese
+Rivertowne North Shore,337 N Shore Dr,Pittsburgh,US,15212,Pitt,"American Restaurant,Bar",Dark Hollow Pizza,17.99,USD,
+Rivertowne North Shore,337 N Shore Dr,Pittsburgh,US,15212,Pitt,"American Restaurant,Bar",Jones Street Pizza,17.99,USD,"Thinly sliced grilled ribeye, onions, mushrooms, red peppers and banana peppers"
+Rivertowne North Shore,337 N Shore Dr,Pittsburgh,US,15212,Pitt,"American Restaurant,Bar",Ohio River Pizza,17.99,USD,"White pizza with chicken, spinach, garlic, fresh mushrooms, tomatoes and pizza cheese"
+Rivertowne North Shore,337 N Shore Dr,Pittsburgh,US,15212,Pitt,"American Restaurant,Bar",Pierogi Pizza,17.99,USD,"Sauerkraut, smashed potatoes, onions, mozzarella and cheddar cheese on a garlic butter sauce pizza"
+Rivertowne North Shore,337 N Shore Dr,Pittsburgh,US,15212,Pitt,"American Restaurant,Bar",Piranha Pizza,17.99,USD,
+Rivertowne North Shore,337 N Shore Dr,Pittsburgh,US,15212,Pitt,"American Restaurant,Bar",Plain or Pepperoni Pizza,4.95,USD,
+Rivertowne North Shore,337 N Shore Dr,Pittsburgh,US,15212,Pitt,"American Restaurant,Bar",Plain or Pepperoni Pizza,,,
+Rivertowne North Shore,337 N Shore Dr,Pittsburgh,US,15212,Pitt,"American Restaurant,Bar",Reuben Pizza,17.99,USD,"Thinly sliced corned beef, sauerkraut and russian dressing, topped with pizza cheese and finished with swiss cheese"
+Rivertowne North Shore,337 N Shore Dr,Pittsburgh,US,15212,Pitt,"American Restaurant,Bar",River Town Pizza,10,USD,
+Rivertowne North Shore,337 N Shore Dr,Pittsburgh,US,15212,Pitt,"American Restaurant,Bar",Seafood Pizza,19.99,USD,"A garlic white pizza topped with tomatoes, shrimp, scallops, crabmeat and pizza cheeses"
+Rivertowne North Shore,337 N Shore Dr,Pittsburgh,US,15212,Pitt,"American Restaurant,Bar",The Youghigheny Pizza,17.99,USD,"Pepperoni, salami, cappicola, roasted red peppers, banana peppers and black olives"
+Lake Bowl Inc,1165 N Stratford Rd,Moses Lake,US,98837,Raugust,"Bowling Alley,Bowling,Bowling Equipment & Accessories,Bars,Cocktail Lounges,Restaurants",To The Price of Any Pizza,5,USD,
+Burgers & Cupcakes,458 9th Ave,New York,US,10018,Nyc,Burger Joint and Cupcake Shop,Fresh Mushroom Pizza,16.95,USD,
+Burgers & Cupcakes,458 9th Ave,New York,US,10018,Nyc,Burger Joint and Cupcake Shop,Margherita Pizza,15.95,USD,
+Burgers & Cupcakes,458 9th Ave,New York,US,10018,Nyc,Burger Joint and Cupcake Shop,Marinara Pizza,15.95,USD,
+Burgers & Cupcakes,458 9th Ave,New York,US,10018,Nyc,Burger Joint and Cupcake Shop,Napolitana Pizza,16.95,USD,
+Burgers & Cupcakes,458 9th Ave,New York,US,10018,Nyc,Burger Joint and Cupcake Shop,Pepperoni Pizza,17.95,USD,
+Burgers & Cupcakes,458 9th Ave,New York,US,10018,Nyc,Burger Joint and Cupcake Shop,Provencal Pizza,15.95,USD,
+Burgers & Cupcakes,458 9th Ave,New York,US,10018,Nyc,Burger Joint and Cupcake Shop,Romana Pizza,17.95,USD,
+Burgers & Cupcakes,458 9th Ave,New York,US,10018,Nyc,Burger Joint and Cupcake Shop,Toscana Pizza,17.95,USD,
+Burgers & Cupcakes,458 9th Ave,New York,US,10018,Nyc,Burger Joint and Cupcake Shop,Tre Colori Pizza,17.95,USD,
+Mo's Pub Eatery,317 2nd St,Langley,US,98260,WA,"Bartending Service,Caterers,Pub",Pizza,7.5,USD,
+Mo's Pub Eatery,317 2nd St,Langley,US,98260,WA,"Bartending Service,Caterers,Pub",Pizza Sticks,7.5,USD,
+Larosa's Pizzeria,6607 Glenway Ave,Cincinnati,US,45211,Fairmont,Pizza Place and Italian Restaurant,Kids Size Pizza,4.39,USD,
+Baglianis Food Market,417 12th St,Hammonton,US,8037,Blue Anchor,"Food Stores,Butcher Shops,Seafood Markets,Restaurants,Delis And Delicatessens",Pizza Steak,5.79,USD,
+The Hamilton Inn,708 Jersey Ave,Hoboken,US,7030,Uptown,Restaurant,Truffled Egg Pizza,14,USD,"Sunny side up eggs, crispy pancetta, spinach, mozzarella"
+Rancho Viejo Mexican Grill,715 Lenoir Rhyne Blvd S E,Hickory,US,28602,Longview,Mexican Restaurant,Mexican Pizza,8.8,USD,"A deep fried flour tortilla topped with beans, choice of meat, monterey jack and cheddar cheese, garnished with fresh tomatoes, fresh green onions, fresh guacamole and sour cream."
+Ton's Drive-in,101 W Main St,Broussard,US,70518,LA,"Cajun / Creole Restaurant,Coffee Shops,Fast Food Restaurants,Hamburgers & Hot Dogs,Restaurants",Fruit Pizza,,,
+Khan's Bar & Grill,1125 H St NE,Washington,US,20002,DC,"Asian Restaurant,Washington Dc",Khans Korean Pizza,8,USD,
+C19,267 S 19th St,Philadelphia,US,19103,Phila,"Italian Restaurant Rittenhouse Square,Italian Restaurant",Pizza Boy Citra Pils (4),5,USD,
+Zpizza,5365 Alton Pkwy,Irvine,US,92604,CA,"Pizza Place,Pizza",Pizza or Calzone,,,
+Zpizza,5365 Alton Pkwy,Irvine,US,92604,CA,"Pizza Place,Pizza",Pizza or Calzone,15.75,USD,
+California Pizza Kitchen,3401 Esperanza Xing,Austin,US,78758,TX,"Pizza,Take Out Restaurants,Restaurants,American Restaurants,Italian Restaurants,pizza place,American Restaurant",Pizza,116.99,USD,
+California Pizza Kitchen,3401 Esperanza Xing,Austin,US,78758,TX,"Pizza,Take Out Restaurants,Restaurants,American Restaurants,Italian Restaurants,pizza place,American Restaurant",The Original Bbq Chicken Pizza,14.29,USD,"Our legendary BBQ sauce, smoked gouda, red onions and fresh cilantro transform this original to iconic."
+California Pizza Kitchen,3401 Esperanza Xing,Austin,US,78758,TX,"Pizza,Take Out Restaurants,Restaurants,American Restaurants,Italian Restaurants,pizza place,American Restaurant",White Pizza,12.49,USD,
+Bosses Pizza - Keller,201 N Main St,Keller,US,76248,TX,Pizza Place,1 Topping Pizza,,,
+Bosses Pizza - Keller,201 N Main St,Keller,US,76248,TX,Pizza Place,1 Topping Pizza,5.25,USD,
+Bosses Pizza - Keller,201 N Main St,Keller,US,76248,TX,Pizza Place,2 Toppings Pizza,,,
+Bosses Pizza - Keller,201 N Main St,Keller,US,76248,TX,Pizza Place,2 Toppings Pizza,5.5,USD,
+East Coast Wings & Grill,800 N Main St,Kernersville,US,27284,Matthewstown,"Wings Joint,American Restaurant",Cheesy Pita Pizza,,,
+Brando's Pizza,1042 Union Rd,Buffalo,US,14224,NY,Pizza Place,Blt or Pizza Sub,5.5,USD,
+Brando's Pizza,1042 Union Rd,Buffalo,US,14224,NY,Pizza Place,Blt or Pizza Sub,,,
+Brando's Pizza,1042 Union Rd,Buffalo,US,14224,NY,Pizza Place,Chicken Parmesan Pizza,,,Traditional sauce with chunks of breaded chicken covered with mozzarella and romano cheese.
+Brando's Pizza,1042 Union Rd,Buffalo,US,14224,NY,Pizza Place,Pizza Logs,5.99,USD,Order of 4
+Brando's Pizza,1042 Union Rd,Buffalo,US,14224,NY,Pizza Place,Stinger Pizza,,,"Spicy Bleu Cheese sauce with steak and chunks of breaded chicken, cheddar and mozzarella cheese."
+Brando's Pizza,1042 Union Rd,Buffalo,US,14224,NY,Pizza Place,White Pizza Sub,7.49,USD,Garlic roll baked with mozzarella onions and tomato.
+Woolworth Tower Kitchen,233 Broadway,New York,US,10279,Nyc,"Restaurant,New York City",Grilled Pizza,10,USD,
+Ralph's Grocery Deli,2035 4th Ave,Seattle,US,98121,WA,"Food Products,Grocery Stores,Supermarkets and Super Stores,Delicatessens,Grocery Stores & Supermarkets,Sandwich Place,Grocery Store",Pizza Special,7.29,USD,Whole
+John's of 12th Street,302 E 12th St,New York,US,10003,Manhattan,"Restaurant,Italian Restaurant,Italian Restaurant East Village",Marinara Pizza,10.95,USD,"Tomato, Basil, Garlic"
+John's of 12th Street,302 E 12th St,New York,US,10003,Manhattan,"Restaurant,Italian Restaurant,Italian Restaurant East Village",Vegan Margherita Pizza,16.95,USD,"Tomato, Basil, Garlic, Daiya Cheese"
+

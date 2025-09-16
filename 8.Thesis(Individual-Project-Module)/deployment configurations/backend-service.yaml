@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: backend-service
+spec:
+  type: LoadBalancer
+  selector:
+    app: backend-app
+  ports:
+    - protocol: TCP
+      name: http-port # Unique name for the first port
+      port: 80
+      targetPort: 8080
+    - protocol: TCP
+      name: alternate-port # Unique name for the second port
+      port: 81
+      targetPort: 8081

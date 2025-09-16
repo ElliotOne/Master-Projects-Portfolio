@@ -1,0 +1,5 @@
+WE = (ne -> se -> WE2),
+WE2 = (e -> e -> ne -> nw -> nw -> sw -> WE2) .
+NS = (n -> ne -> se -> NS2),
+NS2 = (s -> ne -> nw -> nw -> sw -> NS2) .
+||S = (NS || WE) .

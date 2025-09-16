@@ -1,0 +1,54 @@
+﻿@model CoStudyCloud.Core.ViewModels.ProfileFormViewModel
+
+@{
+    ViewData["Title"] = "Profile";
+}
+
+<section class="form-section">
+    <div class="row justify-content-center">
+        <div class="col-12 mb-5">
+            <div class="section-title text-center">
+                <h2>@ViewData["Title"]</h2>
+            </div>
+        </div>
+        <div class="col-lg-6 col-md-8 col-sm-12 col-12">
+            <form asp-action="Profile">
+                <div class="form-group image-uploader-container">
+                    <img src="@(string.IsNullOrEmpty(Model.ProfileImageUrl) ? "/images/profile-placeholder.png" : Model.ProfileImageUrl)" class="img" />
+                </div>
+                <div class="form-group">
+                    <label asp-for="Email"></label>
+                    <input asp-for="Email" class="form-control" disabled="disabled" />
+                </div>
+                <div class="form-group">
+                    <label asp-for="FirstName"></label>
+                    <input asp-for="FirstName" class="form-control" />
+                    <span asp-validation-for="FirstName"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="LastName"></label>
+                    <input asp-for="LastName" class="form-control" />
+                    <span asp-validation-for="LastName"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="UserRole"></label>
+                    <input asp-for="UserRole" class="form-control" disabled="disabled" />
+                </div>
+                <div class="form-group">
+                    <label asp-for="CreateDate"></label>
+                    <input asp-for="CreateDate" class="form-control" disabled="disabled" />
+                </div>
+                <div class="form-group">
+                    <label asp-for="LastEditDate"></label>
+                    <input asp-for="LastEditDate" class="form-control" disabled="disabled" />
+                </div>
+                <div class="form-group mt-5">
+                    <input type="hidden" asp-for="Email" />
+                    <input type="hidden" asp-for="ProfileImageUrl" />
+                    <input type="submit" value="Update" class="btn btn-success" />
+                    <a asp-controller="Home" asp-action="Index" class="btn btn-light ms-3">Back</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>

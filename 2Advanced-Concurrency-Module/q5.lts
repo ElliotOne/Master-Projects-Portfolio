@@ -1,0 +1,64 @@
+const True = 1
+const False = 0
+range B = False..True
+
+CLAN = (raiseFlag -> checkFlag -> (lowerFlag -> CLAN | visit -> water -> leave -> lowerFlag -> CLAN)).
+
+RIVER = RIVER[False][False], // initially no flag is raised
+
+RIVER[hatFlag:B][mcFlag:B] =
+	(
+		hatfields.raiseFlag -> RIVER[True][mcFlag]
+		|hatfields.checkFlag ->
+			(
+				when(!mcFlag)
+        			hatfields.visit -> hatfields.leave -> hatfields.lowerFlag -> RIVER[False][mcFlag]
+				|when(mcFlag)
+					hatfields.lowerFlag -> RIVER[False][mcFlag]
+			)
+		|mcCoys.raiseFlag -> RIVER[hatFlag][True]
+		|mcCoys.checkFlag ->
+			(
+				when(!hatFlag)
+        			mcCoys.visit -> mcCoys.leave -> mcCoys.lowerFlag -> RIVER[hatFlag][False]
+				|when(hatFlag)
+					mcCoys.lowerFlag -> RIVER[hatFlag][False]
+			)
+    ).
+
+property NOCARNAGE =
+    (
+	hatfields.visit -> hatfields.leave -> NOCARNAGE
+    |mcCoys.visit -> mcCoys.leave -> NOCARNAGE
+    ).
+
+progress HATFIELDSVISIT = {hatfields.visit}
+progress MCCOYSVISIT = {mcCoys.visit}
+
+||SafeRiver = (hatfields:CLAN || mcCoys:CLAN || RIVER || NOCARNAGE) << {hatfields.raiseFlag}.
+
+/*
+	The community's concern about the clans potentially being greedy in using the river-sharing protocol is valid.
+	In a scenario where one or both clans act greedily, repeatedly raising their flag to monopolize river access,
+	the system could become unfair.
+
+	a) Under the assumption that the clans are not greedy, no progress violation will be detected.
+	
+	b) Under the assumption that the clans are greedy, a progress violation will occur.
+	
+	In the current model, it is assumed that "Hatfields" are being greedy (<< {hatfields.raiseFlag}),
+	resulting in a progress violation:
+	
+	Progress violation: MCCOYSVISIT
+
+	Cycle in terminal set:
+		hatfields.raiseFlag
+		hatfields.checkFlag
+		hatfields.visit
+		hatfields.water
+		hatfields.leave
+		hatfields.lowerFlag
+
+	Actions in terminal set:
+		{hatfields.{checkFlag, leave, lowerFlag, raiseFlag, visit, water}, mcCoys.{checkFlag, lowerFlag, raiseFlag}}
+*/
